@@ -16,7 +16,7 @@
 <releaseinfo>1.00.00</releaseinfo>
 <abstract>
 <para>
-The Kipi RAW converter plugin is a tools for RAW images convertion operations.
+The Kipi RAW converter plugin is a tool for RAW images convertion operations.
 </para>
 </abstract>
 
@@ -30,7 +30,7 @@ The Kipi RAW converter plugin is a tools for RAW images convertion operations.
 <title>Introduction</title>
 
 <para>
-Launch the batch Raw Converter plugin dialog box. This plugin can convert quite a few RAW file images from differents digital cameras (Canon, Nikon, Sigma, Olympus, Minolta, etc.). It uses the Dave Coffin RAW photo decoder program "dcraw".
+This plugin can convert quite a few RAW file images from differents digital cameras (Canon, Nikon, Sigma, Olympus, Minolta, etc.). It uses the Dave Coffin RAW photo decoder program "dcraw".
 </para>
 
 <para>
