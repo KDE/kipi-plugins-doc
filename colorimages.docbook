@@ -16,7 +16,7 @@
 <releaseinfo>0.1</releaseinfo>
 <abstract>
 <para>
-The Kipi color images plugin is a tool to change or improve the color images rendering.
+The Kipi color images plugin is a tool to change or improve the images' color rendering.
 </para>
 </abstract>
 
@@ -30,29 +30,29 @@ The Kipi color images plugin is a tool to change or improve the color images ren
 
 <para>
 
-This plugin can be used for batch colors enhancement images in an Album.
- It use "convert" program from "ImageMagick" package. An image effect
+This plugin can be used for batch colors enhancement of images in an Album.
+ It uses the "convert" program from the "ImageMagick" package. An plugin effect
  preview (partial or full) is available.
  10 color filter types are availables:
 
 </para>
 
 <itemizedlist>
-<listitem><para><emphasis>Decrease contrast</emphasis> : reduce the image contrast.</para></listitem>
-<listitem><para><emphasis>Depth</emphasis> : change the color depth of the image.</para></listitem>
-<listitem><para><emphasis>Equalize</emphasis> : perform histogram equalization to the image.</para></listitem>
-<listitem><para><emphasis>Fuzz</emphasis> : merging colors within a distance are considered equal.</para></listitem>
-<listitem><para><emphasis>Gray scales</emphasis> : convert colors image to gray scales image.</para></listitem>
-<listitem><para><emphasis>Increase contrast</emphasis> : enhance the image contrast.</para></listitem>
-<listitem><para><emphasis>Monochrome</emphasis> : transform the image to black and white.</para></listitem>
-<listitem><para><emphasis>Negate</emphasis> : replace every pixel with its complementary color.</para></listitem>
-<listitem><para><emphasis>Normalize</emphasis> : transform image to span the full range of color values.</para></listitem>
-<listitem><para><emphasis>Segment</emphasis> : segment an image by analyzing the histograms of the color components.</para></listitem>
-<listitem><para><emphasis>Trim</emphasis> : trim an image (fuzz reverse technic).</para></listitem>
+<listitem><para><emphasis>Decrease contrast</emphasis> : reduces the image contrast.</para></listitem>
+<listitem><para><emphasis>Depth</emphasis> : changes the color depth of the image.</para></listitem>
+<listitem><para><emphasis>Equalize</emphasis> : performs histogram equalization to the image.</para></listitem>
+<listitem><para><emphasis>Fuzz</emphasis> : merges colors within a distance are considered equal.</para></listitem>
+<listitem><para><emphasis>Gray scales</emphasis> : converts colors images to gray scales image.</para></listitem>
+<listitem><para><emphasis>Increase contrast</emphasis> : enhances the image contrast.</para></listitem>
+<listitem><para><emphasis>Monochrome</emphasis> : transforms the image to black and white.</para></listitem>
+<listitem><para><emphasis>Negate</emphasis> : replaces every pixel with its complementary color.</para></listitem>
+<listitem><para><emphasis>Normalize</emphasis> : transforms image to span the full range of color values.</para></listitem>
+<listitem><para><emphasis>Segment</emphasis> : segments an image by analyzing the histograms of the color components.</para></listitem>
+<listitem><para><emphasis>Trim</emphasis> : trims an image (fuzz reverse technic).</para></listitem>
 </itemizedlist>
 
 <para>
-You can see some samples building with this plugin at this
+You can see some samples built with this plugin at this link
 <ulink url="http://digikamplugins.free.fr/ImagesGallerySamples/MultipleAlbums/ColorImages/index.html">
 <citetitle>url.</citetitle>
 </ulink></para>
