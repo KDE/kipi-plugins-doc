@@ -47,6 +47,11 @@ opens to add more files as needed in the usual file selection manner. The image 
 on the right side. 
 </para>
 
+<tip><para>
+You can use drag and drop capability between the host application window and the image file list for add new 
+items to e-mail.
+</para></tip>
+
 <para>
 When clicking on the second button <guilabel>Remove Images</guilabel> the selected images (highlighted in the list) 
 will be removed from the send list.
@@ -85,22 +90,29 @@ the correct path according to your installation).
 </para>
 
 <para>
-If you select <guilabel>Add comments in the attached file</guilabel> the comments included in the album will be added to the images.
+If you select <guilabel>Add Comments in the Attached File</guilabel> the comments included with the images will be merged to 
+a text file and attached in the mail.
 </para>
 
 <para>
-The next 3 items allow you to set-up the image quality to be sent. The <guilabel>New image size</guilabel> drop-down menu has a preset of 
-standard image resolutions in store. Select one of those. The compression ratio can be chosen with the slider or the value box. 75% is a standard 
-compression ratio for <guilabel>JPEG</guilabel> files. Setting compression to 100% will result in a lossless compression at the cost of the largest 
-file size. The difference in file size between 90% and 100% can be quite dramatic, whereas the gain in quality is minor. Very good quality is already obtained with 
+The next 3 items allow you to set-up the image quality to be sent. chas 
+a preset of standard image resolutions in store. Select one of those. The <guilabel>New Images Compression</guilabel> ratio 
+can be chosen with the slider or the value box. 75% is a standard compression ratio for <guilabel>JPEG</guilabel> files. Setting 
+compression to 100% will result in a lossless compression at the cost of the largest file size. The difference in file size 
+between 90% and 100% can be quite dramatic, whereas the gain in quality is minor. Very good quality is already obtained with 
 85% compression.
 </para>
 
 <para>
-The <guilabel>PNG</guilabel> format is not well adapted to reduce photographic images file size, but it is best suited for compressing lossless items like 
-TIFF file format. <guilabel>PNG</guilabel> must be used if you use a speed internet dialup and if you want preserved the photo quality. Else, 
-<guilabel>JPEG</guilabel> is the recommended format.
+The <guilabel>New Images Format</guilabel> drop-down menu The <guilabel>PNG</guilabel> format is not well adapted to reduce photographic images file size, but it is best suited for 
+compressing lossless items like TIFF file format. <guilabel>PNG</guilabel> must be used if you use a speed internet dialup 
+and if you want preserved the photo quality. Else, <guilabel>JPEG</guilabel> is the recommended format.
 </para>
+
+<note><para>
+If you choose <guilabel>JPEG</guilabel> like <guilabel>New Images Format</guilabel> and if original files are 
+<guilabel>JPEG</guilabel>, original Exif data included in are preserved in e-mailed images.
+</para></note>
 
 <screenshot>
     <mediaobject>
