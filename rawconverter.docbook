@@ -1,25 +1,28 @@
 <chapter id="rawconverter">
 <chapterinfo>
 
-<title>Raw Converter</title>
+<title>Raw Image Converter</title>
 
 <authorgroup>
-<author>
-<firstname>Gilles</firstname>
-<surname>Caulier</surname>
-<affiliation>
-<address><email>caulier dot gilles at free.fr</email></address>
-</affiliation>
-</author>
+    <author>
+        <firstname>Gilles</firstname><surname>Caulier</surname>
+        <affiliation><address><email>caulier_dot_gilles_at_free.fr</email></address></affiliation>
+    </author>
+    
+    <author>
+        <firstname>Gerhard</firstname><surname>Kulzer</surname>
+        <affiliation><address><email>gerhard_at_kulzer.net</email></address></affiliation>
+    </author>
 </authorgroup>
-<date>2004-06-20</date>
-<releaseinfo>1.00.00</releaseinfo>
+
+<date>2004-12-xx</date>
+<releaseinfo>0.1</releaseinfo>
+
 <abstract>
 <para>
-The Kipi RAW converter plugin is a tool for RAW images convertion operations.
+The Kipi <quote>Raw Image Converter</quote> plugin is a conversion tool for raw format images.
 </para>
 </abstract>
-
 
 <keywordset>
 <keyword>KDE</keyword>
@@ -30,19 +33,109 @@ The Kipi RAW converter plugin is a tool for RAW images convertion operations.
 <title>Introduction</title>
 
 <para>
-This plugin can convert quite a few RAW file images from differents digital cameras (Canon, Nikon, Sigma, Olympus, Minolta, etc.). It uses the Dave Coffin RAW photo decoder program "dcraw".
+With this Kipi-plugin you can import/convert your images stored in <emphasis>RAW format</emphasis> to three 
+formats of your choice (<guilabel>JPEG</guilabel>, <guilabel>TIFF</guilabel>, <guilabel>PPM</guilabel>).
+</para>
+
+<para>Some considerations before your convert, and even before you shoot in raw format.
+RAW image file formats keep the original information of the exposure supposedly without loss 
+(when compressed, they use reversible, lossless compressions algorithms). Many photographers 
+prefer to take their picture in RAW mode because the camera's built-in conversion program is 
+often less good then what you can achieve with digital image processing. The whitebalance of 
+the digital camera is registered but not applied to the image. Some CMOS CCD's create four color 
+filter data, RGBG, Red, Green, Blue and another Green mask for contrast enhancement. The plugin 
+can take this into account. 
 </para>
 
 <para>
-This plugin provide two user interface for process on one RAW image (single mode) or a on a list of RAW images (batch mode).
+The conversion is actually based on Dave Coffin's command line tool <emphasis>dcraw</emphasis> (Dave: 
+"Don't expect dcraw to produce the same images as software provided by the camera vendor. Sometimes 
+dcraw gives better results!").
+</para>
+
+<sect1 id="using-plugin-rawconversiondialog">
+<title>Single Conversion Dialog</title>
+
+<para>
+Select the RAW file to convert and open the plugin from the host application. The 
+<emphasis>Raw Image Converter</emphasis>  window in single mode will appear. Click on 
+<guilabel>Preview</guilabel> to show the effect of your settings taking shape.
 </para>
 
 <para>
-The "dcraw" program can be found at this
-<ulink url="http://www.cybercom.net/~dcoffin/dcraw/">
-<citetitle>url.</citetitle>
-</ulink>
+Now you can adjust the available check and value boxes to optimise the conversion process. The first 
+checkbox indicates to use the camera settings for white balance. The essential parameters like gamma, 
+brightness, and red/blue amplifier may be adjusted. If the result is not quite optimal, don't worry, 
+it is alway possible to finetune the image later on. 
 </para>
+
+<para>
+A <guilabel>Four color RGBG</guilabel> conversion can be selected to use contrast information. 
+(If your camera works in RGB mode, the RGBG setting has no effect).
+</para>
+
+<para>If you're happy with the preview, choose one of three output formats to save the conversion result. 
+The file name will stay the same, the extention only changes. <guilabel>JPEG</guilabel> uses the lossy 
+algorithm and produces the smallest output file size.
+</para>
+
+<para>
+The tagged image format (<guilabel>TIFF</guilabel>) preserves all information of your image whilst 
+using lossless LZW compression. 
+</para>
+
+<para>
+The Portable PixMap format (<guilabel>PPM</guilabel>) produces the largest output file and contains most data. 
+</para>
+
+<tip><para>
+If you intend to work a lot on your images or if it is likely that you have to reuse it later on, 
+then don't use <guilabel>JPEG</guilabel> format because it allows a limited number of operations only 
+before it deterioates visibly. <guilabel>TIFF</guilabel> and <guilabel>PPM</guilabel> are better suited 
+to keep the original data.
+</para></tip>
+
+<note><para>
+If you choose <guilabel>JPEG</guilabel> as <guilabel>Save Format</guilabel> then the meta-data included in 
+RAW file will be included in the <guilabel>JPEG</guilabel> files like Exif information.
+</para></note>
+
+<para>
+When you have finished click the <guilabel>Process</guilabel> button to start the conversion. If you want abort 
+image conversion, press <guilabel>Abort</guilabel> button.
+</para>
+
+<screenshot>
+    <mediaobject>
+        <imageobject><imagedata fileref="raw_converter_single.png" format="PNG"/></imageobject>
+        <textobject><phrase>The RAW Converter Dialog in Single Mode</phrase></textobject>
+    </mediaobject>
+</screenshot>
+
+</sect1>
+
+<sect1 id="using-plugin-rawbatchdialog">
+<title>Batch Conversion Dialog</title>
+
+<para>
+The batch mode converter allows you to convert several images in one go. Use this mode when you're are 
+sure of the best settings, i.e. try it out in single conversion mode first.
+</para>
+
+<para>
+The available setting are mostly identical to the single mode dialog. Here you have the additional option 
+to overwrite existing files (which you might have created in an earlier try). The preview option is not 
+available here. A progress bar indicate the conversion status in live.
+</para>
+
+<screenshot>
+    <mediaobject>
+        <imageobject><imagedata fileref="raw_converter_batch.png" format="PNG"/></imageobject>
+        <textobject><phrase>The Batch RAW Converter Dialog</phrase></textobject>
+    </mediaobject>
+</screenshot>
+
+</sect1>
 
 </chapter>
 
@@ -53,4 +146,3 @@ sgml-omittag: nil
 sgml-shorttag: t
 End:
 -->
-

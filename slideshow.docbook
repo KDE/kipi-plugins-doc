@@ -3,24 +3,27 @@
 
 <title>Slide Show</title>
 
-<!--
 <authorgroup>
-<author>
-<firstname> </firstname>
-<surname> </surname>
-<affiliation>
-<address><email> </email></address>
-</affiliation>
-</author>
+    <author>
+        <firstname>Gilles</firstname><surname>Caulier</surname>
+        <affiliation><address><email>caulier_dot_gilles_at_free.fr</email></address></affiliation>
+    </author>
+    
+    <author>
+        <firstname>Gerhard</firstname><surname>Kulzer</surname>
+        <affiliation><address><email>gerhard_at_kulzer.net</email></address></affiliation>
+    </author>
 </authorgroup>
-<date>2004-06-20</date>
-<releaseinfo>1.00.00</releaseinfo>
+
+<date>2004-12-xx</date>
+<releaseinfo>0.1</releaseinfo>
+
 <abstract>
 <para>
-Note about open header
+The Kipi <quote>Slide Show</quote> plugin creates a full screen slideshow of your images.
 </para>
 </abstract>
--->
+
 <keywordset>
 <keyword>KDE</keyword>
 <keyword>Kipi</keyword>
@@ -30,10 +33,79 @@ Note about open header
 <title>Introduction</title>
 
 <para>
-The Kipi plugin <quote>Slide Show</quote> currently has no
-documentation.  If you are interested in rectifying that situation,
-please contact Kipi team mailing list <email>kde-imaging@kde.org</email>.
+With this Kipi-plugin you create a perfect slideshow with 3 mouse clicks.
 </para>
+
+<sect1 id="using-plugin-slideshowsettings">
+<title>The Settings Dialog</title>
+
+<para>
+Upon opening of the plugin from the host application the <emphasis>Slide Show</emphasis> window will appear asking 
+questions as to how you want to stage your slideshow. You can choose between the selected images and all images in 
+the same album.
+</para>
+
+<para>
+The <guilabel>Use OpenGL Slideshow Transitions</guilabel> checkbox enables very smooth image transitions using the 
+OpenGL display mode. Be sure to have OpenGL enabled on your graphics card, since otherwise the slideshow will be 
+very slow.
+</para>
+
+<para>
+The <guilabel>Print Filename</guilabel> checkbox enables the image filename to be displayed in the lower left corner. 
+</para>
+
+<para>
+The <guilabel>Loop</guilabel> checkbox enabled will run the whole show in an endless loop (until manually stopped with 
+<keycombo><keycap>Esc</keycap></keycombo>). 
+</para>
+
+<para>
+The <guilabel>Delay Between Images</guilabel> may be set in millisecond steps. 1500 milliseconds correspond 
+to 1.5 seconds and are a good default value. The best timing depends also a bit on your computer power and the 
+transition effect. Try it out before you show it to your friends!
+</para>
+
+<para>
+There are more than a dozen <guilabel>Transition Effects</guilabel> available which you can choose from. 
+The <emphasis>Random</emphasis> selection will change the transition effect with every image.
+</para>
+
+<screenshot>
+    <mediaobject>
+        <imageobject><imagedata fileref="slideshow_dialog.png" format="PNG"/></imageobject>
+        <textobject><phrase>The Slideshow Dialog</phrase></textobject>
+    </mediaobject>
+</screenshot>
+
+</sect1>
+
+<sect1 id="using-plugin-slideshowinaction">
+<title>Slide Show in Action</title>
+
+<para>
+During slideshow, user can access to a tool bar on the upper left screen corner. Move the mouse cursor to the top left 
+of the screen for enable it.
+</para>
+
+<para>
+With this tool bar, user can drive the progress, for pausing/playing slidesow, back to the preview image, go to 
+the next image, and stoping slideshow.
+</para>
+
+<para>
+On the lower left screen corner you can see the current image file name, the current image id on the slideshow, and 
+the total number of images include in.
+</para>
+
+<screenshot>
+    <mediaobject>
+        <imageobject><imagedata fileref="slideshow.png" format="PNG"/></imageobject>
+        <textobject><phrase>The Slideshow Plugin in Action</phrase></textobject>
+    </mediaobject>
+</screenshot>
+
+</sect1>
 
 </chapter>
 
@@ -44,4 +116,3 @@ sgml-omittag: nil
 sgml-shorttag: t
 End:
 -->
-

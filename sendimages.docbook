@@ -37,7 +37,7 @@ With this Kipi-plugin you can e-mail the selected images with your favorite e-ma
 possible. You can use drag and drop to add more images in the list to send.
 </para>
 
-<sect1 id="using-plugin-selectiondialog">
+<sect1 id="using-plugin-mailselectiondialog">
 <title>Image Selection Dialog</title>
 
 <para>
@@ -77,7 +77,7 @@ size to some megabytes of data. Use several e-mails if you want to send a lot of
 
 </sect1>
 
-<sect1 id="using-plugin-maildialog">
+<sect1 id="using-plugin-mailsettingsdialog">
 <title>Mail Dialog</title>
 
 <para>
@@ -110,14 +110,36 @@ and if you want preserved the photo quality. Else, <guilabel>JPEG</guilabel> is 
 </para>
 
 <note><para>
-If you choose <guilabel>JPEG</guilabel> like <guilabel>New Images Format</guilabel> and if original files are 
-<guilabel>JPEG</guilabel>, original Exif data included in are preserved in e-mailed images.
+If you choose <guilabel>JPEG</guilabel> as <guilabel>New Images Format</guilabel> and if the original files were in <guilabel>JPEG</guilabel> format, then the original Exif data included is preserved in e-mailed images.
 </para></note>
 
 <screenshot>
     <mediaobject>
         <imageobject><imagedata fileref="sendimages_mail.png" format="PNG"/></imageobject>
         <textobject><phrase>The Mail Dialog</phrase></textobject>
+    </mediaobject>
+</screenshot>
+
+</sect1>
+
+<sect1 id="using-plugin-emailimagesinaction">
+<title>E-mail Images in Action</title>
+
+<para>
+A progress dialog giving a feedback indicate to user. Press <guilabel>Cancel</guilabel> button during this stage 
+if you want abort the process.
+</para>
+
+<para>
+When all jobs are completed, this dialog will not closed automaticly and user can consult the progress messages 
+if any errors occurs durring this stage. The mail agent will be started automaticly at end. Press 
+<guilabel>Close</guilabel> button to close dialog.
+</para>
+
+<screenshot>
+    <mediaobject>
+        <imageobject><imagedata fileref="sendimages_progress.png" format="PNG"/></imageobject>
+        <textobject><phrase>The E-mail Images Plugin in Action</phrase></textobject>
     </mediaobject>
 </screenshot>
 
@@ -132,4 +154,3 @@ sgml-omittag: nil
 sgml-shorttag: t
 End:
 -->
-
