@@ -33,8 +33,7 @@ The Kipi <quote>Send Images</quote> plugin is a tool for sending images directly
 <title>Introduction</title>
 
 <para>
-With this Kipi-plugin you can e-mail the selected images with your favorite e-mail agent. A resizing items operation is 
-possible. You can use drag and drop to add more images in the list to send.
+With this Kipi-plugin you can e-mail the selected images with your favorite e-mail agent. A resizing items operation is possible. You can use drag and drop to add more images in the list to send.
 </para>
 
 <sect1 id="using-plugin-mailselectiondialog">
@@ -43,8 +42,7 @@ possible. You can use drag and drop to add more images in the list to send.
 <para>
 Upon opening of the plugin from the host application the <emphasis>Images</emphasis>  window will appear with your 
 pre-selected images already in the list to be sent. With the <guilabel>Add Images</guilabel> button a file browser 
-opens to add more files as needed in the usual file selection manner. The image under the cursor in the list is displayed 
-on the right side. 
+opens to add more files as needed in the usual file selection manner. The image under the cursor in the list is displayed on the right side. 
 </para>
 
 <tip><para>
@@ -59,8 +57,7 @@ will be removed from the send list.
 
 <para>
 When you have finished selecting your files, click <guilabel>OK</guilabel> to open the 'new e-mail' dialog window 
-of your favorite e-mail client. You just need to add the addressees and the subject. The selected images will be already 
-there as attachments. 
+of your favorite e-mail client. You just need to add the addressees and the subject. The selected images will be already there as attachments. 
 </para>
 
 <warning><para>
@@ -68,12 +65,10 @@ Be sure not to overload your own or your addresses e-mail transmission limit, mo
 size to some megabytes of data. Use several e-mails if you want to send a lot of data.
 </para></warning>
 
-<screenshot>
-    <mediaobject>
-        <imageobject><imagedata fileref="sendimages_imageselection.png" format="PNG"/></imageobject>
-        <textobject><phrase>The Image Selection Dialog</phrase></textobject>
-    </mediaobject>
-</screenshot>
+<figure>
+    <title>The Image Selection Dialog</title>
+    <graphic srccredit="The Image Selection Dialog" fileref="sendimages_imageselection.png"/>
+</figure>
 
 </sect1>
 
@@ -85,40 +80,29 @@ The mail dialog is used to change the settings of the images to be sent. These s
 </para>
 
 <para>
-Select your favorite e-mail client from the drop-down menu. (If you use <application>Thunderbird</application>, the field below will be available to select 
-the correct path according to your installation).
+Select your favorite e-mail client from the drop-down menu. (If you use <application>Thunderbird</application>, the field below will be available to select the correct path according to your installation).
 </para>
 
 <para>
-If you select <guilabel>Add Comments in the Attached File</guilabel> the comments included with the images will be merged to 
-a text file and attached in the mail.
+If you select <guilabel>Add Comments in the Attached File</guilabel> the comments included with the images will be merged to a text file and attached in the mail.
 </para>
 
 <para>
-The next 3 items allow you to set-up the image quality to be sent. chas 
-a preset of standard image resolutions in store. Select one of those. The <guilabel>New Images Compression</guilabel> ratio 
-can be chosen with the slider or the value box. 75% is a standard compression ratio for <guilabel>JPEG</guilabel> files. Setting 
-compression to 100% will result in a lossless compression at the cost of the largest file size. The difference in file size 
-between 90% and 100% can be quite dramatic, whereas the gain in quality is minor. Very good quality is already obtained with 
-85% compression.
+The next 3 items allow you to set-up the image quality to be sent. Select one of those. The <guilabel>New Images Compression</guilabel> ratio can be chosen with the slider or the value box. 75% is a standard compression ratio for <guilabel>JPEG</guilabel> files. Setting compression to 100% will result in a lossless compression at the cost of the largest file size. The difference in file size between 90% and 100% can be quite dramatic, whereas the gain in quality is minor. Very good quality is already obtained with 85% compression.
 </para>
 
 <para>
-The <guilabel>New Images Format</guilabel> drop-down menu The <guilabel>PNG</guilabel> format is not well adapted to reduce photographic images file size, but it is best suited for 
-compressing lossless items like TIFF file format. <guilabel>PNG</guilabel> must be used if you use a speed internet dialup 
-and if you want preserved the photo quality. Else, <guilabel>JPEG</guilabel> is the recommended format.
+The <guilabel>New Images Format</guilabel> drop-down menu The <guilabel>PNG</guilabel> format is not well adapted to reduce photographic images file size, but it is best suited for compressing lossless items like TIFF file format. <guilabel>PNG</guilabel> must be used if you use a speed internet dialup and if you want preserved the photo quality. Else, <guilabel>JPEG</guilabel> is the recommended format.
 </para>
 
 <note><para>
 If you choose <guilabel>JPEG</guilabel> as <guilabel>New Images Format</guilabel> and if the original files were in <guilabel>JPEG</guilabel> format, then the original Exif data included is preserved in e-mailed images.
 </para></note>
 
-<screenshot>
-    <mediaobject>
-        <imageobject><imagedata fileref="sendimages_mail.png" format="PNG"/></imageobject>
-        <textobject><phrase>The Mail Dialog</phrase></textobject>
-    </mediaobject>
-</screenshot>
+<figure>
+    <title>The Mail Dialog</title>
+    <graphic srccredit="The Mail Dialog" fileref="sendimages_mail.png"/>
+</figure>
 
 </sect1>
 
@@ -132,16 +116,13 @@ if you want abort the process.
 
 <para>
 When all jobs are completed, this dialog will not closed automaticly and user can consult the progress messages 
-if any errors occurs durring this stage. The mail agent will be started automaticly at end. Press 
-<guilabel>Close</guilabel> button to close dialog.
+if any errors occurs durring this stage. The mail agent will be started automaticly at end. Press  <guilabel>Close</guilabel> button to close dialog.
 </para>
 
-<screenshot>
-    <mediaobject>
-        <imageobject><imagedata fileref="sendimages_progress.png" format="PNG"/></imageobject>
-        <textobject><phrase>The E-mail Images Plugin in Action</phrase></textobject>
-    </mediaobject>
-</screenshot>
+<figure>
+    <title>The E-mail Images Plugin in Action</title>
+    <graphic srccredit="The E-mail Images Plugin in Action" fileref="sendimages_progress.png"/>
+</figure>
 
 </sect1>
 

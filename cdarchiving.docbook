@@ -12,8 +12,10 @@
 </affiliation>
 </author>
 </authorgroup>
-<date>2004-06-20</date>
-<releaseinfo>0.1</releaseinfo>
+
+<date>2005-xx-x</date>
+<releaseinfo>0.1.0</releaseinfo>
+
 <abstract>
 <para>
 The Kipi CD archiving plugin is a tool to backup image collections.

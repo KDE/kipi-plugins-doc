@@ -4,16 +4,15 @@
 <title>Resize Images</title>
 
 <authorgroup>
-<author>
-<firstname>Gilles</firstname>
-<surname>Caulier</surname>
-<affiliation>
-<address><email>caulier dot gilles at free.fr</email></address>
-</affiliation>
-</author>
+    <author>
+        <firstname>Gilles</firstname><surname>Caulier</surname>
+        <affiliation><address><email>caulier dot gilles at free.fr</email></address></affiliation>
+    </author>
 </authorgroup>
-<date>2004-06-20</date>
-<releaseinfo>0.1</releaseinfo>
+
+<date>2005-xx-x</date>
+<releaseinfo>0.1.0</releaseinfo>
+
 <abstract>
 <para>
 The Kipi Resize Images plugin is a tool for resize or adapt the images dimensions.
@@ -29,11 +28,7 @@ The Kipi Resize Images plugin is a tool for resize or adapt the images dimension
 <title>Introduction</title>
 
 <para>
-
-This plugin can be used for batch resize images in an Album.
-It use "convert" program from "ImageMagick" package. You can resize up or down the images size.
-3 resizing types have been implemented:
-
+This plugin can be used for batch resize images in an image collection. It use "convert" program from "ImageMagick" package. You can resize up or down the images size. 3 resizing types have been implemented:
 </para>
 
 <itemizedlist>

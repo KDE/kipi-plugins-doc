@@ -3,24 +3,22 @@
 
 <title>Time Ajust</title>
 
-<!--
 <authorgroup>
-<author>
-<firstname> </firstname>
-<surname> </surname>
-<affiliation>
-<address><email> </email></address>
-</affiliation>
-</author>
+    <author>
+        <firstname>Gilles</firstname><surname>Caulier</surname>
+        <affiliation><address><email>caulier dot gilles at free.fr</email></address></affiliation>
+    </author>
 </authorgroup>
-<date>2004-06-20</date>
-<releaseinfo>0.1</releaseinfo>
+
+<date>2005-xx-x</date>
+<releaseinfo>0.1.0</releaseinfo>
+
 <abstract>
 <para>
-Note about open header
+The Kipi Time Adjust plugin is a tool for adjusting image files timestamp.
 </para>
 </abstract>
--->
+
 <keywordset>
 <keyword>KDE</keyword>
 <keyword>Kipi</keyword>
@@ -31,7 +29,7 @@ Note about open header
 
 <para>
 The Kipi plugin <quote>Time Ajust</quote> currently has no
-documentation.  If you are interested in rectifying that situation,
+documentation. If you are interested in rectifying that situation,
 please contact Kipi team mailing list <email>kde-imaging@kde.org</email>.
 </para>
 

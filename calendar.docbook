@@ -3,28 +3,30 @@
 
 <title>Calendar</title>
 
-<!--
 <authorgroup>
 <author>
-<firstname> </firstname>
-<surname> </surname>
+<firstname>Gilles</firstname>
+<surname>Caulier</surname>
 <affiliation>
-<address><email> </email></address>
+<address><email>caulier dot gilles at free.fr</email></address>
 </affiliation>
 </author>
 </authorgroup>
-<date>2004-06-20</date>
-<releaseinfo>0.1</releaseinfo>
+
+<date>2005-xx-x</date>
+<releaseinfo>0.1.0</releaseinfo>
+
 <abstract>
 <para>
-Note about open header
+The Kipi Calendar plugin is a tool to create calendar from image collections.
 </para>
 </abstract>
--->
+
 <keywordset>
 <keyword>KDE</keyword>
 <keyword>Kipi</keyword>
 </keywordset>
+
 </chapterinfo>
 
 <title>Introduction</title>

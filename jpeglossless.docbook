@@ -4,16 +4,15 @@
 <title>JPEG Loss Less</title>
 
 <authorgroup>
-<author>
-<firstname>Gilles</firstname>
-<surname>Caulier</surname>
-<affiliation>
-<address><email>caulier dot gilles at free.fr</email></address>
-</affiliation>
-</author>
+    <author>
+        <firstname>Gilles</firstname><surname>Caulier</surname>
+        <affiliation><address><email>caulier dot gilles at free.fr</email></address></affiliation>
+    </author>
 </authorgroup>
-<date>2005-01-09</date>
-<releaseinfo>0.1</releaseinfo>
+
+<date>2005-xx-x</date>
+<releaseinfo>0.1.0</releaseinfo>
+
 <abstract>
 <para>
 The Kipi JPEG lossless plugin is a tool to transform the images without loss in quality due to compression.

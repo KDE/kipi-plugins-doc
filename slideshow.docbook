@@ -15,8 +15,8 @@
     </author>
 </authorgroup>
 
-<date>2004-12-xx</date>
-<releaseinfo>0.1</releaseinfo>
+<date>2005-xx-xx</date>
+<releaseinfo>0.1.0</releaseinfo>
 
 <abstract>
 <para>
@@ -65,9 +65,7 @@ The <guilabel>Shuffle Image</guilabel> checkbox enables to display randomly the 
 </para>
 
 <para>
-The <guilabel>Delay Between Images</guilabel> may be set in millisecond steps. 1500 milliseconds correspond 
-to 1.5 seconds and are a good default value. The best timing depends also a bit on your computer power and the 
-transition effect. Try it out before you show it to your friends!
+The <guilabel>Delay Between Images</guilabel> may be set in millisecond steps. 1500 milliseconds correspond to 1.5 seconds and are a good default value. The best timing depends also a bit on your computer power and the transition effect. Try it out before you show it to your friends!
 </para>
 
 <para>
@@ -75,12 +73,10 @@ There are more than a dozen <guilabel>Transition Effects</guilabel> available wh
 The <emphasis>Random</emphasis> selection will change the transition effect with every image.
 </para>
 
-<screenshot>
-    <mediaobject>
-        <imageobject><imagedata fileref="slideshow_dialog.png" format="PNG"/></imageobject>
-        <textobject><phrase>The Slideshow Dialog</phrase></textobject>
-    </mediaobject>
-</screenshot>
+<figure>
+    <title>The Slideshow Dialog</title>
+    <graphic srccredit="The Slideshow Dialog" fileref="slideshow_dialog.png"/>
+</figure>
 
 </sect1>
 
@@ -102,12 +98,10 @@ On the lower left screen corner you can see the current image file name, the cur
 the total number of images include in.
 </para>
 
-<screenshot>
-    <mediaobject>
-        <imageobject><imagedata fileref="slideshow.png" format="PNG"/></imageobject>
-        <textobject><phrase>The Slideshow Plugin in Action</phrase></textobject>
-    </mediaobject>
-</screenshot>
+<figure>
+    <title>The Slideshow Plugin in Action</title>
+    <graphic srccredit="The Slideshow Plugin in Action" fileref="slideshow.png"/>
+</figure>
 
 </sect1>
 

@@ -4,16 +4,15 @@
 <title>Recompress Images</title>
 
 <authorgroup>
-<author>
-<firstname>Gilles</firstname>
-<surname>Caulier</surname>
-<affiliation>
-<address><email>caulier dot gilles at free.fr</email></address>
-</affiliation>
-</author>
+    <author>
+        <firstname>Gilles</firstname><surname>Caulier</surname>
+        <affiliation><address><email>caulier dot gilles at free.fr</email></address></affiliation>
+    </author>
 </authorgroup>
-<date>2004-06-20</date>
-<releaseinfo>0.1</releaseinfo>
+
+<date>2005-xx-x</date>
+<releaseinfo>0.1.0</releaseinfo>
+
 <abstract>
 <para>
 The Kipi recompress images plugin is a tool for recompressing the image files.
@@ -30,8 +29,7 @@ The Kipi recompress images plugin is a tool for recompressing the image files.
 
 <para>
 
-This plugin can be used for batch recompress images in an Album.
-It use "convert" program from "ImageMagick" package. The image files formats supported are:
+This plugin can be used for batch recompress images in an Album. It use "convert" program from "ImageMagick" package. The image files formats supported are:
 
 </para>
 

@@ -48,12 +48,10 @@ The plugin has four tabs to adapt the settings.
 The <guilabel>Selection</guilabel> tab allows you to select all Albums you want to export to HTML. Just check the respective Albums (they are displayed without hierarchical nesting). The three buttons to the right help to quickly select large amounts of Albums. The frame below shows the Album ID-picture with the text that will appear as a header of the HTML page.
 </para>
 
-<screenshot>
-    <mediaobject>
-        <imageobject><imagedata fileref="imagegallery_collectionselection.png" format="PNG"/></imageobject>
-        <textobject><phrase>The Collections Selection Dialog</phrase></textobject>
-    </mediaobject>
-</screenshot>
+<figure>
+    <title>The Collections Selection Dialog</title>
+    <graphic srccredit="The Collections Selection Dialog" fileref="imagegallery_collectionselection.png"/>
+</figure>
 
 </sect1>
 
@@ -64,12 +62,10 @@ The <guilabel>Selection</guilabel> tab allows you to select all Albums you want 
 The <guilabel>Look</guilabel> tab defines the general look and layout of each page. This tab is largely self-explanatory. The <guilabel>Create pages for each image</guilabel> check box will create a gallery with a HTML page per image, that is, if you click onto an image a new page will open showing the image within the web browser. If you leave this box unchecked clicking the images will directly open them with the default image viewer, e.g. Kuickshow.
 </para>
 
-<screenshot>
-    <mediaobject>
-        <imageobject><imagedata fileref="imagegallery_looksettings.png" format="PNG"/></imageobject>
-        <textobject><phrase>The Look Settings Dialog</phrase></textobject>
-    </mediaobject>
-</screenshot>
+<figure>
+    <title>The Look Settings Dialog</title>
+    <graphic srccredit="The Look Settings Dialog" fileref="imagegallery_looksettings.png"/>
+</figure>
 
 </sect1>
 
@@ -93,12 +89,10 @@ If JPEG file format is selected for target resizing images, all EXIF information
 With the <guilabel>Set different color depth</guilabel> check box you can change the default color depth. This will of course influence the filesize. The rest of the setting are rather self-explanatory.
 </para>
 
-<screenshot>
-    <mediaobject>
-        <imageobject><imagedata fileref="imagegallery_albumsettings.png" format="PNG"/></imageobject>
-        <textobject><phrase>The Album Settings Dialog</phrase></textobject>
-    </mediaobject>
-</screenshot>
+<figure>
+    <title>The Album Settings Dialog</title>
+    <graphic srccredit="The Album Settings Dialog" fileref="imagegallery_albumsettings.png"/>
+</figure>
 
 </sect1>
 
@@ -109,12 +103,10 @@ With the <guilabel>Set different color depth</guilabel> check box you can change
 The <guilabel>Thumbnails</guilabel> tab allows to set some of the  <guilabel>Album</guilabel> tab settings for the thumbnails (that are the small images shown in the gallery).
 </para>
 
-<screenshot>
-    <mediaobject>
-        <imageobject><imagedata fileref="imagegallery_thumbsettings.png" format="PNG"/></imageobject>
-        <textobject><phrase>The Thumbnails Settings Dialog</phrase></textobject>
-    </mediaobject>
-</screenshot>
+<figure>
+    <title>The Thumbnails Settings Dialog</title>
+    <graphic srccredit="The Thumbnails Settings Dialog" fileref="imagegallery_thumbsettings.png"/>
+</figure>
 
 </sect1>
 
@@ -126,24 +118,20 @@ A progress dialog giving a feedback indicate to user. Press <guilabel>Cancel</gu
 if you want abort the process.
 </para>
 
-<screenshot>
-    <mediaobject>
-        <imageobject><imagedata fileref="imagegallery_progress.png" format="PNG"/></imageobject>
-        <textobject><phrase>The Images Gallery Plugin in Action</phrase></textobject>
-    </mediaobject>
-</screenshot>
+<figure>
+    <title>The Images Gallery Plugin in Action</title>
+    <graphic srccredit="The Images Gallery Plugin in Action" fileref="imagegallery_progress.png"/>
+</figure>
 
 <para>
 When all jobs are completed, this dialog will not closed automaticly and user can consult the progress messages 
 if any errors occurs durring this stage. The web browser will be started automaticly at end to display a gallery preview. Press <guilabel>Close</guilabel> button to close dialog.
 </para>
 
-<screenshot>
-    <mediaobject>
-        <imageobject><imagedata fileref="imagegallery_preview.png" format="PNG"/></imageobject>
-        <textobject><phrase>The Images Gallery Preview in Konqueror</phrase></textobject>
-    </mediaobject>
-</screenshot>
+<figure>
+    <title>The Images Gallery Preview in Konqueror</title>
+    <graphic srccredit="The Images Gallery Preview in Konqueror" fileref="imagegallery_preview.png"/>
+</figure>
 
 </sect1>
 

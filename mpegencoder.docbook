@@ -4,16 +4,21 @@
 <title>MPEG Encoder</title>
 
 <authorgroup>
-<author>
-<firstname>Gilles</firstname>
-<surname>Caulier</surname>
-<affiliation>
-<address><email>caulier dot gilles at free.fr</email></address>
-</affiliation>
-</author>
+    <author>
+        <firstname>Gilles</firstname><surname>Caulier</surname>
+        <affiliation><address><email>caulier dot gilles at free.fr</email></address></affiliation>
+    </author>
+    
+    <author>
+        <firstname>Gerhard</firstname><surname>Kulzer</surname>
+        <affiliation><address><email>gerhard at kulzer.net</email></address></affiliation>
+    </author>        
 </authorgroup>
-<date>2005-01-09</date>
-<releaseinfo>0.1</releaseinfo>
+
+
+<date>2005-xx-x</date>
+<releaseinfo>0.1.0</releaseinfo>
+
 <abstract>
 <para>
 The Kipi MPEG Encoder plugin is a tool for converting a series of images into a diashow-style MPEG file.
@@ -37,9 +42,9 @@ All images will be automatically scaled to the correct size of the selected vide
 <sect1 id="using-plugin-mpeg_encode">
 <title>Using the plugin</title>
 
-<para>First you have to select the images to be packed into MPEG from the host application browser. Then call from Extra->Create MPEG slideshow... menu the main dialog window.
+<para>First you have to select the images to be packed into MPEG from the host application browser. Then call from <menuchoice><guimenu>Tools</guimenu><guimenuitem>Create MPEG Slideshow</guimenuitem></menuchoice> menu from the host application window.
 
-The before selected images appear in the 'Image Files in Portfolio' list box. Use this box to order your files or to modify the content of the list.
+The before selected images appear in the <guilabel>Image Files in Portfolio</guilabel> list box. Use this box to order your files or to modify the content of the list.
 
 When you are happy with the content, go on with the other settings. The video format can be chosen from four (DVD/XVCD/SVCD/VCD) different formats. If the MPEG file shall be played over a TV set, select the TV standard from PAL, SECAM and NTSC. PAL is the default value and the probable choice in central Europe.
 Then you can choose the display duration per image, it scales in seconds. The list box below allows to select the transition behavior between the images. A low value goes with an rather sudden change whereas a higher value creates a smooth transition.
@@ -47,21 +52,15 @@ Then you can choose the display duration per image, it scales in seconds. The li
 The next selector lets you free choose the preferred background color. In doubt leave it black.
 The 'MPEG Output Filename' box specifies the outout filename and its path (location). Leave the mpg ending but change the path and filename as you wish.
 
-If you point in the 'Audio Input Filename' to an audio file, it will be integrated into the MPEG file. So if you're done with the setting, click on the <emphasis>Encode</emphasis> button to launch the conversion. Depending on your computer speed go and drink a short or long coffee and enjoy the slideshow when its finished.
+If you point in the 'Audio Input Filename' to an audio file, it will be integrated into the MPEG file. So if you're done with the setting, click on the <guilabel>Encode</guilabel> button to launch the conversion. Depending on your computer speed go and drink a short or long coffee and enjoy the slideshow when its finished.
 
-Note: If the plugin complains about encoders or tools missing you can set the path to the programs "MjpegTools" and "ImageMagick" at the lower right 'settings' button.
+Note: If the plugin complains about encoders or tools missing you can set the path to the programs "MjpegTools" and "ImageMagick" at the lower right <guilabel>Settings</guilabel> button.
 </para>
 
-<screenshot>
-<mediaobject>
-<imageobject>
-<imagedata fileref="mpeg_encode_dialog.png" format="PNG"/>
-</imageobject>
-<textobject>
-<phrase>MPEG Enscoder dialog Preview</phrase>
-</textobject>
-</mediaobject>
-</screenshot>
+<figure>
+    <title>The MPEG Encoder Dialog Preview</title>
+    <graphic srccredit="The MPEG Encoder Dialog Preview" fileref="mpeg_encode_dialog.png"/>
+</figure>
 
 <para>
 You can see some sample builts with this plugin here:

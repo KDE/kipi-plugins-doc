@@ -4,16 +4,19 @@
 <title>Acquire Images</title>
 
 <authorgroup>
-<author>
-<firstname>Gerhard</firstname>
-<surname>Kulzer</surname>
-<affiliation>
-<address><email>gerhard at kulzer.net</email></address>
-</affiliation>
-</author>
+    <author>
+        <firstname>Gilles</firstname><surname>Caulier</surname>
+        <affiliation><address><email>caulier dot gilles at free.fr</email></address></affiliation>
+    </author>
+    
+    <author>
+        <firstname>Gerhard</firstname><surname>Kulzer</surname>
+        <affiliation><address><email>gerhard at kulzer.net</email></address></affiliation>
+    </author>    
 </authorgroup>
-<date>2005-01-09</date>
-<releaseinfo>0.1</releaseinfo>
+
+<date>2005-xx-xx</date>
+<releaseinfo>0.1.0</releaseinfo>
 <abstract>
 <para>
 The Kipi acquire images plugin provides tools to capture new images and save them to the collections.
@@ -34,36 +37,81 @@ Actually, two actions can be used :
 </para>
 
 <itemizedlist>
-<listitem><para><emphasis>Scan images</emphasis> : use the Kooka interface for scanning images from either a flat scanner supported by the Sane project or a another capture source like video streams (for this to work you must have installed Kooka and sane).</para></listitem>
-<listitem><para><emphasis>Screenshots</emphasis> : take screenshots.</para></listitem>
+
+<listitem>
+    <para>
+    <guilabel>Scan images</guilabel> : use the Kooka interface for scanning images from either a flat scanner supported by the Sane project or a another capture source like video streams (for this to work you must have installed Kooka and Sane).
+    </para>
+</listitem>
+
+<listitem>
+    <para>
+    <guilabel>Screenshots</guilabel> : take screenshots.
+    </para>
+</listitem>
+
 </itemizedlist>
 
-<sect1 id="using-plugin-acquire">
-<title>Using the plugin</title>
+<sect1 id="using-plugin-acquirescan">
+<title>Scan Image Dialog</title>
 
 <para>
-When you open the <emphasis>Scan images</emphasis> menu a dialog comes up that lets you choose between the available acquisition sources on your computer. Choose the one you want to capture from. You can also set the default source for the next time.
-
-When the Kooka dialog window comes up, make your choices of acquisition settings by altering the default values. Look at the preview and crop it before making the final decision. The estimated file size is indicated in the lower right corner. 
-Hint: Make sure that the dialog is fully visible since some settings might be hidden if the window is too narrow.
-
-Press the scan button and wait until the scanning is finished and the <emphasis>Save Target Option</emphasis> dialog appears. Here you can alter the compression quality and the image file type (be aware that the BMP type is not compressed and creates large files). 
-The second item in that dialog let you choose (or create) the folder the image will be saved to.
+When you open the <guilabel>Scan images</guilabel> menu a dialog comes up that lets you choose between the available acquisition sources on your computer. Choose the one you want to capture from. You can also set the default source for the next time.
 </para>
 
 <para>
-The <emphasis>Screenshot</emphasis> acquisition mode you can choose from 1st menu item->Import->Screenshot...
+When the Kooka dialog window comes up, make your choices of acquisition settings by altering the default values. Look at the preview and crop it before making the final decision. The estimated file size is indicated in the lower right corner. See the dedicated <ulink url="help:/kooka/index.html">Kooka manual</ulink> for more information.
+</para>
+
+<note><para>
+Make sure that the dialog is fully visible since some settings might be hidden if the window is too narrow.
+</para></note>
+
+<para>
+Press the scan button and wait until the scanning is finished and the <guilabel>Save Target Option</guilabel> dialog appears. Here you can alter the compression quality and the image file type (be aware that the BMP type is not compressed and creates large files). The second item in that dialog let you choose (or create) the folder the image will be saved to.
+</para>
+
+<figure>
+    <title>The Save Target Dialog in Action</title>
+    <graphic srccredit="The Save Target Dialog in Action" fileref="acquire-savetargetpreview.png"/>
+</figure>
+
+</sect1>
+
+<sect1 id="using-plugin-acquirescreenshot">
+<title>Screenshot Dialog</title>
+
+<para>
+The <guilabel>Screenshot</guilabel> acquisition mode you can choose from 1st menu item->Import->Screenshot...
 A dialog window comes up providing you with various snapshot modes:
 </para>
+
 <itemizedlist>
-<listitem><para>Deselect the 'Grab the entire desktop' item to shoot a single window under the mouse cursor.</para></listitem>
-<listitem><para>When the 'Hide all host application windows' item is selected the calling host application will dissappear to give way to the other screens/windows. Otherwise you'll - after the delay - shoot the screen/window actually visible (if you've deselected 'Grab the entire desktop' the window under the mouse pointer will be shot).</para></listitem>
+<listitem>
+   <para>
+   Deselect the <guilabel>Grab the entire desktop</guilabel> item to shoot a single window under the mouse cursor.
+   </para>
+</listitem>
+<listitem>
+   <para>
+   When the <guilabel>Hide all host application windows</guilabel> item is selected the calling host application will dissappear to give way to the other screens/windows. Otherwise you'll - after the delay - shoot the screen/window actually visible (if you've deselected <guilabel>Grab the entire desktop</guilabel> the window under the mouse pointer will be shot).
+   </para>
+</listitem>
 </itemizedlist>
+
 <para>
 The delay control determines how long Screenshot will wait until the exposure is happening. If you need to navigate to some other screens set the delay high enough to give you the time for navigation.
 </para>
-<para>Once the screenshot has been taken the <emphasis>Save Target Option</emphasis> dialog appears with the same options as described above.
+
+<figure>
+    <title>The Screenshot Dialog in Action</title>
+    <graphic srccredit="The Screenshot Dialog in Action" fileref="acquire-screenshotpreview.png"/>
+</figure>
+
+<para>
+Once the screenshot has been taken the <guilabel>Save Target Option</guilabel> dialog appears with the same options as described above.
 </para>
+
 </sect1>
 
 </chapter>
