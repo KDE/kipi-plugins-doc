@@ -126,7 +126,7 @@ The plugins installed in this handbook are:
 <para><link linkend="jpeglossless">JPEG Loss Less plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="kameraklient">Digital camrera client plugin</link></para>
+<para><link linkend="kameraklient">Digital camera client plugin</link></para>
 </listitem>
 <listitem>
 <para><link linkend="mpegencoder">MPEG Encoder plugin</link></para>
@@ -189,7 +189,7 @@ The plugins installed in this handbook are:
 <title>Credits and License</title>
 
 <para>
-Copyrights for each applet is listed in the applicable chapter.
+Copyrights for each plugin is listed in the applicable chapter.
 </para>
 
 &underFDL;
