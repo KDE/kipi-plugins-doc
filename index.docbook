@@ -13,7 +13,7 @@
  <!ENTITY doc-resizeimages SYSTEM "resizeimages.docbook">
  <!ENTITY doc-calendar SYSTEM "calendar.docbook">
  <!ENTITY doc-cdarchiving SYSTEM "cdarchiving.docbook">
- <!ENTITY doc-commenteditor SYSTEM "commentseditor.docbook">
+ <!ENTITY doc-commentseditor SYSTEM "commentseditor.docbook">
  <!ENTITY doc-diroperations SYSTEM "diroperations.docbook">
  <!ENTITY doc-findimages SYSTEM "findimages.docbook">
  <!ENTITY doc-gammacalibration SYSTEM "gammacalibration.docbook">
