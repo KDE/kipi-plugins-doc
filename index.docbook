@@ -33,6 +33,16 @@
 <bookinfo>
 <title>The Kipi Plugins Handbook</title>
 
+<authorgroup>
+<author>
+<firstname>Gilles</firstname>
+<surname>Caulier</surname>
+<affiliation>
+<address><email>caulier dot gilles at free.fr</email></address>
+</affiliation>
+</author>
+</authorgroup>
+
 <!-- TRANS:ROLES_OF_TRANSLATORS -->
 
 <date>2004-06-20</date>
@@ -40,14 +50,14 @@
 
 <copyright>
 <year>2004</year>
-<holder> </holder>
+<holder>The Kipi developers team</holder>
 </copyright>
 
 <legalnotice>&FDLNotice;</legalnotice>
 
 <abstract>
 <para>
-This is the handbook for the plugins for Kipi, the &kde;'s Images Programs Interface.
+This is the handbook for the plugins of Kipi, the &kde;'s Images Programs Interface.
 </para>
 </abstract>
 
@@ -79,73 +89,73 @@ The plugins installed in this handbook are:
 
 <itemizedlist>
 <listitem>
-<para><link linkend="acquireimages">Acquire Images</link></para>
+<para><link linkend="acquireimages">Acquire Images plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="borderimages">Border Images</link></para>
+<para><link linkend="borderimages">Border Images plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="colorimages">Color Images</link></para>
+<para><link linkend="colorimages">Color Images plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="convertimages">Convert Images</link></para>
+<para><link linkend="convertimages">Convert Images plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="effectimages">Effect Images</link></para>
+<para><link linkend="effectimages">Effect Images plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="filterimages">Filter Images</link></para>
+<para><link linkend="filterimages">Filter Images plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="recompressimages">Recompress Images</link></para>
+<para><link linkend="recompressimages">Recompress Images plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="renameimages">Rename Images</link></para>
+<para><link linkend="renameimages">Rename Images plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="resizeimages">Resize Images</link></para>
+<para><link linkend="resizeimages">Resize Images plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="cdarchiving">CD Archiving</link></para>
+<para><link linkend="cdarchiving">CD Archiving plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="commenteditor">Comment Editor</link></para>
+<para><link linkend="commenteditor">Comment Editor plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="diroperations">Dir Operations</link></para>
+<para><link linkend="diroperations">Dir Operations plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="findimages">Find Images</link></para>
+<para><link linkend="findimages">Find Images plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="gammacalibration">Gamma Calibration</link></para>
+<para><link linkend="gammacalibration">Gamma Calibration plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="imagesgallery">Images Gallery</link></para>
+<para><link linkend="imagesgallery">Images Gallery plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="jpeglossless">JPEG Loss Less</link></para>
+<para><link linkend="jpeglossless">JPEG Loss Less plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="mpegencoder">MPEG Encoder</link></para>
+<para><link linkend="mpegencoder">MPEG Encoder plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="printwizard">Print Wizard</link></para>
+<para><link linkend="printwizard">Print Wizard plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="rawconverter">Raw Converter</link></para>
+<para><link linkend="rawconverter">Raw Converter plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="sendimages">Send Images</link></para>
+<para><link linkend="sendimages">Send Images plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="slideshow">Slide Show</link></para>
+<para><link linkend="slideshow">Slide Show plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="timeadjust">Time Ajust</link></para>
+<para><link linkend="timeadjust">Time Ajust plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="wallpaper">Wall Paper</link></para>
+<para><link linkend="wallpaper">Wall Paper plugin</link></para>
 </listitem>
 </itemizedlist>
 </chapter>
