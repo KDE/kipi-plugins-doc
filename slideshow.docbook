@@ -61,6 +61,10 @@ The <guilabel>Loop</guilabel> checkbox enabled will run the whole show in an end
 </para>
 
 <para>
+The <guilabel>Shuffle Image</guilabel> checkbox enables to display randomly the images (not using the current images collection order). 
+</para>
+
+<para>
 The <guilabel>Delay Between Images</guilabel> may be set in millisecond steps. 1500 milliseconds correspond 
 to 1.5 seconds and are a good default value. The best timing depends also a bit on your computer power and the 
 transition effect. Try it out before you show it to your friends!
