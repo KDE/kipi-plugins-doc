@@ -16,7 +16,7 @@
 <releaseinfo>0.1</releaseinfo>
 <abstract>
 <para>
-The Kipi border images plugin is a tool for to add a border arround the images.
+The Kipi border images plugin is a tool for to add border arround the images.
 </para>
 </abstract>
 
@@ -38,8 +38,8 @@ This plugin can be used for batch border images in an Album.
 <itemizedlist>
 <listitem><para><emphasis>Solid</emphasis> : simple line.</para></listitem>
 <listitem><para><emphasis>Niepce</emphasis> : old border style for black and white pictures.</para></listitem>
-<listitem><para><emphasis>Raise</emphasis> : a 3D effect arroud the pictures.</para></listitem>
-<listitem><para><emphasis>Frame</emphasis> : surrond the images with an ornamental border.</para></listitem>
+<listitem><para><emphasis>Raise</emphasis> : a 3D effect arroud pictures.</para></listitem>
+<listitem><para><emphasis>Frame</emphasis> : surround the images with an ornamental border.</para></listitem>
 </itemizedlist>
 
 <para>

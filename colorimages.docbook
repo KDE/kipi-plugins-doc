@@ -16,7 +16,7 @@
 <releaseinfo>0.1</releaseinfo>
 <abstract>
 <para>
-The Kipi color images plugin is a tool for to change/improve the color rendering in images.
+The Kipi color images plugin is a tool to change or improve the color images rendering.
 </para>
 </abstract>
 
@@ -33,7 +33,7 @@ The Kipi color images plugin is a tool for to change/improve the color rendering
 This plugin can be used for batch colors enhancement images in an Album.
  It use "convert" program from "ImageMagick" package. An image effect
  preview (partial or full) is available.
- 10 colors filters types have been implemented:
+ 10 color filter types are availables:
 
 </para>
 
