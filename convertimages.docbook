@@ -41,6 +41,7 @@ It uses the "convert" program from "ImageMagick" package. The supported image fi
 <listitem><para>BMP.</para></listitem>
 <listitem><para>TIFF.</para></listitem>
 <listitem><para>TGA.</para></listitem>
+<listitem><para>EPS.</para></listitem>
 </itemizedlist>
 
 </chapter>
