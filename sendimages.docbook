@@ -4,19 +4,23 @@
 <title>Send Images</title>
 
 <authorgroup>
-<author>
-<firstname>Gilles</firstname>
-<surname>Caulier</surname>
-<affiliation>
-<address><email>caulier dot gilles at free.fr</email></address>
-</affiliation>
-</author>
+    <author>
+        <firstname>Gilles</firstname><surname>Caulier</surname>
+        <affiliation><address><email>caulier_dot_gilles_at_free.fr</email></address></affiliation>
+    </author>
+    
+    <author>
+        <firstname>Gerhard</firstname><surname>Kulzer</surname>
+        <affiliation><address><email>gerhard_at_kulzer.net</email></address></affiliation>
+    </author>
 </authorgroup>
-<date>2004-06-20</date>
-<releaseinfo>1.00.00</releaseinfo>
+
+<date>2004-12-xx</date>
+<releaseinfo>0.1</releaseinfo>
+
 <abstract>
 <para>
-The Kipi send images images plugin is a tool for E-mail images.
+The Kipi <quote>Send Images</quote> plugin is a tool for sending images directly by e-mail.
 </para>
 </abstract>
 
@@ -29,8 +33,83 @@ The Kipi send images images plugin is a tool for E-mail images.
 <title>Introduction</title>
 
 <para>
-E-mail the selected items with your favorite mail agent. A resizing items operation is possible. You can use the drag and drop for to add more images in the list to send.
+With this Kipi-plugin you can e-mail the selected images with your favorite e-mail agent. A resizing items operation is 
+possible. You can use drag and drop to add more images in the list to send.
 </para>
+
+<sect1 id="using-plugin-selectiondialog">
+<title>Image Selection Dialog</title>
+
+<para>
+Upon opening of the plugin the <emphasis>Images</emphasis> host application windows will appear with your 
+pre-selected images already in the list to be sent. With the <guilabel>Add Images</guilabel> button a file browser 
+opens to add more files as needed in the usual file selection manner. The image under the cursor in the list is displayed 
+on the right side. 
+</para>
+
+<para>
+When clicking on the second button <guilabel>Remove Images</guilabel> the selected images (highlighted in the list) 
+will be removed from the send list.
+</para>
+
+<para>
+When you have finished selecting your file, click <guilabel>OK</guilabel> to open the 'new e-mail' dialog window 
+of your favorite e-mail client. You just need to add the addressees and the subject. The selected images will be already 
+there as attachments. 
+</para>
+
+<warning><para>
+Be sure not to overload your own or your addresses e-mail transmission limit, most providers limit the e-mail 
+size to some megabytes of data. Use several e-mails if you want to send a lot of data.
+</para></warning>
+
+<screenshot>
+    <mediaobject>
+        <imageobject><imagedata fileref="sendimages_imageselection.png" format="PNG"/></imageobject>
+        <textobject><phrase>The Image Selection Dialog</phrase></textobject>
+    </mediaobject>
+</screenshot>
+
+</sect1>
+
+<sect1 id="using-plugin-maildialog">
+<title>Mail Dialog</title>
+
+<para>
+The mail dialog is used to change the settings of the images to be sent. These settings will be remembered when you close digikam until you change them.
+</para>
+
+<para>
+Select you favorite e-mail client from the drop-down  menu. (If you use <application>Thunderbird</application>, the filed below will be available to select 
+the correct path according to your installation).
+</para>
+
+<para>
+If you select <guilabel>Add comments in the attached file</guilabel> the comments included in the digikam album will be added to the images.
+</para>
+
+<para>
+The next 3 items allow you to set-up the image quality to be sent. The <guilabel>New image size</guilabel> drop-down menu has a preset of 
+standard image resolutions in store. Select one of those. The compression ratio can be chosen with the slider or the value box. 75% is a standard 
+compression ratio for <guilabel>JPEG</guilabel> files. Setting compression to 100% will result in a lossless compression at the cost of the largest 
+file size. The difference in file size between 90% and 100% can be quite dramatic, whereas the gain in quality is minor. Very good quality is obtain with 
+85% compression.
+</para>
+
+<para>
+The <guilabel>PNG</guilabel> format is not well adapted to reduce photographic images file size, but it is best suited for compress lossless items like 
+TIFF file format. <guilabel>PNG</guilabel> must be used if you use a speed internet dialup and if you want preserved the photo quality. Else, 
+<guilabel>JPEG</guilabel> is the recommended format.
+</para>
+
+<screenshot>
+    <mediaobject>
+        <imageobject><imagedata fileref="sendimages_mail.png" format="PNG"/></imageobject>
+        <textobject><phrase>The Mail Dialog</phrase></textobject>
+    </mediaobject>
+</screenshot>
+
+</sect1>
 
 </chapter>
 
