@@ -70,17 +70,18 @@ This is the handbook for the plugins of Kipi, the &kde;'s Images Plugins Interfa
 </bookinfo>
 
 <chapter id="introduction">
-<title>Kipi plugins</title>
+<title>Introduction to Kipi Plugins</title>
 
 <para>
-Kipi plugins are additional functions for the KDE Images Managment Host Programs. They can
-add extra menus and shortcuts, and extend the host programs features. You can
-install as many or as few as you like, from within host programs.
+One of the nicest things about KDE Photo Management Programs like "digiKam", "Kimdaba", "GWenView" and "ShowImg" is how easily its functionality can be extended, by using plugins. Plugins can manipulate image files in almost any way that users can. Their advantage is that it is much easier to add a capability to the host application by writing a small plugin than by modifying the host application core. Many valuable plugins have C++ source code that only comes to 100-200 lines or so.
 </para>
 
 <para>
-More information on using and enabling the plugins you want is
-available in the host program handbook.
+Kipi plugins are additional functions for the KDE Images Managment Host Programs. They can add extra menus and shortcuts, and extend the host programs features. You can install as many or as few as you like, from within host programs.
+</para>
+
+<para>
+More information on using and enabling the plugins you want is available in the host program handbook.
 </para>
 
 <para>
@@ -189,6 +190,10 @@ The plugins installed in this handbook are:
 
 <para>
 Copyrights for each plugin is listed in the applicable chapter.
+</para>
+
+<para>
+All Pictures copyrighted 2004-2005 by Gilles Caulier <email>caulier_dot_gilles_at_free.fr</email> and Gerhard Kulzer <email>gerhard_at_kulzer.net</email>.
 </para>
 
 &underFDL;

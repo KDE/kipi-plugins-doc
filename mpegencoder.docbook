@@ -35,27 +35,45 @@ The Kipi MPEG Encoder plugin is a tool for converting a series of images into a 
 
 <para>
 The MPEG Encoder plugin can be used to convert the selected images into a MPEG sequence with a defined duration and merge all images in an single MPEG file. This plugin applies the "MjpegTools" and "ImageMagick" packages. Between the images, you can insert a basic transition. You can also add an audio track to the images sequence using MP2 or WAV files.
+</para>
 
+<para>
 All images will be automatically scaled to the correct size of the selected video format. A background color can be selected. You can use this plugin to build some DVD/XVCD/SVCD/VCD image portfolios for your home DVD player. Use the K3b program to create this media.
 </para>
 
 <sect1 id="using-plugin-mpeg_encode">
 <title>Using the plugin</title>
 
-<para>First you have to select the images to be packed into MPEG from the host application browser. Then call from <menuchoice><guimenu>Tools</guimenu><guimenuitem>Create MPEG Slideshow</guimenuitem></menuchoice> menu from the host application window.
+<para>
+First you have to select the images to be packed into MPEG from the host application browser. Then call from <menuchoice><guimenu>Tools</guimenu><guimenuitem>Create MPEG Slideshow</guimenuitem></menuchoice> menu from the host application window.
+</para>
 
+<para>
 The before selected images appear in the <guilabel>Image Files in Portfolio</guilabel> list box. Use this box to order your files or to modify the content of the list.
+</para>
 
+<para>
 When you are happy with the content, go on with the other settings. The video format can be chosen from four (DVD/XVCD/SVCD/VCD) different formats. If the MPEG file shall be played over a TV set, select the TV standard from PAL, SECAM and NTSC. PAL is the default value and the probable choice in central Europe.
-Then you can choose the display duration per image, it scales in seconds. The list box below allows to select the transition behavior between the images. A low value goes with an rather sudden change whereas a higher value creates a smooth transition.
+</para>
 
+<para>
+Then you can choose the display duration per image, it scales in seconds. The list box below allows to select the transition behavior between the images. A low value goes with an rather sudden change whereas a higher value creates a smooth transition.
+</para>
+
+<para>
 The next selector lets you free choose the preferred background color. In doubt leave it black.
 The 'MPEG Output Filename' box specifies the outout filename and its path (location). Leave the mpg ending but change the path and filename as you wish.
-
-If you point in the 'Audio Input Filename' to an audio file, it will be integrated into the MPEG file. So if you're done with the setting, click on the <guilabel>Encode</guilabel> button to launch the conversion. Depending on your computer speed go and drink a short or long coffee and enjoy the slideshow when its finished.
-
-Note: If the plugin complains about encoders or tools missing you can set the path to the programs "MjpegTools" and "ImageMagick" at the lower right <guilabel>Settings</guilabel> button.
 </para>
+
+<para>
+If you point in the 'Audio Input Filename' to an audio file, it will be integrated into the MPEG file. So if you're done with the setting, click on the <guilabel>Encode</guilabel> button to launch the conversion. Depending on your computer speed go and drink a short or long coffee and enjoy the slideshow when its finished.
+</para>
+
+<note>
+<para>
+If the plugin complains about encoders or tools missing you can set the path to the programs "MjpegTools" and "ImageMagick" at the lower right <guilabel>Settings</guilabel> button.
+</para>
+</note>
 
 <figure>
     <title>The MPEG Encoder Dialog Preview</title>
