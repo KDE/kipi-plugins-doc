@@ -13,7 +13,7 @@
  <!ENTITY doc-resizeimages SYSTEM "resizeimages.docbook">
  <!ENTITY doc-calendar SYSTEM "calendar.docbook">
  <!ENTITY doc-cdarchiving SYSTEM "cdarchiving.docbook">
- <!ENTITY doc-commenteditor SYSTEM "commenteditor.docbook">
+ <!ENTITY doc-commenteditor SYSTEM "commentseditor.docbook">
  <!ENTITY doc-diroperations SYSTEM "diroperations.docbook">
  <!ENTITY doc-findimages SYSTEM "findimages.docbook">
  <!ENTITY doc-gammacalibration SYSTEM "gammacalibration.docbook">
@@ -120,7 +120,7 @@ The plugins installed in this handbook are:
 <para><link linkend="cdarchiving">CD Archiving plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="commenteditor">Comment Editor plugin</link></para>
+<para><link linkend="commentseditor">Comments Editor plugin</link></para>
 </listitem>
 <listitem>
 <para><link linkend="diroperations">Direrctories Operations plugin</link></para>
@@ -175,7 +175,7 @@ The plugins installed in this handbook are:
 &doc-resizeimages;
 &doc-calendar;
 &doc-cdarchiving;
-&doc-commenteditor;
+&doc-commentseditor;
 &doc-diroperations;
 &doc-findimages;
 &doc-gammacalibration;
