@@ -33,6 +33,7 @@ The Kipi border images plugin is a tool for to add a border arround the images.
 This plugin can be used for batch border images in an Album.
  It use "convert" program from "ImageMagick" package. An image effect
  preview is available. Actually, 4 border styles have been implemented:
+</para>
 
 <itemizedlist>
 <listitem><para><emphasis>Solid</emphasis> : simple line.</para></listitem>
@@ -41,6 +42,7 @@ This plugin can be used for batch border images in an Album.
 <listitem><para><emphasis>Frame</emphasis> : surrond the images with an ornamental border.</para></listitem>
 </itemizedlist>
 
+<para>
 You can see some samples building with this plugin at this
 <ulink url="http://digikamplugins.free.fr/ImagesGallerySamples/MultipleAlbums/BorderImages/index.html">
 <citetitle>url.</citetitle>
