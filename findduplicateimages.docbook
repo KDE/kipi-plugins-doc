@@ -1,7 +1,7 @@
-<chapter id="findimages">
+<chapter id="findduplicateimages">
 <chapterinfo>
 
-<title>Find Images</title>
+<title>Find Duplicate Images</title>
 
 <!--
 <authorgroup>
@@ -30,7 +30,7 @@ Note about open header
 <title>Introduction</title>
 
 <para>
-The Kipi plugin <quote>Find Images</quote> currently has no
+The Kipi plugin <quote>Find Duplicate Images</quote> currently has no
 documentation.  If you are interested in rectifying that situation,
 please contact Lauri Watts <email>lauri@kde.org</email>, &kde;'s
 Documentation Team coordinator.
