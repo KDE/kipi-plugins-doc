@@ -13,9 +13,7 @@
  <!ENTITY doc-resizeimages SYSTEM "resizeimages.docbook">
  <!ENTITY doc-calendar SYSTEM "calendar.docbook">
  <!ENTITY doc-cdarchiving SYSTEM "cdarchiving.docbook">
- <!ENTITY doc-diroperations SYSTEM "diroperations.docbook">
  <!ENTITY doc-findduplicateimages SYSTEM "findduplicateimages.docbook">
- <!ENTITY doc-gammacalibration SYSTEM "gammacalibration.docbook">
  <!ENTITY doc-kameraklient SYSTEM "kameraklient.docbook">
  <!ENTITY doc-imagesgallery SYSTEM "imagesgallery.docbook">
  <!ENTITY doc-jpeglossless SYSTEM "jpeglossless.docbook">
@@ -119,13 +117,7 @@ The plugins installed in this handbook are:
 <para><link linkend="cdarchiving">CD Archiving plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="diroperations">Direrctories Operations plugin</link></para>
-</listitem>
-<listitem>
 <para><link linkend="findduplicateimages">Find Duplicate Images plugin</link></para>
-</listitem>
-<listitem>
-<para><link linkend="gammacalibration">Gamma Calibration plugin</link></para>
 </listitem>
 <listitem>
 <para><link linkend="kameraklient">Digital camrera client plugin</link></para>
@@ -171,9 +163,7 @@ The plugins installed in this handbook are:
 &doc-resizeimages;
 &doc-calendar;
 &doc-cdarchiving;
-&doc-diroperations;
 &doc-findduplicateimages;
-&doc-gammacalibration;
 &doc-kameraklient;
 &doc-imagesgallery;
 &doc-jpeglossless;
