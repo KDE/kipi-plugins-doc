@@ -1,0 +1,47 @@
+<chapter id="galleryexport">
+<chapterinfo>
+
+<title>Gallery Export</title>
+
+<!--
+<authorgroup>
+<author>
+<firstname> </firstname>
+<surname> </surname>
+<affiliation>
+<address><email> </email></address>
+</affiliation>
+</author>
+</authorgroup>
+<date>2004-06-20</date>
+<releaseinfo>1.00.00</releaseinfo>
+<abstract>
+<para>
+Note about open header
+</para>
+</abstract>
+-->
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>Kipi</keyword>
+</keywordset>
+</chapterinfo>
+
+<title>Introduction</title>
+
+<para>
+The Kipi plugin <quote>Gallery Export</quote> currently has no
+documentation.  If you are interested in rectifying that situation,
+please contact Kipi team mailing list <email>kde-imaging@kde.org</email>.
+</para>
+
+</chapter>
+
+<!--
+Local Variables:
+mode: sgml
+sgml-omittag: nil
+sgml-shorttag: t
+End:
+-->
+

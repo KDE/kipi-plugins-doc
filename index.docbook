@@ -11,6 +11,7 @@
  <!ENTITY doc-effectimages SYSTEM "effectimages.docbook">
  <!ENTITY doc-filterimages SYSTEM "filterimages.docbook">
  <!ENTITY doc-findduplicateimages SYSTEM "findduplicateimages.docbook">
+ <!ENTITY doc-galleryexport SYSTEM "galleryexport.docbook">
  <!ENTITY doc-imagesgallery SYSTEM "imagesgallery.docbook">
  <!ENTITY doc-jpeglossless SYSTEM "jpeglossless.docbook">
  <!ENTITY doc-kameraklient SYSTEM "kameraklient.docbook">
@@ -116,6 +117,9 @@ The plugins installed in this handbook are:
 <para><link linkend="findduplicateimages">Find Duplicate Images plugin</link></para>
 </listitem>
 <listitem>
+<para><link linkend="galleryexport">Remote Gallery Export plugin</link></para>
+</listitem>
+<listitem>
 <para><link linkend="imagesgallery">Images Gallery plugin</link></para>
 </listitem>
 <listitem>
@@ -166,6 +170,7 @@ The plugins installed in this handbook are:
 &doc-effectimages;
 &doc-filterimages;
 &doc-findduplicateimages;
+&doc-galleryexport;
 &doc-imagesgallery;
 &doc-jpeglossless;
 &doc-kameraklient;
