@@ -34,6 +34,8 @@ This plugin can be used for batch resize images in an Album.
 It use "convert" program from "ImageMagick" package. You can resize up or down the images size.
 3 resizing types have been implemented:
 
+</para>
+
 <itemizedlist>
 <listitem><para><emphasis>Proportional (1 dim.)</emphasis> : standard auto-resizing using one dimension.
 The width or the height of the images will be automatically selected in depending of the images
@@ -47,7 +49,6 @@ The images aspect ratio aren't preserved.</para></listitem>
 The user can set the print resolution and the photographic paper size. The target image will be adapted
 to the good dimensions (included the background size, marging size, and background color).</para></listitem>
 </itemizedlist>
-</para>
 
 </chapter>
 

@@ -34,6 +34,8 @@ This plugin can be used for batch filter images in an Album.
  It use "convert" program from "ImageMagick" package. An image effect
  preview (partial or full) is available.
  9 filters types have been implemented:
+</para>
+
 <itemizedlist>
 <listitem><para><emphasis>Add noise</emphasis> : add noise in an image.</para></listitem>
 <listitem><para><emphasis>Antialias</emphasis> : remove pixel aliasing.</para></listitem>
@@ -45,6 +47,8 @@ This plugin can be used for batch filter images in an Album.
 <listitem><para><emphasis>Sharpen</emphasis> : sharpen the image with a Gaussian operator.</para></listitem>
 <listitem><para><emphasis>Unsharp</emphasis> : sharpen the image with an unsharp mask operator.</para></listitem>
 </itemizedlist>
+
+<para>
 You can see some samples building with this plugin at this
 <ulink url="http://digikamplugins.free.fr/ImagesGallerySamples/MultipleAlbums/FilterImages/index.html">
 <citetitle>url.</citetitle>

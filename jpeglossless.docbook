@@ -30,6 +30,7 @@ The Kipi JPEG loss less plugin is a tool for to transform the images with no los
 
 <para>
 This plugin provide this actions in the host application without losing any quality and any exif informations:
+</para>
 
 <itemizedlist>
 <listitem><para>Do Lossless JPEG 90/180/270 Degree Rotation.</para></listitem>
@@ -37,8 +38,6 @@ This plugin provide this actions in the host application without losing any qual
 <listitem><para>Do Lossless JPEG black and white convertion.</para></listitem>
 <listitem><para>Exif rotation or flip auto-adjustment.</para></listitem>
 </itemizedlist>
-
-</para>
 
 </chapter>
 

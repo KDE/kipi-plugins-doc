@@ -32,6 +32,8 @@ The Kipi convert images plugin is a tool for to convert an image file format to 
 
 This plugin can be used for batch convert images in an Album.
 It use "convert" program from "ImageMagick" package. The image files formats supported are:
+</para>
+
 <itemizedlist>
 <listitem><para>JPEG.</para></listitem>
 <listitem><para>PNG.</para></listitem>
@@ -40,8 +42,6 @@ It use "convert" program from "ImageMagick" package. The image files formats sup
 <listitem><para>TIFF.</para></listitem>
 <listitem><para>TGA.</para></listitem>
 </itemizedlist>
-
-</para>
 
 </chapter>
 

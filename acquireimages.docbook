@@ -31,13 +31,12 @@ The Kipi acquire images plugin are tools for to add images in the collections.
 <para>
 This plugin can be use for to add some images in the host application from external sources.
 Actually, two actions can be used :
+</para>
 
 <itemizedlist>
 <listitem><para><emphasis>Scan images</emphasis> : use the Kokaa interface for scanning images with a flat scanner supported by the Sane project.</para></listitem>
 <listitem><para><emphasis>Screenshots</emphasis> : take screenshots.</para></listitem>
 </itemizedlist>
-
-</para>
 
 </chapter>
 

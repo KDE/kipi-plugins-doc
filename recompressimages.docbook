@@ -32,13 +32,15 @@ The Kipi recompress images plugin is a tool for recompressing the image files.
 
 This plugin can be used for batch recompress images in an Album.
 It use "convert" program from "ImageMagick" package. The image files formats supported are:
+
+</para>
+
 <itemizedlist>
 <listitem><para>JPEG.</para></listitem>
 <listitem><para>PNG.</para></listitem>
 <listitem><para>TIFF.</para></listitem>
 <listitem><para>TGA.</para></listitem>
 </itemizedlist>
-</para>
 
 </chapter>
 

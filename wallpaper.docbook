@@ -30,6 +30,8 @@ The Kipi wall paper plugin is a tool for push an image in the desktop backgroung
 
 <para>
 This plugin place the current selected image in the KDE desktop in according with the menu sub-option selected:
+</para>
+
 <itemizedlist>
 <listitem><para>Centered.</para></listitem>
 <listitem><para>Tiled.</para></listitem>
@@ -39,7 +41,6 @@ This plugin place the current selected image in the KDE desktop in according wit
 <listitem><para>Scaled.</para></listitem>
 <listitem><para>Centered auto fit.</para></listitem>
 </itemizedlist>
-</para>
 
 </chapter>
 

@@ -34,6 +34,8 @@ This plugin can be used for batch FX transforming images in an Album.
  It use "convert" program from "ImageMagick" package. An image effect
  preview (partial or full) is also available.
  11 FX filters types have been implemented:
+</para>
+
 <itemizedlist>
 <listitem><para><emphasis>Adaptative threshold</emphasis> : perform local adaptive thresholding.</para></listitem>
 <listitem><para><emphasis>Charcoal</emphasis> : simulate a charcoal drawing.</para></listitem>
@@ -47,6 +49,8 @@ This plugin can be used for batch FX transforming images in an Album.
 <listitem><para><emphasis>Swirl</emphasis> : swirls the pixels about the center of the image.</para></listitem>
 <listitem><para><emphasis>Wave</emphasis> : creates a ripple effect in the image by shifting the pixels vertically along a sine wave.</para></listitem>
 </itemizedlist>
+
+<para>
 You can see some samples building with this plugin at this
 <ulink url="http://digikamplugins.free.fr/ImagesGallerySamples/MultipleAlbums/EffectImages/index.html">
 <citetitle>url.</citetitle>
