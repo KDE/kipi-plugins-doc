@@ -12,11 +12,11 @@
 </affiliation>
 </author>
 </authorgroup>
-<date>2004-06-20</date>
-<releaseinfo>1.00.00</releaseinfo>
+<date>2005-01-09</date>
+<releaseinfo>0.1</releaseinfo>
 <abstract>
 <para>
-The Kipi MPEG Encoder plugin is a tool for to convert a list of images like a MPEG file.
+The Kipi MPEG Encoder plugin is a tool for converting a series of images into a diashow-style MPEG file.
 </para>
 </abstract>
 
@@ -29,18 +29,46 @@ The Kipi MPEG Encoder plugin is a tool for to convert a list of images like a MP
 <title>Introduction</title>
 
 <para>
-The MPEG Encoder plugin can be used for convert the selected images on a MPEG sequence with a specific duration and merge all images on an single MPEG file. This plugin use the "MjpegTools" and "ImageMagick" packages. Between the images, you can insert a basic transition. You can also add an audio
- track on the images sequence with a MP2 or WAV file. All images will be automatically
- scaling to the good size for the video format. Also a specific background color
- could be used. You can use this plugin for to build some DVD/XVCD/SVCD/VCD image
- portfolios for your home DVD player. Use K3b program for create this media.
-</para>
-<para>
-You can see some samples building with this plugin at this
-<ulink url="http://digikamplugins.free.fr/MPEGEncodeSamples/">
-<citetitle>url.</citetitle>
-</ulink></para>
+The MPEG Encoder plugin can be used to convert the selected images into a MPEG sequence with a defined duration and merge all images in an single MPEG file. This plugin applies the "MjpegTools" and "ImageMagick" packages. Between the images, you can insert a basic transition. You can also add an audio track to the images sequence using MP2 or WAV files.
 
+All images will be automatically scaled to the correct size of the selected video format. A background color can be selected. You can use this plugin to build some DVD/XVCD/SVCD/VCD image portfolios for your home DVD player. Use the K3b program to create this media.
+</para>
+
+<sect1 id="using-plugin-mpeg_encode">
+<title>Using the plugin</title>
+
+<para>First you have to select the images to be packed into MPEG from the host application browser. Then call from Extra->Create MPEG slideshow... menu the main dialog window.
+
+The before selected images appear in the 'Image Files in Portfolio' list box. Use this box to order your files or to modify the content of the list.
+
+When you are happy with the content, go on with the other settings. The video format can be chosen from four (DVD/XVCD/SVCD/VCD) different formats. If the MPEG file shall be played over a TV set, select the TV standard from PAL, SECAM and NTSC. PAL is the default value and the probable choice in central Europe.
+Then you can choose the display duration per image, it scales in seconds. The list box below allows to select the transition behavior between the images. A low value goes with an rather sudden change whereas a higher value creates a smooth transition.
+
+The next selector lets you free choose the preferred background color. In doubt leave it black.
+The 'MPEG Output Filename' box specifies the outout filename and its path (location). Leave the mpg ending but change the path and filename as you wish.
+
+If you point in the 'Audio Input Filename' to an audio file, it will be integrated into the MPEG file. So if you're done with the setting, click on the <emphasis>Encode</emphasis> button to launch the conversion. Depending on your computer speed go and drink a short or long coffee and enjoy the slideshow when its finished.
+
+Note: If the plugin complains about encoders or tools missing you can set the path to the programs "MjpegTools" and "ImageMagick" at the lower right 'settings' button.
+</para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="mpeg_encode_dialog.png" format="PNG"/>
+</imageobject>
+<textobject>
+<phrase>MPEG Enscoder dialog Preview</phrase>
+</textobject>
+</mediaobject>
+</screenshot>
+
+<para>
+You can see some sample builts with this plugin here:
+<ulink url="http://digikamplugins.free.fr/MPEGEncodeSamples/">url</ulink>.
+</para>
+
+</sect1>
 </chapter>
 
 <!--

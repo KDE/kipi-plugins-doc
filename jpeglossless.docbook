@@ -12,11 +12,11 @@
 </affiliation>
 </author>
 </authorgroup>
-<date>2004-06-20</date>
-<releaseinfo>1.00.00</releaseinfo>
+<date>2005-01-09</date>
+<releaseinfo>0.1</releaseinfo>
 <abstract>
 <para>
-The Kipi JPEG loss less plugin is a tool for to transform the images with no lose JPEG informations.
+The Kipi JPEG lossless plugin is a tool to transform the images without loss in quality due to compression.
 </para>
 </abstract>
 
@@ -29,15 +29,18 @@ The Kipi JPEG loss less plugin is a tool for to transform the images with no los
 <title>Introduction</title>
 
 <para>
-This plugin provide this actions in the host application without losing any quality and any exif informations:
+This plugin is available from within the host application. It allows to store images in JPEG format, which is usually set to a compression level that looses information (otherwise there's would be no size reduction) without losing any quality nor exif informations:
 </para>
 
 <itemizedlist>
-<listitem><para>Do Lossless JPEG 90/180/270 Degree Rotation.</para></listitem>
-<listitem><para>Do Lossless JPEG Horizontal or Vertical flip.</para></listitem>
-<listitem><para>Do Lossless JPEG black and white convertion.</para></listitem>
-<listitem><para>Exif rotation or flip auto-adjustment.</para></listitem>
+<listitem><para>Do lossless JPEG 90/180/270 Degree Rotation.</para></listitem>
+<listitem><para>Do lossless JPEG Horizontal or Vertical flip.</para></listitem>
+<listitem><para>Do lossless JPEG black and white conversion.</para></listitem>
+<listitem><para>Exif orientation tag based rotation or flip auto-adjustment.</para></listitem>
+<listitem><para>Do lossless recompression of JPEG images.</para></listitem>
 </itemizedlist>
+<para>As a consequence of the lossless storage the file size will be larger (similar to the lossless PNG format) since there's no compression of the color coding information.
+</para>
 
 </chapter>
 

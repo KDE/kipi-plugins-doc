@@ -5,18 +5,18 @@
 
 <authorgroup>
 <author>
-<firstname>Gilles</firstname>
-<surname>Caulier</surname>
+<firstname>Gerhard</firstname>
+<surname>Kulzer</surname>
 <affiliation>
-<address><email>caulier dot gilles at free.fr</email></address>
+<address><email>gerhard at kulzer.net</email></address>
 </affiliation>
 </author>
 </authorgroup>
-<date>2004-06-20</date>
-<releaseinfo>1.00.00</releaseinfo>
+<date>2005-01-09</date>
+<releaseinfo>0.1</releaseinfo>
 <abstract>
 <para>
-The Kipi acquire images plugin are tools for to add images in the collections.
+The Kipi acquire images plugin provides tools to capture new images and save them to the collections.
 </para>
 </abstract>
 
@@ -29,14 +29,42 @@ The Kipi acquire images plugin are tools for to add images in the collections.
 <title>Introduction</title>
 
 <para>
-This plugin can be use for to add some images in the host application from external sources.
+This plugin can be used to capture and add new images to the host application from external sources.
 Actually, two actions can be used :
 </para>
 
 <itemizedlist>
-<listitem><para><emphasis>Scan images</emphasis> : use the Kokaa interface for scanning images with a flat scanner supported by the Sane project.</para></listitem>
+<listitem><para><emphasis>Scan images</emphasis> : use the Kooka interface for scanning images from either a flat scanner supported by the Sane project or a another capture source like video streams (for this to work you must have installed Kooka and sane).</para></listitem>
 <listitem><para><emphasis>Screenshots</emphasis> : take screenshots.</para></listitem>
 </itemizedlist>
+
+<sect1 id="using-plugin-acquire">
+<title>Using the plugin</title>
+
+<para>
+When you open the <emphasis>Scan images</emphasis> menu a dialog comes up that lets you choose between the available acquisition sources on your computer. Choose the one you want to capture from. You can also set the default source for the next time.
+
+When the Kooka dialog window comes up, make your choices of acquisition settings by altering the default values. Look at the preview and crop it before making the final decision. The estimated file size is indicated in the lower right corner. 
+Hint: Make sure that the dialog is fully visible since some settings might be hidden if the window is too narrow.
+
+Press the scan button and wait until the scanning is finished and the <emphasis>Save Target Option</emphasis> dialog appears. Here you can alter the compression quality and the image file type (be aware that the BMP type is not compressed and creates large files). 
+The second item in that dialog let you choose (or create) the folder the image will be saved to.
+</para>
+
+<para>
+The <emphasis>Screenshot</emphasis> acquisition mode you can choose from 1st menu item->Import->Screenshot...
+A dialog window comes up providing you with various snapshot modes:
+</para>
+<itemizedlist>
+<listitem><para>Deselect the 'Grab the entire desktop' item to shoot a single window under the mouse cursor.</para></listitem>
+<listitem><para>When the 'Hide all host application windows' item is selected the calling host application will dissappear to give way to the other screens/windows. Otherwise you'll - after the delay - shoot the screen/window actually visible (if you've deselected 'Grab the entire desktop' the window under the mouse pointer will be shot).</para></listitem>
+</itemizedlist>
+<para>
+The delay control determines how long Screenshot will wait until the exposure is happening. If you need to navigate to some other screens set the delay high enough to give you the time for navigation.
+</para>
+<para>Once the screenshot has been taken the <emphasis>Save Target Option</emphasis> dialog appears with the same options as described above.
+</para>
+</sect1>
 
 </chapter>
 
