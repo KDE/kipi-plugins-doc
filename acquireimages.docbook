@@ -1,0 +1,48 @@
+<chapter id="acquireimages">
+<chapterinfo>
+
+<title>Acquire Images</title>
+
+<!--
+<authorgroup>
+<author>
+<firstname> </firstname>
+<surname> </surname>
+<affiliation>
+<address><email> </email></address>
+</affiliation>
+</author>
+</authorgroup>
+<date>2004-06-20</date>
+<releaseinfo>1.00.00</releaseinfo>
+<abstract>
+<para>
+Note about open header
+</para>
+</abstract>
+-->
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>Kipi</keyword>
+</keywordset>
+</chapterinfo>
+
+<title>Introduction</title>
+
+<para>
+The Kipi plugin <quote>Acquire Images</quote> currently has no
+documentation.  If you are interested in rectifying that situation,
+please contact Lauri Watts <email>lauri@kde.org</email>, &kde;'s
+Documentation Team coordinator.
+</para>
+
+</chapter>
+
+<!--
+Local Variables:
+mode: sgml
+sgml-omittag: nil
+sgml-shorttag: t
+End:
+-->
+
