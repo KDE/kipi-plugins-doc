@@ -41,7 +41,7 @@ possible. You can use drag and drop to add more images in the list to send.
 <title>Image Selection Dialog</title>
 
 <para>
-Upon opening of the plugin the <emphasis>Images</emphasis> host application windows will appear with your 
+Upon opening of the plugin from the host application the <emphasis>Images</emphasis>  window will appear with your 
 pre-selected images already in the list to be sent. With the <guilabel>Add Images</guilabel> button a file browser 
 opens to add more files as needed in the usual file selection manner. The image under the cursor in the list is displayed 
 on the right side. 
@@ -53,7 +53,7 @@ will be removed from the send list.
 </para>
 
 <para>
-When you have finished selecting your file, click <guilabel>OK</guilabel> to open the 'new e-mail' dialog window 
+When you have finished selecting your files, click <guilabel>OK</guilabel> to open the 'new e-mail' dialog window 
 of your favorite e-mail client. You just need to add the addressees and the subject. The selected images will be already 
 there as attachments. 
 </para>
@@ -76,28 +76,28 @@ size to some megabytes of data. Use several e-mails if you want to send a lot of
 <title>Mail Dialog</title>
 
 <para>
-The mail dialog is used to change the settings of the images to be sent. These settings will be remembered when you close digikam until you change them.
+The mail dialog is used to change the settings of the images to be sent. These settings will be remembered when you close the plugin until you change them.
 </para>
 
 <para>
-Select you favorite e-mail client from the drop-down  menu. (If you use <application>Thunderbird</application>, the filed below will be available to select 
+Select your favorite e-mail client from the drop-down menu. (If you use <application>Thunderbird</application>, the field below will be available to select 
 the correct path according to your installation).
 </para>
 
 <para>
-If you select <guilabel>Add comments in the attached file</guilabel> the comments included in the digikam album will be added to the images.
+If you select <guilabel>Add comments in the attached file</guilabel> the comments included in the album will be added to the images.
 </para>
 
 <para>
 The next 3 items allow you to set-up the image quality to be sent. The <guilabel>New image size</guilabel> drop-down menu has a preset of 
 standard image resolutions in store. Select one of those. The compression ratio can be chosen with the slider or the value box. 75% is a standard 
 compression ratio for <guilabel>JPEG</guilabel> files. Setting compression to 100% will result in a lossless compression at the cost of the largest 
-file size. The difference in file size between 90% and 100% can be quite dramatic, whereas the gain in quality is minor. Very good quality is obtain with 
+file size. The difference in file size between 90% and 100% can be quite dramatic, whereas the gain in quality is minor. Very good quality is already obtained with 
 85% compression.
 </para>
 
 <para>
-The <guilabel>PNG</guilabel> format is not well adapted to reduce photographic images file size, but it is best suited for compress lossless items like 
+The <guilabel>PNG</guilabel> format is not well adapted to reduce photographic images file size, but it is best suited for compressing lossless items like 
 TIFF file format. <guilabel>PNG</guilabel> must be used if you use a speed internet dialup and if you want preserved the photo quality. Else, 
 <guilabel>JPEG</guilabel> is the recommended format.
 </para>
