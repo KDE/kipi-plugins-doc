@@ -1,7 +1,7 @@
-<chapter id="acquireimages">
+<chapter id="convertimages">
 <chapterinfo>
 
-<title>Acquire Images</title>
+<title>Convert Images</title>
 
 <authorgroup>
 <author>
@@ -16,7 +16,7 @@
 <releaseinfo>1.00.00</releaseinfo>
 <abstract>
 <para>
-The Kipi acquire images plugin are tools for to add images in the collections.
+The Kipi convert images plugin is a tool for to convert an image file format to another.
 </para>
 </abstract>
 
@@ -29,12 +29,16 @@ The Kipi acquire images plugin are tools for to add images in the collections.
 <title>Introduction</title>
 
 <para>
-This plugin can be use for to add some images in the host application from external sources.
-Actually, two actions can be used :
 
+This plugin can be used for batch convert images in an Album.
+It use "convert" program from "ImageMagick" package. The image files formats supported are:
 <itemizedlist>
-<listitem><para><emphasis>Scan images</emphasis> : use the Kokaa interface for scanning images with a flat scanner supported by the Sane project.</para></listitem>
-<listitem><para><emphasis>Screenshots</emphasis> : take screenshots.</para></listitem>
+<listitem><para>JPEG.</para></listitem>
+<listitem><para>PNG.</para></listitem>
+<listitem><para>PPM.</para></listitem>
+<listitem><para>BMP.</para></listitem>
+<listitem><para>TIFF.</para></listitem>
+<listitem><para>TGA.</para></listitem>
 </itemizedlist>
 
 </para>

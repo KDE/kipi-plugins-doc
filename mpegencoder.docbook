@@ -3,13 +3,12 @@
 
 <title>MPEG Encoder</title>
 
-<!--
 <authorgroup>
 <author>
-<firstname> </firstname>
-<surname> </surname>
+<firstname>Gilles</firstname>
+<surname>Caulier</surname>
 <affiliation>
-<address><email> </email></address>
+<address><email>caulier dot gilles at free.fr</email></address>
 </affiliation>
 </author>
 </authorgroup>
@@ -17,10 +16,10 @@
 <releaseinfo>1.00.00</releaseinfo>
 <abstract>
 <para>
-Note about open header
+The Kipi MPEG Encoder plugin is a tool for to convert a list of images like a MPEG file.
 </para>
 </abstract>
--->
+
 <keywordset>
 <keyword>KDE</keyword>
 <keyword>Kipi</keyword>
@@ -30,11 +29,17 @@ Note about open header
 <title>Introduction</title>
 
 <para>
-The Kipi plugin <quote>MPEG Encoder</quote> currently has no
-documentation.  If you are interested in rectifying that situation,
-please contact Lauri Watts <email>lauri@kde.org</email>, &kde;'s
-Documentation Team coordinator.
+The MPEG Encoder plugin can be used for convert the selected images on a MPEG sequence with a specific duration and merge all images on an single MPEG file. This plugin use the "MjpegTools" and "ImageMagick" packages. Between the images, you can insert a basic transition. You can also add an audio
+ track on the images sequence with a MP2 or WAV file. All images will be automatically
+ scaling to the good size for the video format. Also a specific background color
+ could be used. You can use this plugin for to build some DVD/XVCD/SVCD/VCD image
+ portfolios for your home DVD player. Use K3b program for create this media.
 </para>
+<para>
+You can see some samples building with this plugin at this
+<ulink url="http://digikamplugins.free.fr/MPEGEncodeSamples/">
+<citetitle>url.</citetitle>
+</ulink></para>
 
 </chapter>
 

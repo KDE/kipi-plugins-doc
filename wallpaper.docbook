@@ -3,13 +3,12 @@
 
 <title>Wall Paper</title>
 
-<!--
 <authorgroup>
 <author>
-<firstname> </firstname>
-<surname> </surname>
+<firstname>Gilles</firstname>
+<surname>Caulier</surname>
 <affiliation>
-<address><email> </email></address>
+<address><email>caulier dot gilles at free.fr</email></address>
 </affiliation>
 </author>
 </authorgroup>
@@ -17,10 +16,10 @@
 <releaseinfo>1.00.00</releaseinfo>
 <abstract>
 <para>
-Note about open header
+The Kipi wall paper plugin is a tool for push an image in the desktop backgroung.
 </para>
 </abstract>
--->
+
 <keywordset>
 <keyword>KDE</keyword>
 <keyword>Kipi</keyword>
@@ -30,10 +29,16 @@ Note about open header
 <title>Introduction</title>
 
 <para>
-The Kipi plugin <quote>Wall Paper</quote> currently has no
-documentation.  If you are interested in rectifying that situation,
-please contact Lauri Watts <email>lauri@kde.org</email>, &kde;'s
-Documentation Team coordinator.
+This plugin place the current selected image in the KDE desktop in according with the menu sub-option selected:
+<itemizedlist>
+<listitem><para>Centered.</para></listitem>
+<listitem><para>Tiled.</para></listitem>
+<listitem><para>Centered tiled.</para></listitem>
+<listitem><para>Centered max-aspect.</para></listitem>
+<listitem><para>Tiled max-aspect.</para></listitem>
+<listitem><para>Scaled.</para></listitem>
+<listitem><para>Centered auto fit.</para></listitem>
+</itemizedlist>
 </para>
 
 </chapter>

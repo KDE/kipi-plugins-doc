@@ -1,0 +1,66 @@
+<chapter id="colorimages">
+<chapterinfo>
+
+<title>Color Images</title>
+
+<authorgroup>
+<author>
+<firstname>Gilles</firstname>
+<surname>Caulier</surname>
+<affiliation>
+<address><email>caulier dot gilles at free.fr</email></address>
+</affiliation>
+</author>
+</authorgroup>
+<date>2004-06-20</date>
+<releaseinfo>1.00.00</releaseinfo>
+<abstract>
+<para>
+The Kipi color images plugin is a tool for to change/improve the color rendering in images.
+</para>
+</abstract>
+
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>Kipi</keyword>
+</keywordset>
+</chapterinfo>
+
+<title>Introduction</title>
+
+<para>
+
+This plugin can be used for batch colors enhancement images in an Album.
+ It use "convert" program from "ImageMagick" package. An image effect
+ preview (partial or full) is available.
+ 10 colors filters types have been implemented:
+
+<itemizedlist>
+<listitem><para><emphasis>Decrease contrast</emphasis> : reduce the image contrast.</para></listitem>
+<listitem><para><emphasis>Depth</emphasis> : change the color depth of the image.</para></listitem>
+<listitem><para><emphasis>Equalize</emphasis> : perform histogram equalization to the image.</para></listitem>
+<listitem><para><emphasis>Fuzz</emphasis> : merging colors within a distance are considered equal.</para></listitem>
+<listitem><para><emphasis>Gray scales</emphasis> : convert colors image to gray scales image.</para></listitem>
+<listitem><para><emphasis>Increase contrast</emphasis> : enhance the image contrast.</para></listitem>
+<listitem><para><emphasis>Monochrome</emphasis> : transform the image to black and white.</para></listitem>
+<listitem><para><emphasis>Negate</emphasis> : replace every pixel with its complementary color.</para></listitem>
+<listitem><para><emphasis>Normalize</emphasis> : transform image to span the full range of color values.</para></listitem>
+<listitem><para><emphasis>Segment</emphasis> : segment an image by analyzing the histograms of the color components.</para></listitem>
+<listitem><para><emphasis>Trim</emphasis> : trim an image (fuzz reverse technic).</para></listitem>
+</itemizedlist>
+
+You can see some samples building with this plugin at this
+<ulink url="http://digikamplugins.free.fr/ImagesGallerySamples/MultipleAlbums/ColorImages/index.html">
+<citetitle>url.</citetitle>
+</ulink></para>
+
+</chapter>
+
+<!--
+Local Variables:
+mode: sgml
+sgml-omittag: nil
+sgml-shorttag: t
+End:
+-->
+

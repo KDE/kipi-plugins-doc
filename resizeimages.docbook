@@ -1,0 +1,61 @@
+<chapter id="resizeimages">
+<chapterinfo>
+
+<title>Resize Images</title>
+
+<authorgroup>
+<author>
+<firstname>Gilles</firstname>
+<surname>Caulier</surname>
+<affiliation>
+<address><email>caulier dot gilles at free.fr</email></address>
+</affiliation>
+</author>
+</authorgroup>
+<date>2004-06-20</date>
+<releaseinfo>1.00.00</releaseinfo>
+<abstract>
+<para>
+The Kipi resize images plugin is a tool for to add a border arround the images.
+</para>
+</abstract>
+
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>Kipi</keyword>
+</keywordset>
+</chapterinfo>
+
+<title>Introduction</title>
+
+<para>
+
+This plugin can be used for batch resize images in an Album.
+It use "convert" program from "ImageMagick" package. You can resize up or down the images size.
+3 resizing types have been implemented:
+
+<itemizedlist>
+<listitem><para><emphasis>Proportional (1 dim.)</emphasis> : standard auto-resizing using one dimension.
+The width or the height of the images will be automatically selected in depending of the images
+orientation. The images aspect ratio are preserved.</para></listitem>
+<listitem><para><emphasis>Proportional (2 dim.)</emphasis> : auto-resizing using two dimensions.
+The images aspect ratio are preserved. For example, you can use that for to adapt your images size to your
+screen size. </para></listitem>
+<listitem><para><emphasis>Non proportional</emphasis> : non proportional resizing using two dimensions.
+The images aspect ratio aren't preserved.</para></listitem>
+<listitem><para><emphasis>Prepare to print</emphasis> : prepare the image for a photographic printing.
+The user can set the print resolution and the photographic paper size. The target image will be adapted
+to the good dimensions (included the background size, marging size, and background color).</para></listitem>
+</itemizedlist>
+</para>
+
+</chapter>
+
+<!--
+Local Variables:
+mode: sgml
+sgml-omittag: nil
+sgml-shorttag: t
+End:
+-->
+

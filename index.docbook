@@ -3,7 +3,14 @@
 "dtd/kdex.dtd" [
  <!ENTITY kappname "&kipi;">
  <!ENTITY doc-acquireimages SYSTEM "acquireimages.docbook">
- <!ENTITY doc-batchprocessimages SYSTEM "batchprocessimages.docbook">
+ <!ENTITY doc-borderimages SYSTEM "borderimages.docbook">
+ <!ENTITY doc-colorimages SYSTEM "colorimages.docbook">
+ <!ENTITY doc-convertimages SYSTEM "convertimages.docbook">
+ <!ENTITY doc-effectimages SYSTEM "effectimages.docbook">
+ <!ENTITY doc-filterimages SYSTEM "filterimages.docbook">
+ <!ENTITY doc-recompressimages SYSTEM "recompressimages.docbook">
+ <!ENTITY doc-renameimages SYSTEM "renameimages.docbook">
+ <!ENTITY doc-resizeimages SYSTEM "resizeimages.docbook">
  <!ENTITY doc-calendar SYSTEM "calendar.docbook">
  <!ENTITY doc-cdarchiving SYSTEM "cdarchiving.docbook">
  <!ENTITY doc-commenteditor SYSTEM "commenteditor.docbook">
@@ -75,10 +82,28 @@ The plugins installed in this handbook are:
 <para><link linkend="acquireimages">Acquire Images</link></para>
 </listitem>
 <listitem>
-<para><link linkend="batchprocessimages">Batch Process Images</link></para>
+<para><link linkend="borderimages">Border Images</link></para>
 </listitem>
 <listitem>
-<para><link linkend="calendar">Calendar</link></para>
+<para><link linkend="colorimages">Color Images</link></para>
+</listitem>
+<listitem>
+<para><link linkend="convertimages">Convert Images</link></para>
+</listitem>
+<listitem>
+<para><link linkend="effectimages">Effect Images</link></para>
+</listitem>
+<listitem>
+<para><link linkend="filterimages">Filter Images</link></para>
+</listitem>
+<listitem>
+<para><link linkend="recompressimages">Recompress Images</link></para>
+</listitem>
+<listitem>
+<para><link linkend="renameimages">Rename Images</link></para>
+</listitem>
+<listitem>
+<para><link linkend="resizeimages">Resize Images</link></para>
 </listitem>
 <listitem>
 <para><link linkend="cdarchiving">CD Archiving</link></para>
@@ -126,7 +151,14 @@ The plugins installed in this handbook are:
 </chapter>
 
 &doc-acquireimages;
-&doc-batchprocessimages;
+&doc-borderimages;
+&doc-colorimages;
+&doc-convertimages;
+&doc-effectimages;
+&doc-filterimages;
+&doc-recompressimages;
+&doc-renameimages;
+&doc-resizeimages;
 &doc-calendar;
 &doc-cdarchiving;
 &doc-commenteditor;

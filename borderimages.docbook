@@ -1,0 +1,58 @@
+<chapter id="borderimages">
+<chapterinfo>
+
+<title>Border Images</title>
+
+<authorgroup>
+<author>
+<firstname>Gilles</firstname>
+<surname>Caulier</surname>
+<affiliation>
+<address><email>caulier dot gilles at free.fr</email></address>
+</affiliation>
+</author>
+</authorgroup>
+<date>2004-06-20</date>
+<releaseinfo>1.00.00</releaseinfo>
+<abstract>
+<para>
+The Kipi border images plugin is a tool for to add a border arround the images.
+</para>
+</abstract>
+
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>Kipi</keyword>
+</keywordset>
+</chapterinfo>
+
+<title>Introduction</title>
+
+<para>
+
+This plugin can be used for batch border images in an Album.
+ It use "convert" program from "ImageMagick" package. An image effect
+ preview is available. Actually, 4 border styles have been implemented:
+
+<itemizedlist>
+<listitem><para><emphasis>Solid</emphasis> : simple line.</para></listitem>
+<listitem><para><emphasis>Niepce</emphasis> : old border style for black and white pictures.</para></listitem>
+<listitem><para><emphasis>Raise</emphasis> : a 3D effect arroud the pictures.</para></listitem>
+<listitem><para><emphasis>Frame</emphasis> : surrond the images with an ornamental border.</para></listitem>
+</itemizedlist>
+
+You can see some samples building with this plugin at this
+<ulink url="http://digikamplugins.free.fr/ImagesGallerySamples/MultipleAlbums/BorderImages/index.html">
+<citetitle>url.</citetitle>
+</ulink></para>
+
+</chapter>
+
+<!--
+Local Variables:
+mode: sgml
+sgml-omittag: nil
+sgml-shorttag: t
+End:
+-->
+

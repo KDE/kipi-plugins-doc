@@ -3,13 +3,12 @@
 
 <title>Images Gallery</title>
 
-<!--
 <authorgroup>
 <author>
-<firstname> </firstname>
-<surname> </surname>
+<firstname>Gilles</firstname>
+<surname>Caulier</surname>
 <affiliation>
-<address><email> </email></address>
+<address><email>caulier dot gilles at free.fr</email></address>
 </affiliation>
 </author>
 </authorgroup>
@@ -17,10 +16,10 @@
 <releaseinfo>1.00.00</releaseinfo>
 <abstract>
 <para>
-Note about open header
+The Kipi images gallery plugin is a tool for to export an Albums list to an HTML page.
 </para>
 </abstract>
--->
+
 <keywordset>
 <keyword>KDE</keyword>
 <keyword>Kipi</keyword>
@@ -30,10 +29,15 @@ Note about open header
 <title>Introduction</title>
 
 <para>
-The Kipi plugin <quote>Images Gallery</quote> currently has no
-documentation.  If you are interested in rectifying that situation,
-please contact Lauri Watts <email>lauri@kde.org</email>, &kde;'s
-Documentation Team coordinator.
+This plugin can export the Albums in HTML page for a WEB publication.
+You can select easily the Albums to export in an HTML page. You can set a big parameters list
+the HTML rendering. The UTF-8 encoding is used for a best internationalization.
+</para>
+<para>
+You can see some samples building with this plugin at this
+<ulink url="http://digikamplugins.free.fr/ImagesGallerySamples/MultipleAlbums/index.htm">
+<citetitle>url.</citetitle>
+</ulink>
 </para>
 
 </chapter>

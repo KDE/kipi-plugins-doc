@@ -1,7 +1,7 @@
-<chapter id="sendimages">
+<chapter id="renameimages">
 <chapterinfo>
 
-<title>Send Images</title>
+<title>Rename Images</title>
 
 <authorgroup>
 <author>
@@ -16,7 +16,7 @@
 <releaseinfo>1.00.00</releaseinfo>
 <abstract>
 <para>
-The Kipi send images images plugin is a tool for E-mail images.
+The Kipi rename images plugin is a tool for to rename the images files.
 </para>
 </abstract>
 
@@ -29,7 +29,9 @@ The Kipi send images images plugin is a tool for E-mail images.
 <title>Introduction</title>
 
 <para>
-E-mail the selected items with your favorite mail agent. A resizing items operation is possible. You can use the drag and drop for to add more images in the list to send.
+
+This plugin can be used for batch rename image files in an Album. You can set the prefix name to use, the start index value, and the timestamp. 
+
 </para>
 
 </chapter>

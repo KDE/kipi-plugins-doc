@@ -1,0 +1,65 @@
+<chapter id="effectimages">
+<chapterinfo>
+
+<title>Effect Images</title>
+
+<authorgroup>
+<author>
+<firstname>Gilles</firstname>
+<surname>Caulier</surname>
+<affiliation>
+<address><email>caulier dot gilles at free.fr</email></address>
+</affiliation>
+</author>
+</authorgroup>
+<date>2004-06-20</date>
+<releaseinfo>1.00.00</releaseinfo>
+<abstract>
+<para>
+The Kipi effect images plugin is a tool for to add a special effect to the images.
+</para>
+</abstract>
+
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>Kipi</keyword>
+</keywordset>
+</chapterinfo>
+
+<title>Introduction</title>
+
+<para>
+
+This plugin can be used for batch FX transforming images in an Album.
+ It use "convert" program from "ImageMagick" package. An image effect
+ preview (partial or full) is also available.
+ 11 FX filters types have been implemented:
+<itemizedlist>
+<listitem><para><emphasis>Adaptative threshold</emphasis> : perform local adaptive thresholding.</para></listitem>
+<listitem><para><emphasis>Charcoal</emphasis> : simulate a charcoal drawing.</para></listitem>
+<listitem><para><emphasis>Detect edges</emphasis> : detect edges within an image.</para></listitem>
+<listitem><para><emphasis>Emboss</emphasis> : returns a grayscale image with a three-dimensional effect.</para></listitem>
+<listitem><para><emphasis>Implode</emphasis> : implode image pixels about the center.</para></listitem>
+<listitem><para><emphasis>Paint</emphasis> : applies a special effect filter that simulates an oil painting.</para></listitem>
+<listitem><para><emphasis>Shade light</emphasis> : shines a distant light on an image to create a three-dimensional effect.</para></listitem>
+<listitem><para><emphasis>Solarize</emphasis> : negate all pixels above the threshold level.</para></listitem>
+<listitem><para><emphasis>Spread</emphasis> : this is a special effects method that randomly displaces each pixel in a block defined by the radius parameter.</para></listitem>
+<listitem><para><emphasis>Swirl</emphasis> : swirls the pixels about the center of the image.</para></listitem>
+<listitem><para><emphasis>Wave</emphasis> : creates a ripple effect in the image by shifting the pixels vertically along a sine wave.</para></listitem>
+</itemizedlist>
+You can see some samples building with this plugin at this
+<ulink url="http://digikamplugins.free.fr/ImagesGallerySamples/MultipleAlbums/EffectImages/index.html">
+<citetitle>url.</citetitle>
+</ulink>
+</para>
+
+</chapter>
+
+<!--
+Local Variables:
+mode: sgml
+sgml-omittag: nil
+sgml-shorttag: t
+End:
+-->
+

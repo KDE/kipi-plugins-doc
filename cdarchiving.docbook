@@ -3,13 +3,12 @@
 
 <title>CD Archiving</title>
 
-<!--
 <authorgroup>
 <author>
-<firstname> </firstname>
-<surname> </surname>
+<firstname>Gilles</firstname>
+<surname>Caulier</surname>
 <affiliation>
-<address><email> </email></address>
+<address><email>caulier dot gilles at free.fr</email></address>
 </affiliation>
 </author>
 </authorgroup>
@@ -17,10 +16,10 @@
 <releaseinfo>1.00.00</releaseinfo>
 <abstract>
 <para>
-Note about open header
+The Kipi CD archiving plugin is a tool for to backup the Albums.
 </para>
 </abstract>
--->
+
 <keywordset>
 <keyword>KDE</keyword>
 <keyword>Kipi</keyword>
@@ -30,10 +29,15 @@ Note about open header
 <title>Introduction</title>
 
 <para>
-The Kipi plugin <quote>CD Archiving</quote> currently has no
-documentation.  If you are interested in rectifying that situation,
-please contact Lauri Watts <email>lauri@kde.org</email>, &kde;'s
-Documentation Team coordinator.
+This plugin archive the Albums in a CD/DVD media using K3b program.
+You can select easily the Albums to archive in the media. An HTML interface can be built
+for a confortable data navigation. For the Win32 platform, an 'AutoRun' option is available.
+</para>
+<para>
+The K3b program is available at this
+<ulink url="http://www.k3b.org/">
+<citetitle>url.</citetitle>
+</ulink>
 </para>
 
 </chapter>

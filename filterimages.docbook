@@ -1,0 +1,62 @@
+<chapter id="filterimages">
+<chapterinfo>
+
+<title>Filter Images</title>
+
+<authorgroup>
+<author>
+<firstname>Gilles</firstname>
+<surname>Caulier</surname>
+<affiliation>
+<address><email>caulier dot gilles at free.fr</email></address>
+</affiliation>
+</author>
+</authorgroup>
+<date>2004-06-20</date>
+<releaseinfo>1.00.00</releaseinfo>
+<abstract>
+<para>
+The Kipi filter images plugin is a tool for to apply a digital filter to the images.
+</para>
+</abstract>
+
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>Kipi</keyword>
+</keywordset>
+</chapterinfo>
+
+<title>Introduction</title>
+
+<para>
+
+This plugin can be used for batch filter images in an Album.
+ It use "convert" program from "ImageMagick" package. An image effect
+ preview (partial or full) is available.
+ 9 filters types have been implemented:
+<itemizedlist>
+<listitem><para><emphasis>Add noise</emphasis> : add noise in an image.</para></listitem>
+<listitem><para><emphasis>Antialias</emphasis> : remove pixel aliasing.</para></listitem>
+<listitem><para><emphasis>Blur</emphasis> : blur the image with a Gaussian operator.</para></listitem>
+<listitem><para><emphasis>Despeckle</emphasis> : reduce the speckles within an image.</para></listitem>
+<listitem><para><emphasis>Enhance</emphasis> : apply a digital filter to enhance a noisy image.</para></listitem>
+<listitem><para><emphasis>Median</emphasis> : apply a median filter to an image.</para></listitem>
+<listitem><para><emphasis>Noise reduction</emphasis> : reduce noise in an image.</para></listitem>
+<listitem><para><emphasis>Sharpen</emphasis> : sharpen the image with a Gaussian operator.</para></listitem>
+<listitem><para><emphasis>Unsharp</emphasis> : sharpen the image with an unsharp mask operator.</para></listitem>
+</itemizedlist>
+You can see some samples building with this plugin at this
+<ulink url="http://digikamplugins.free.fr/ImagesGallerySamples/MultipleAlbums/FilterImages/index.html">
+<citetitle>url.</citetitle>
+</ulink></para>
+
+</chapter>
+
+<!--
+Local Variables:
+mode: sgml
+sgml-omittag: nil
+sgml-shorttag: t
+End:
+-->
+
