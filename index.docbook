@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN"
+"dtd/kdex.dtd" [
+ <!ENTITY kappname "&kipi;">
+ <!ENTITY doc-acquireimages SYSTEM "acquireimages.docbook">
+ <!ENTITY % English "INCLUDE" > <!-- change language only here -->
+]>
+
+<book lang="&language;">
+<bookinfo>
+<title>The &kate; Plugins Handbook</title>
+
+<!-- TRANS:ROLES_OF_TRANSLATORS -->
+
+<date>2004-06-20</date>
+<releaseinfo>1.00.00</releaseinfo> <!-- Used Kicker version here -->
+
+<copyright>
+<year>2004</year>
+<holder> </holder>
+</copyright>
+
+<legalnotice>&FDLNotice;</legalnotice>
+
+<abstract>
+<para>
+This is the handbook for the plugins for Kipi, &kde;'s Images Programs Interface.
+</para>
+</abstract>
+
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>Kipi</keyword>
+<keyword>Plugins</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction">
+<title>Kipi plugins</title>
+
+<para>
+Kipi plugins are additional functions for the KDE Images Managment Host Programs. They can
+add extra menus and shortcuts, and extend the host programs features. You can
+install as many or as few as you like, from within host programs.
+</para>
+
+<para>
+More information on using and enabling the plugins you want is
+available in the host program handbook.
+</para>
+
+<para>
+The plugins installed in this handbook are:
+</para>
+
+<itemizedlist>
+<listitem>
+<para><link linkend="acquireimages">Acquire Images</link></para>
+</listitem>
+</itemizedlist>
+
+</chapter>
+
+&doc-acquireimages;
+
+<chapter id="credits">
+<title>Credits and License</title>
+
+<para>
+Copyrights for each applet is listed in the applicable chapter.
+</para>
+
+&underFDL;
+&underGPL;
+
+</chapter>
+
+<!--
+<appendix id="installation">
+<title>Installation</title>
+<para>To be written
+</para>
+</appendix>
+-->
+
+</book>
+
+<!--
+Local Variables:
+mode: sgml
+End:
+-->
