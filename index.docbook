@@ -3,12 +3,28 @@
 "dtd/kdex.dtd" [
  <!ENTITY kappname "&kipi;">
  <!ENTITY doc-acquireimages SYSTEM "acquireimages.docbook">
+ <!ENTITY doc-batchprocessimages SYSTEM "batchprocessimages.docbook">
+ <!ENTITY doc-calendar SYSTEM "calendar.docbook">
+ <!ENTITY doc-cdarchiving SYSTEM "cdarchiving.docbook">
+ <!ENTITY doc-commenteditor SYSTEM "commenteditor.docbook">
+ <!ENTITY doc-diroperations SYSTEM "diroperations.docbook">
+ <!ENTITY doc-findimages SYSTEM "findimages.docbook">
+ <!ENTITY doc-gammacalibration SYSTEM "gammacalibration.docbook">
+ <!ENTITY doc-imagesgallery SYSTEM "imagesgallery.docbook">
+ <!ENTITY doc-jpeglossless SYSTEM "jpeglossless.docbook">
+ <!ENTITY doc-mpegencoder SYSTEM "mpegencoder.docbook">
+ <!ENTITY doc-printwizard SYSTEM "printwizard.docbook">
+ <!ENTITY doc-rawconverter SYSTEM "rawconverter.docbook">
+ <!ENTITY doc-sendimages SYSTEM "sendimages.docbook">
+ <!ENTITY doc-slideshow SYSTEM "slideshow.docbook">
+ <!ENTITY doc-timeadjust SYSTEM "timeadjust.docbook">
+ <!ENTITY doc-wallpaper SYSTEM "wallpaper.docbook">
  <!ENTITY % English "INCLUDE" > <!-- change language only here -->
 ]>
 
 <book lang="&language;">
 <bookinfo>
-<title>The &kate; Plugins Handbook</title>
+<title>The Kipi Plugins Handbook</title>
 
 <!-- TRANS:ROLES_OF_TRANSLATORS -->
 
@@ -24,7 +40,7 @@
 
 <abstract>
 <para>
-This is the handbook for the plugins for Kipi, &kde;'s Images Programs Interface.
+This is the handbook for the plugins for Kipi, the &kde;'s Images Programs Interface.
 </para>
 </abstract>
 
@@ -58,11 +74,74 @@ The plugins installed in this handbook are:
 <listitem>
 <para><link linkend="acquireimages">Acquire Images</link></para>
 </listitem>
+<listitem>
+<para><link linkend="batchprocessimages">Batch Process Images</link></para>
+</listitem>
+<listitem>
+<para><link linkend="calendar">Calendar</link></para>
+</listitem>
+<listitem>
+<para><link linkend="cdarchiving">CD Archiving</link></para>
+</listitem>
+<listitem>
+<para><link linkend="commenteditor">Comment Editor</link></para>
+</listitem>
+<listitem>
+<para><link linkend="diroperations">Dir Operations</link></para>
+</listitem>
+<listitem>
+<para><link linkend="findimages">Find Images</link></para>
+</listitem>
+<listitem>
+<para><link linkend="gammacalibration">Gamma Calibration</link></para>
+</listitem>
+<listitem>
+<para><link linkend="imagesgallery">Images Gallery</link></para>
+</listitem>
+<listitem>
+<para><link linkend="jpeglossless">JPEG Loss Less</link></para>
+</listitem>
+<listitem>
+<para><link linkend="mpegencoder">MPEG Encoder</link></para>
+</listitem>
+<listitem>
+<para><link linkend="printwizard">Print Wizard</link></para>
+</listitem>
+<listitem>
+<para><link linkend="rawconverter">Raw Converter</link></para>
+</listitem>
+<listitem>
+<para><link linkend="sendimages">Send Images</link></para>
+</listitem>
+<listitem>
+<para><link linkend="slideshow">Slide Show</link></para>
+</listitem>
+<listitem>
+<para><link linkend="timeadjust">Time Ajust</link></para>
+</listitem>
+<listitem>
+<para><link linkend="wallpaper">Wall Paper</link></para>
+</listitem>
 </itemizedlist>
-
 </chapter>
 
 &doc-acquireimages;
+&doc-batchprocessimages;
+&doc-calendar;
+&doc-cdarchiving;
+&doc-commenteditor;
+&doc-diroperations;
+&doc-findimages;
+&doc-gammacalibration;
+&doc-imagesgallery;
+&doc-jpeglossless;
+&doc-mpegencoder;
+&doc-printwizard;
+&doc-rawconverter;
+&doc-sendimages;
+&doc-slideshow;
+&doc-timeadjust;
+&doc-wallpaper;
 
 <chapter id="credits">
 <title>Credits and License</title>
