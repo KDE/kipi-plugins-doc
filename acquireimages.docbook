@@ -15,8 +15,6 @@
     </author>    
 </authorgroup>
 
-<date>2005-xx-xx</date>
-<releaseinfo>0.1.0</releaseinfo>
 <abstract>
 <para>
 The Kipi acquire images plugin provides tools to capture new images and save them to the collections.

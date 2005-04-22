@@ -15,9 +15,6 @@
     </author>
 </authorgroup>
 
-<date>2005-xx-xx</date>
-<releaseinfo>0.1.0</releaseinfo>
-
 <abstract>
 <para>
 The Kipi <quote>Slide Show</quote> plugin creates a full screen slideshow of your images.

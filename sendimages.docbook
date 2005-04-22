@@ -15,9 +15,6 @@
     </author>
 </authorgroup>
 
-<date>2005-xx-xx</date>
-<releaseinfo>0.1.0</releaseinfo>
-
 <abstract>
 <para>
 The Kipi <quote>Send Images</quote> plugin is a tool for sending images directly by e-mail.
@@ -82,6 +79,10 @@ The mail dialog is used to change the settings of the images to be sent. These s
 <para>
 Select your favorite e-mail client from the drop-down menu. (If you use <application>Thunderbird</application>, the field below will be available to select the correct path according to your installation).
 </para>
+
+<note><para>
+If you uwant to use GMail service, you need to install <application>GMailAgent</application> in your computer, available at <ulink url="http://gmailagent.sourceforge.net">this url.</ulink>.
+</para></note>
 
 <para>
 If you select <guilabel>Add Comments in the Attached File</guilabel> the comments included with the images will be merged to a text file and attached in the mail.

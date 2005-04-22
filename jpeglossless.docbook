@@ -10,9 +10,6 @@
     </author>
 </authorgroup>
 
-<date>2005-xx-x</date>
-<releaseinfo>0.1.0</releaseinfo>
-
 <abstract>
 <para>
 The Kipi JPEG lossless plugin is a tool to transform the images without loss in quality due to compression.

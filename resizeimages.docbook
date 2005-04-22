@@ -10,9 +10,6 @@
     </author>
 </authorgroup>
 
-<date>2005-xx-x</date>
-<releaseinfo>0.1.0</releaseinfo>
-
 <abstract>
 <para>
 The Kipi Resize Images plugin is a tool for resize or adapt the images dimensions.

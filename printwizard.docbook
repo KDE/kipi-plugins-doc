@@ -10,9 +10,6 @@
     </author>
 </authorgroup>
 
-<date>2005-xx-x</date>
-<releaseinfo>0.1.0</releaseinfo>
-
 <abstract>
 <para>
 The Kipi print wizard plugin is a tool for to print images at the same time.

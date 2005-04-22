@@ -15,9 +15,6 @@
     </author>
 </authorgroup>
 
-<date>2005-xx-x</date>
-<releaseinfo>0.1.0</releaseinfo>
-
 <abstract>
 <para>
 The Kipi <quote>Raw Image Converter</quote> plugin is a conversion tool for raw format images.
