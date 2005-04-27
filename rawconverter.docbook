@@ -57,7 +57,7 @@ Now you can adjust the available check and value boxes to optimise the conversio
 A <guilabel>Four color RGBG</guilabel> conversion can be selected to use contrast information. (If your camera works in RGB mode, the RGBG setting has no effect).
 </para>
 
-<para>If you're happy with the preview, choose one of three output formats to save the conversion result. The file name will stay the same, the extention only changes. <guilabel>JPEG</guilabel> uses the lossy algorithm and produces the smallest output file size.
+<para>If you're happy with the preview, choose one of three output formats to save the conversion result. The file name will stay the same, the extension only changes. <guilabel>JPEG</guilabel> uses the lossy algorithm and produces the smallest output file size.
 </para>
 
 <para>
