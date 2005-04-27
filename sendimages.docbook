@@ -93,7 +93,7 @@ The next 3 items allow you to set-up the image quality to be sent. Select one of
 </para>
 
 <para>
-The <guilabel>New Images Format</guilabel> drop-down menu The <guilabel>PNG</guilabel> format is not well adapted to reduce photographic images file size, but it is best suited for compressing lossless items like TIFF file format. <guilabel>PNG</guilabel> must be used if you use a speed internet dialup and if you want preserved the photo quality. Else, <guilabel>JPEG</guilabel> is the recommended format.
+The <guilabel>PNG</guilabel> format on <guilabel>New Images Format</guilabel> drop-down menu is not well adapted to reduce photographic images file size, but it is best suited for compressing lossless items like TIFF file format. <guilabel>PNG</guilabel> must be used if you use a speed internet dialup and if you want preserved the photo quality. Else, <guilabel>JPEG</guilabel> is the recommended format.
 </para>
 
 <note><para>
