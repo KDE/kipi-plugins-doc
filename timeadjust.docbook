@@ -1,7 +1,7 @@
 <chapter id="timeadjust">
 <chapterinfo>
 
-<title>Time Ajust</title>
+<title>Time Adjust</title>
 
 <authorgroup>
     <author>
@@ -25,7 +25,7 @@ The Kipi Time Adjust plugin is a tool for adjusting image files timestamp.
 <title>Introduction</title>
 
 <para>
-The Kipi plugin <quote>Time Ajust</quote> currently has no
+The Kipi plugin <quote>Time Adjust</quote> currently has no
 documentation. If you are interested in rectifying that situation,
 please contact Kipi team mailing list <email>kde-imaging@kde.org</email>.
 </para>
