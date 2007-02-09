@@ -3,7 +3,6 @@
  <!ENTITY kappname "&kipi;">
  <!ENTITY % English "INCLUDE" > <!-- change language only here -->
  <!ENTITY doc-acquireimages SYSTEM "acquireimages.docbook">
- <!ENTITY doc-borderimages SYSTEM "borderimages.docbook">
  <!ENTITY doc-calendar SYSTEM "calendar.docbook">
  <!ENTITY doc-cdarchiving SYSTEM "cdarchiving.docbook">
  <!ENTITY doc-colorimages SYSTEM "colorimages.docbook">
@@ -13,9 +12,11 @@
  <!ENTITY doc-findduplicateimages SYSTEM "findduplicateimages.docbook">
  <!ENTITY doc-flickrexport SYSTEM "flickrexport.docbook">
  <!ENTITY doc-galleryexport SYSTEM "galleryexport.docbook">
+ <!ENTITY doc-geolocalization SYSTEM "geolocalization.docbook">
  <!ENTITY doc-imagesgallery SYSTEM "imagesgallery.docbook">
  <!ENTITY doc-jpeglossless SYSTEM "jpeglossless.docbook">
  <!ENTITY doc-kameraklient SYSTEM "kameraklient.docbook">
+ <!ENTITY doc-metadataeditor SYSTEM "metadataeditor.docbook">
  <!ENTITY doc-mpegencoder SYSTEM "mpegencoder.docbook">
  <!ENTITY doc-printwizard SYSTEM "printwizard.docbook">
  <!ENTITY doc-rawconverter SYSTEM "rawconverter.docbook">
@@ -46,11 +47,11 @@
 
 <!-- TRANS:ROLES_OF_TRANSLATORS -->
 
-<date>2005-xx-xx</date>
-<releaseinfo>0.1.0</releaseinfo> <!-- Used Kicker version here -->
+<date>2007-02-09</date>
+<releaseinfo>0.1.3</releaseinfo> <!-- Used Kicker version here -->
 
 <copyright>
-<year>2004-2005</year>
+<year>2004-2007</year>
 <holder>The Kipi developers team</holder>
 </copyright>
 
@@ -74,7 +75,7 @@ This is the handbook for the plugins of Kipi, the &kde;'s Images Plugins Interfa
 <title>Introduction to Kipi Plugins</title>
 
 <para>
-One of the nicest things about KDE Photo Management Programs like "digiKam", "Kimdaba", "GWenView" and "ShowImg" is how easily its functionality can be extended, by using plugins. Plugins can manipulate image files in almost any way that users can. Their advantage is that it is much easier to add a capability to the host application by writing a small plugin than by modifying the host application core. Many valuable plugins have C++ source code that only comes to 100-200 lines or so.
+One of the nicest things about KDE Photo Management Programs like "digiKam", "KPhotoAlbum", "GWenView" and "ShowImg" is how easily its functionality can be extended, by using plugins. Plugins can manipulate image files in almost any way that users can. Their advantage is that it is much easier to add a capability to the host application by writing a small plugin than by modifying the host application core. Many valuable plugins have C++ source code that only comes to 100-200 lines or so.
 </para>
 
 <para>
@@ -92,9 +93,6 @@ The plugins installed in this handbook are:
 <itemizedlist>
 <listitem>
 <para><link linkend="acquireimages">Acquire Images plugin</link></para>
-</listitem>
-<listitem>
-<para><link linkend="borderimages">Border Images plugin</link></para>
 </listitem>
 <listitem>
 <para><link linkend="calendar">Calendar plugin</link></para>
@@ -124,6 +122,9 @@ The plugins installed in this handbook are:
 <para><link linkend="galleryexport">Remote Gallery Export plugin</link></para>
 </listitem>
 <listitem>
+<para><link linkend="geolocalization">Geolocalization plugin</link></para>
+</listitem>
+<listitem>
 <para><link linkend="imagesgallery">Images Gallery plugin</link></para>
 </listitem>
 <listitem>
@@ -134,6 +135,9 @@ The plugins installed in this handbook are:
 </listitem>
 <listitem>
 <para><link linkend="mpegencoder">MPEG Encoder plugin</link></para>
+</listitem>
+<listitem>
+<para><link linkend="metadataeditor">Metadata Editor plugin</link></para>
 </listitem>
 <listitem>
 <para><link linkend="printwizard">Print Wizard plugin</link></para>
@@ -166,7 +170,6 @@ The plugins installed in this handbook are:
 </chapter>
 
 &doc-acquireimages;
-&doc-borderimages;
 &doc-calendar;
 &doc-cdarchiving;
 &doc-colorimages;
@@ -176,10 +179,12 @@ The plugins installed in this handbook are:
 &doc-findduplicateimages;
 &doc-flickrexport;
 &doc-galleryexport;
+&doc-geolocalization;
 &doc-imagesgallery;
 &doc-jpeglossless;
 &doc-kameraklient;
 &doc-mpegencoder;
+&doc-metadataeditor;
 &doc-printwizard;
 &doc-rawconverter;
 &doc-recompressimages;
@@ -198,7 +203,7 @@ Copyrights for each plugin is listed in the applicable chapter.
 </para>
 
 <para>
-All Pictures copyrighted 2004-2005 by Gilles Caulier <email>caulier_dot_gilles_at_free.fr</email> and Gerhard Kulzer <email>gerhard_at_kulzer.net</email>.
+All Pictures copyrighted 2004-2007 by Gilles Caulier <email>caulier_dot_gilles_at_free.fr</email> and Gerhard Kulzer <email>gerhard_at_kulzer.net</email>.
 </para>
 
 &underFDL;

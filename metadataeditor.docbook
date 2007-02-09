@@ -1,0 +1,42 @@
+<chapter id="geolocalization">
+<chapterinfo>
+
+<title>Metadata Editor</title>
+
+<authorgroup>
+    <author>
+        <firstname>Gerhard</firstname><surname>Kulzer</surname>
+        <affiliation><address><email>gerhard at kulzer dot net</email></address></affiliation>
+    </author>
+</authorgroup>
+
+<abstract>
+<para>
+The Kipi Metadata editor plugin is a tool for adding and editing GPS coordinates of the photo metadata.
+</para>
+</abstract>
+
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>Kipi</keyword>
+</keywordset>
+</chapterinfo>
+
+<title>Introduction</title>
+
+<para>
+The Kipi plugin <quote>Metadata Editor</quote> currently has no
+documentation.  If you are interested in rectifying that situation,
+please contact Kipi team mailing list <email>kde-imaging@kde.org</email>.
+</para>
+
+</chapter>
+
+<!--
+Local Variables:
+mode: sgml
+sgml-omittag: nil
+sgml-shorttag: t
+End:
+-->
+
