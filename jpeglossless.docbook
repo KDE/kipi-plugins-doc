@@ -25,7 +25,7 @@ The Kipi JPEG lossless plugin is a tool to transform the images without loss in 
 <title>Introduction</title>
 
 <para>
-This plugin is available from within the host application. It allows to store images in JPEG format, which is usually set to a compression level that looses information (otherwise there's would be no size reduction) without losing any quality nor exif informations:
+This plugin is available from within the host application. It allows (for the below listed transformations) to save images in JPEG format, which usually looses precision every time you save it (otherwise there would not be no size reduction) without losing any quality nor metadata information:
 </para>
 
 <itemizedlist>
