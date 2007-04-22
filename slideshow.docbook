@@ -1,7 +1,7 @@
 <chapter id="slideshow">
 <chapterinfo>
 
-<title>Slide Show</title>
+<title>The Advanced Slide Show</title>
 
 <authorgroup>
     <author>
@@ -17,7 +17,7 @@
 
 <abstract>
 <para>
-The Kipi <quote>Slide Show</quote> plugin creates a full screen slideshow of your images.
+The Kipi <quote>Advanced Slide Show</quote> plugin creates a configurable full screen slideshow of your images.
 </para>
 </abstract>
 
@@ -30,26 +30,22 @@ The Kipi <quote>Slide Show</quote> plugin creates a full screen slideshow of you
 <title>Introduction</title>
 
 <para>
-With this Kipi-plugin you create a perfect slideshow with 3 mouse clicks.
+With this Kipi-plugin you create a perfect slide show with 3 mouse clicks.
 </para>
 
 <sect1 id="using-plugin-slideshowsettings">
 <title>The Settings Dialog</title>
 
 <para>
-Upon opening of the plugin from the host application the <emphasis>Slide Show</emphasis> window will appear asking 
-questions as to how you want to stage your slideshow. You can choose between the selected images and all images in 
-the same album.
+Upon opening of the plugin from the host application the <emphasis>Advanced Slide Show</emphasis> window will appear asking questions as to how you want to stage your slideshow. You can choose between the selected images and all images in the same album.
 </para>
 
 <para>
-The <guilabel>Use OpenGL Slideshow Transitions</guilabel> checkbox enables very smooth image transitions using the 
-OpenGL display mode. Be sure to have OpenGL enabled on your graphics card, since otherwise the slideshow will be 
-very slow.
+The <guilabel>Use OpenGL Slideshow Transitions</guilabel> checkbox enables very smooth image transitions using the OpenGL display mode. Be sure to have OpenGL enabled on your graphics card, since otherwise the slideshow will be very slow.
 </para>
 
 <para>
-The <guilabel>Print Filename</guilabel> checkbox enables the image filename to be displayed in the lower left corner. 
+The <guilabel>Print Filename</guilabel> checkbox enables the image filename to be displayed in the lower left corner.
 </para>
 
 <para>
@@ -81,22 +77,19 @@ The <emphasis>Random</emphasis> selection will change the transition effect with
 <title>Slide Show in Action</title>
 
 <para>
-During slideshow, user can access to a tool bar on the upper left screen corner. Move the mouse cursor to the top left 
-of the screen for enable it.
+During slideshow, user can access to a tool bar on the upper left screen corner. Move the mouse cursor to the top left of the screen for enable it.
 </para>
 
 <para>
-With this tool bar, user can drive the progress, for pausing/playing slidesow, back to the preview image, go to 
-the next image, and stoping slideshow.
+With this tool bar, user can drive the progress, for pausing/playing slidesow, back to the preview image, go to the next image, and stoping slideshow.
 </para>
 
 <para>
-On the lower left screen corner you can see the current image file name, the current image id on the slideshow, and 
-the total number of images include in.
+On the lower left screen corner you can see the current image file name, the current image id on the slideshow, and the total number of images include in.
 </para>
 
 <figure>
-    <title>The Slideshow Plugin in Action</title>
+    <title>The Advanced Slideshow Plugin in Action</title>
     <graphic srccredit="The Slideshow Plugin in Action" fileref="slideshow.png"/>
 </figure>
 
