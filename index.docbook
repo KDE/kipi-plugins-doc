@@ -14,6 +14,7 @@
  <!ENTITY doc-galleryexport SYSTEM "galleryexport.docbook">
  <!ENTITY doc-geolocalization SYSTEM "geolocalization.docbook">
  <!ENTITY doc-imagesgallery SYSTEM "imagesgallery.docbook">
+ <!ENTITY doc-imageviewer SYSTEM "imageviewer.docbook">
  <!ENTITY doc-jpeglossless SYSTEM "jpeglossless.docbook">
  <!ENTITY doc-kameraklient SYSTEM "kameraklient.docbook">
  <!ENTITY doc-metadataeditor SYSTEM "metadataeditor.docbook">
@@ -128,6 +129,9 @@ The plugins installed in this handbook are:
 <para><link linkend="imagesgallery">Images Gallery plugin</link></para>
 </listitem>
 <listitem>
+<para><link linkend="imageviewer">OpenGL Imageviewer plugin</link></para>
+</listitem>
+<listitem>
 <para><link linkend="jpeglossless">JPEG Loss Less plugin</link></para>
 </listitem>
 <listitem>
@@ -181,6 +185,7 @@ The plugins installed in this handbook are:
 &doc-galleryexport;
 &doc-geolocalization;
 &doc-imagesgallery;
+&doc-imageviewer;
 &doc-jpeglossless;
 &doc-kameraklient;
 &doc-mpegencoder;

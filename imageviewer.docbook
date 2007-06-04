@@ -1,0 +1,198 @@
+<chapter id="imageviewer">
+<chapterinfo>
+
+<title>OpenGL Imageviewer</title>
+
+<authorgroup>
+    <author>
+        <firstname>Markus</firstname><surname>Leuthold</surname>
+        <affiliation><address><email>kusi _AT forum dot titlis _dot org</email></address></affiliation>
+    </author>
+</authorgroup>
+
+<abstract>
+<para>
+The Kipi imageviewer is a very fast and flexible tool for viewing images, based on OpenGL
+</para>
+</abstract>
+
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>Kipi</keyword>
+</keywordset>
+</chapterinfo>
+
+<title>Introduction</title>
+
+<para>
+The KIPI imageviewer allows to display a selection of images and to do basic operations, such as rotation, zooming or panning. The usage of the viewer is only based on keyboard shortcuts and mouse gestures. It was placed emphasis mainly on speed in displaying as well as fast access to the functions.
+</para>
+
+
+<variablelist><title>Image Access</title>
+<varlistentry><term>Next Image</term>
+<listitem>
+<para>
+<itemizedlist>
+<listitem><para>Scrollwheel Down</para></listitem>
+<listitem><para>Down/Right Arrow</para></listitem>
+<listitem><para>Space</para></listitem>
+<listitem><para>Key N</para></listitem>
+<listitem><para>PgDown</para></listitem>
+</itemizedlist>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry><term>Previous Image</term>
+<listitem>
+<para>
+<itemizedlist>
+<listitem><para>Scrollwheel Up</para></listitem>
+<listitem><para>Up/Left Arrow</para></listitem>
+<listitem><para>Key P</para></listitem>
+<listitem><para>PgUp</para></listitem>
+</itemizedlist>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry><term>Quit</term>
+<listitem>
+<para>
+<itemizedlist>
+<listitem><para>Esc</para></listitem>
+</itemizedlist>
+</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+<variablelist>
+	<title>Display</title>
+	<varlistentry>
+		<term>Toggle fullscreen/normal</term>
+		<listitem>
+			<para>
+				On startup, an image is displayed in fullscreen mode by default. It can be changed to windowed mode
+			</para>
+			<para>
+				<itemizedlist>
+					<listitem>
+						<para>Key F</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</listitem>
+	</varlistentry>
+
+	<varlistentry>
+		<term>Toggle scrollwheel action</term>
+		<listitem>
+			<para>
+			Turning the scrollwheel either proceeds to the next image or zooms into the image
+			</para>
+			<para>
+			<itemizedlist>
+				<listitem>
+					<para>Key C</para>
+				</listitem>
+			</itemizedlist>
+			</para>
+		</listitem>
+	</varlistentry>
+	
+
+	<varlistentry>
+		<term>Rotation</term>
+		<listitem>
+			<para>
+			The rotation is only temporary and not saved to the file
+			</para>
+			<para>
+			<itemizedlist>
+				<listitem>
+					<para>Key R</para>
+				</listitem>
+			</itemizedlist>
+			</para>
+		</listitem>
+	</varlistentry>	
+	
+	
+	<varlistentry>
+		<term>Reset view</term>
+		<listitem>
+			<para>
+				<itemizedlist>
+					<listitem>
+						<para>double click</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</listitem>
+	</varlistentry>
+	
+
+	<varlistentry>
+		<term>Original size</term>
+		<listitem>
+			<para>
+			Each pixel of the image corresponds to a pixel of the screen
+			</para>
+			<para>
+			<itemizedlist>
+				<listitem>
+					<para>Key O</para>
+				</listitem>
+			</itemizedlist>
+			</para>
+		</listitem>
+	</varlistentry>	
+</variablelist>
+
+<variablelist>
+	<title>Zooming</title>
+	<varlistentry>
+		<term></term>
+		<listitem>
+			<itemizedlist>
+				<listitem>
+					<para>move mouse up/down while pressing the right mouse button</para>
+				</listitem>
+				<listitem>
+					<para>scrollwheel (in case you toggled the scrollwheel action)</para>
+				</listitem>
+				<listitem>
+					<para>plus/minus</para>
+				</listitem>
+				<listitem>
+					<para>Ctrl + scrollwheel</para>
+				</listitem>
+			</itemizedlist>
+		</listitem>	
+	</varlistentry>
+</variablelist>	
+
+<variablelist>
+	<title>Panning</title>
+	<varlistentry>
+		<term></term>
+		<listitem>
+			<itemizedlist>
+				<listitem>
+					<para>move mouse while pressing the left mouse button</para>
+				</listitem>
+			</itemizedlist>
+		</listitem>	
+	</varlistentry>
+</variablelist>	
+</chapter>
+<!--
+Local Variables:
+mode: sgml
+sgml-omittag: nil
+sgml-shorttag: t
+End:
+-->
+
