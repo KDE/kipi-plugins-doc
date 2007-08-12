@@ -28,7 +28,7 @@ The Kipi Geolocalization plugin allows for adding and editing GPS coordinates of
   The Kipi plugin <quote>Geolocalization</quote> provides the tools to localize pictures geographically in the common spherical coordinate system (used by GPS/Galileo). Altitude, latitude and longitude are being used.
 </para>
 <note><para>
-   The plugin only works for image formats that have EXIF support by libkexiv2
+   The plugin only works for image formats that have EXIF support by <ulink url="http://www.exiv2.org">libkexiv2</ulink>
 </para></note>
 
 <sect1 id="geolocalization-title">  <title>Geolocalization</title>
