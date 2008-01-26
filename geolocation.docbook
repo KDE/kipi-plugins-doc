@@ -1,7 +1,7 @@
-<chapter id="geolocalization">
+<chapter id="geolocation">
 <chapterinfo>
 
-<title>Geolocalization Editor</title>
+<title>Geolocation Editor</title>
 
 <authorgroup>
     <author>
@@ -12,7 +12,7 @@
 
 <abstract>
 <para>
-The Kipi Geolocalization plugin allows for adding and editing GPS coordinates of picture metadata. The geo-data is stored into the image (EXIF tags) and the location can be displayed in an external browser map.
+The Kipi Geolocation plugin allows for adding and editing GPS coordinates of picture metadata. The geo-data is stored into the image (EXIF tags) and the location can be displayed in an external browser map.
 </para>
 </abstract>
 
@@ -25,13 +25,13 @@ The Kipi Geolocalization plugin allows for adding and editing GPS coordinates of
 <title>Introduction</title>
 
 <para>
-  The Kipi plugin <quote>Geolocalization</quote> provides the tools to localize pictures geographically in the common spherical coordinate system (used by GPS/Galileo). Altitude, latitude and longitude are being used.
+  The Kipi plugin <quote>Geolocation</quote> provides the tools to localize pictures geographically in the common spherical coordinate system (used by GPS/Galileo). Altitude, latitude and longitude are being used.
 </para>
 <note><para>
    The plugin only works for image formats that have EXIF support by <ulink url="http://www.exiv2.org">libkexiv2</ulink>
 </para></note>
 
-<sect1 id="geolocalization-title">  <title>Geolocalization</title>
+<sect1 id="geolocation-title">  <title>Geolocation</title>
 <para>
 The plugin has two methods to mark the pictures with coordinates:
 </para>
@@ -46,18 +46,18 @@ The plugin has two methods to mark the pictures with coordinates:
     </listitem>
 </itemizedlist>
 
-<sect2 id="geolocalization-correlator">       <title>The correlator</title>
+<sect2 id="geolocation-correlator">       <title>The correlator</title>
         <para>In order to correlate your images with geo data you need to have a GPS track available as a XML file in gpx format (<ulink url="http://www.gpsbabel.org">gpsbabel</ulink> and <ulink url="http://www.ncc.up.pt/gpsman/">gpsman</ulink> can do the download and conversion of track data from a GPS device for you).
         </para>
         <para>
         <menuchoice><guimenu>Image</guimenu>
-          <guimenuitem>Geolocalization</guimenuitem>
+          <guimenuitem>Geolocation</guimenuitem>
           <guimenuitem>Correlator</guimenuitem></menuchoice>. 
              This interface can correlate a previously selected number of pictures with a registered GPS track.
         </para>
             <example>
                <title>The geo-correlation dialog based on EXIF date/time and track data (gpx format)</title>
-                   <screenshot><mediaobject><imageobject><imagedata fileref="geolocalizationcorrelate.png" format="PNG" /> </imageobject></mediaobject></screenshot>
+                   <screenshot><mediaobject><imageobject><imagedata fileref="geolocationcorrelate.png" format="PNG" /> </imageobject></mediaobject></screenshot>
            </example>
            <para>
              Select the images you want to correlate in the application main view, then call the menu. The above dialog will show up. To indicate possible time/location correlation you have to load a track file with <guilabel>Load GPX File</guilabel> that contains of course GPS data taken at the same time and location as the pictures with your photo camera.
@@ -76,7 +76,7 @@ The plugin has two methods to mark the pictures with coordinates:
            </para>
             <example>
                <title>Correlation</title>
-                   <screenshot><mediaobject><imageobject><imagedata fileref="geolocalizationcorrelate1.png" format="PNG" /> </imageobject></mediaobject></screenshot>
+                   <screenshot><mediaobject><imageobject><imagedata fileref="geolocationcorrelate1.png" format="PNG" /> </imageobject></mediaobject></screenshot>
            </example>
            <para>
              240 minutes is the maximum time difference that can be introduced here.
@@ -84,10 +84,10 @@ The plugin has two methods to mark the pictures with coordinates:
 
 </sect2> 
 
-<sect2 id="geolocalization-edit-coordinates">       <title>Edit Coordinates</title>
+<sect2 id="geolocation-edit-coordinates">       <title>Edit Coordinates</title>
             <example>
                <title>Semi-automatic attributing of coordinates through map interaction</title>
-                   <screenshot><mediaobject><imageobject><imagedata fileref="geolocalizationeditcoords.png" format="PNG" /> </imageobject></mediaobject></screenshot>
+                   <screenshot><mediaobject><imageobject><imagedata fileref="geolocationeditcoords.png" format="PNG" /> </imageobject></mediaobject></screenshot>
            </example>
            <para>
               The coordinates can be set manually with this dialog. This comes handy if there is a series of photos taken at the same location. Since the coordinates are memorized from one dialog call to another, it is as easy as clicking onto <guilabel>OK</guilabel> to set the previous data to the current photo.
@@ -97,7 +97,7 @@ The plugin has two methods to mark the pictures with coordinates:
            </para>
 </sect2>
 
-<sect2 id="geolocalization-manual"> <title>Commandline tagging</title>
+<sect2 id="geolocation-manual"> <title>Commandline tagging</title>
   <para>
     Completely outside of the kipi-plugin context, the are ways to GPS tag images. Here a litel script is given that uses the exiftool to tag a batch of images.
   </para>
