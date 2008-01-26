@@ -12,7 +12,7 @@
  <!ENTITY doc-findduplicateimages SYSTEM "findduplicateimages.docbook">
  <!ENTITY doc-flickrexport SYSTEM "flickrexport.docbook">
  <!ENTITY doc-galleryexport SYSTEM "galleryexport.docbook">
- <!ENTITY doc-geolocalization SYSTEM "geolocalization.docbook">
+ <!ENTITY doc-geolocation SYSTEM "geolocation.docbook">
  <!ENTITY doc-imagesgallery SYSTEM "imagesgallery.docbook">
  <!ENTITY doc-imageviewer SYSTEM "imageviewer.docbook">
  <!ENTITY doc-jpeglossless SYSTEM "jpeglossless.docbook">
@@ -123,7 +123,7 @@ The plugins installed in this handbook are:
 <para><link linkend="galleryexport">Remote Gallery Export plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="geolocalization">Geolocalization plugin</link></para>
+<para><link linkend="geolocation">Geolocation plugin</link></para>
 </listitem>
 <listitem>
 <para><link linkend="imagesgallery">Images Gallery plugin</link></para>
@@ -183,7 +183,7 @@ The plugins installed in this handbook are:
 &doc-findduplicateimages;
 &doc-flickrexport;
 &doc-galleryexport;
-&doc-geolocalization;
+&doc-geolocation;
 &doc-imagesgallery;
 &doc-imageviewer;
 &doc-jpeglossless;
