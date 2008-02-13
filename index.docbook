@@ -39,7 +39,7 @@
         <firstname>Gilles</firstname><surname>Caulier</surname>
         <affiliation><address><email>caulier_dot_gilles_at_free.fr</email></address></affiliation>
     </author>
-    
+
     <author>
         <firstname>Gerhard</firstname><surname>Kulzer</surname>
         <affiliation><address><email>gerhard_at_kulzer.net</email></address></affiliation>
@@ -48,11 +48,11 @@
 
 <!-- TRANS:ROLES_OF_TRANSLATORS -->
 
-<date>2007-02-09</date>
+<date>2008-02-13</date>
 <releaseinfo>0.1.3</releaseinfo> <!-- Used Kicker version here -->
 
 <copyright>
-<year>2004-2007</year>
+<year>2004-2008</year>
 <holder>The Kipi developers team</holder>
 </copyright>
 
@@ -76,7 +76,7 @@ This is the handbook for the plugins of Kipi, the &kde;'s Images Plugins Interfa
 <title>Introduction to Kipi Plugins</title>
 
 <para>
-One of the nicest things about KDE Photo Management Programs like "digiKam", "KPhotoAlbum", "GWenView" and "ShowImg" is how easily its functionality can be extended, by using plugins. Plugins can manipulate image files in almost any way that users can. Their advantage is that it is much easier to add a capability to the host application by writing a small plugin than by modifying the host application core. Many valuable plugins have C++ source code that only comes to 100-200 lines or so.
+One of the nicest things about KDE photo management programs like "digiKam", "KPhotoAlbum", "GWenView" and "ShowImg" is how easily their functionality can be extended, by using plugins. The Kde Image Plugins Interface (KIPI) project can manipulate image files in almost any way that users can. Their advantage is that it is much easier to add a capability to the host application by writing a small plugin than by modifying the host application core. Many valuable plugins have C++ source code that only comes to 100-200 lines or so.
 </para>
 
 <para>
