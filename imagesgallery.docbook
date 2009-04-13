@@ -57,7 +57,7 @@ The <guilabel>Selection</guilabel> tab allows you to select all Albums you want 
 <title>Look Settings Dialog</title>
 
 <para>
-The <guilabel>Look</guilabel> tab defines the general look and layout of each page. This tab is largely self-explanatory. The <guilabel>Create pages for each image</guilabel> check box will create a gallery with a HTML page per image, that is, if you click onto an image a new page will open showing the image within the web browser. If you leave this box unchecked clicking the images will directly open them with the default image viewer, e.g. Kuickshow.
+The <guilabel>Look</guilabel> tab defines the general look and layout of each page. This tab is largely self-explanatory. The <guilabel>Create pages for each image</guilabel> check box will create a gallery with a HTML page per image, that is, if you click onto an image a new page will open showing the image within the web browser. If you leave this box unchecked clicking the images will directly open them with the default image viewer, &eg; Kuickshow.
 </para>
 
 <figure>
@@ -80,7 +80,7 @@ The next two check boxes allow you to set specific image compression features. I
 </para>
 
 <note><para>
-If JPEG file format is selected for target resizing images, all EXIF informations will be preserved from original JPEG files.
+If JPEG file format is selected for target resizing images, all EXIF information will be preserved from original JPEG files.
 </para></note>
 
 <para>
@@ -122,7 +122,7 @@ if you want abort the process.
 </figure>
 
 <para>
-When all jobs are completed, this dialog will not closed automaticly and user can consult the progress messages 
+When all jobs are completed, this dialog will not closed automatically and user can consult the progress messages 
 if any errors occurs durring this stage. The web browser will be started automaticly at end to display a gallery preview. Press <guilabel>Close</guilabel> button to close dialog.
 </para>
 

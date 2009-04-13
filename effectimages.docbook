@@ -33,7 +33,7 @@ This plugin can be used for batch FX transforming images in an Album.
 </para>
 
 <itemizedlist>
-<listitem><para><emphasis>Adaptative threshold</emphasis> : perform local adaptive thresholding.</para></listitem>
+<listitem><para><emphasis>Adaptive threshold</emphasis> : perform local adaptive thresholding.</para></listitem>
 <listitem><para><emphasis>Charcoal</emphasis> : simulate a charcoal drawing.</para></listitem>
 <listitem><para><emphasis>Detect edges</emphasis> : detect edges within an image.</para></listitem>
 <listitem><para><emphasis>Emboss</emphasis> : returns a grayscale image with a three-dimensional effect.</para></listitem>

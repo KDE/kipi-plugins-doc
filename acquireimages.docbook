@@ -92,7 +92,7 @@ A dialog window comes up providing you with various snapshot modes:
 </listitem>
 <listitem>
    <para>
-   When the <guilabel>Hide all host application windows</guilabel> item is selected the calling host application will dissappear to give way to the other screens/windows. Otherwise you'll - after the delay - shoot the screen/window actually visible (if you've deselected <guilabel>Grab the entire desktop</guilabel> the window under the mouse pointer will be shot).
+   When the <guilabel>Hide all host application windows</guilabel> item is selected the calling host application will disappear to give way to the other screens/windows. Otherwise you'll - after the delay - shoot the screen/window actually visible (if you've deselected <guilabel>Grab the entire desktop</guilabel> the window under the mouse pointer will be shot).
    </para>
 </listitem>
 </itemizedlist>

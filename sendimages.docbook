@@ -116,8 +116,8 @@ if you want abort the process.
 </para>
 
 <para>
-When all jobs are completed, this dialog will not closed automaticly and user can consult the progress messages 
-if any errors occurs durring this stage. The mail agent will be started automaticly at end. Press  <guilabel>Close</guilabel> button to close dialog.
+When all jobs are completed, this dialog will not closed automatically and user can consult the progress messages 
+if any errors occurs during this stage. The mail agent will be started automatically at end. Press  <guilabel>Close</guilabel> button to close dialog.
 </para>
 
 <figure>

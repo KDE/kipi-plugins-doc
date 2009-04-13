@@ -39,7 +39,7 @@ screen size. </para></listitem>
 The images aspect ratio aren't preserved.</para></listitem>
 <listitem><para><emphasis>Prepare to print</emphasis> : prepare the image for a photographic printing.
 The user can set the print resolution and the photographic paper size. The target image will be adapted
-to the good dimensions (included the background size, marging size, and background color).</para></listitem>
+to the good dimensions (included the background size, margin size, and background color).</para></listitem>
 </itemizedlist>
 
 </chapter>

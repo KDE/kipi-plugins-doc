@@ -42,7 +42,7 @@ The plugin has two methods to mark the pictures with coordinates:
     </listitem>
     <listitem>
         <para>
-        Semi-automatic coordinate attribtuin to single pictures. </para>
+        Semi-automatic coordinate attributing to single pictures. </para>
     </listitem>
 </itemizedlist>
 
@@ -99,7 +99,7 @@ The plugin has two methods to mark the pictures with coordinates:
 
 <sect2 id="geolocation-manual"> <title>Commandline tagging</title>
   <para>
-    Completely outside of the kipi-plugin context, the are ways to GPS tag images. Here a litel script is given that uses the exiftool to tag a batch of images.
+    Completely outside of the kipi-plugin context, the are ways to GPS tag images. Here a little script is given that uses the exiftool to tag a batch of images.
   </para>
 
 

@@ -38,7 +38,7 @@
   </para>
 
 <sect1 id="using-plugin-flickrexport"> 
-  <title>Plugin intialization on First access</title>
+  <title>Plugin initialization on first access</title>
   
   <para>
   On accessing the plugin for the first time the user is taken through the process of obtaining a token. Which is used for authentication purposes.
@@ -56,8 +56,8 @@
   </para>
   
   <figure>
-      <title>The Successfull Signup Flickr page</title>
-      <graphic srccredit="The Successfull Signup Flickr page" fileref="flickrexportauthenticated.png"/>
+      <title>The Successful Signup Flickr page</title>
+      <graphic srccredit="The Successful Signup Flickr page" fileref="flickrexportauthenticated.png"/>
   </figure>
   
   <para>
@@ -101,7 +101,7 @@
   
 
   <para>
-  The <guilabel>Tags</guilabel> field can be filled with a series of words (comma seperated) which will be assigned as tags to the images uploaded.
+  The <guilabel>Tags</guilabel> field can be filled with a series of words (comma separated) which will be assigned as tags to the images uploaded.
   </para>
   
   <para>

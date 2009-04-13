@@ -58,7 +58,7 @@ Then you can choose the display duration per image, it scales in seconds. The li
 
 <para>
 The next selector lets you free choose the preferred background color. In doubt leave it black.
-The 'MPEG Output Filename' box specifies the outout filename and its path (location). Leave the mpg ending but change the path and filename as you wish.
+The 'MPEG Output Filename' box specifies the output filename and its path (location). Leave the mpg ending but change the path and filename as you wish.
 </para>
 
 <para>

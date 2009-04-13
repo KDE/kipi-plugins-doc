@@ -26,7 +26,7 @@ The Kipi Convert Images plugin is a tool to convert an image file format to anot
 
 <para>
 
-This plugin can be used for batch convertion of images in an Album.
+This plugin can be used for batch conversion of images in an Album.
 It uses the "convert" program from "ImageMagick" package. The supported image file formats are the following:
 </para>
 

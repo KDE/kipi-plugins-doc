@@ -27,9 +27,9 @@ The Kipi Color Images plugin is a tool to change or improve the images' color re
 <para>
 
 This plugin can be used for batch colors enhancement of images in an Album.
- It uses the "convert" program from the "ImageMagick" package. An plugin effect
+ It uses the "convert" program from the "ImageMagick" package. A plugin effect
  preview (partial or full) is available.
- 10 color filter types are availables:
+ 10 color filter types are available:
 
 </para>
 
