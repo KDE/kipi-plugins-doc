@@ -50,7 +50,7 @@ The <guilabel>Print Filename</guilabel> checkbox enables the image filename to b
 
 <para>
 The <guilabel>Loop</guilabel> checkbox enabled will run the whole show in an endless loop (until manually stopped with 
-<keycombo><keycap>Esc</keycap></keycombo>). 
+<keycombo>&Esc;</keycombo>). 
 </para>
 
 <para>
