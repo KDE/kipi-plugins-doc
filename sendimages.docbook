@@ -62,7 +62,7 @@ Be sure not to overload your own or your addresses e-mail transmission limit, mo
 size to some megabytes of data. Use several e-mails if you want to send a lot of data.
 </para></warning>
 
-<figure>
+<figure id="sendimages-image-selection-dialog">
     <title>The Image Selection Dialog</title>
     <graphic srccredit="The Image Selection Dialog" fileref="sendimages_imageselection.png"/>
 </figure>
@@ -100,7 +100,7 @@ The <guilabel>PNG</guilabel> format on <guilabel>New Images Format</guilabel> dr
 If you choose <guilabel>JPEG</guilabel> as <guilabel>New Images Format</guilabel> and if the original files were in <guilabel>JPEG</guilabel> format, then the original Exif data included is preserved in e-mailed images.
 </para></note>
 
-<figure>
+<figure id="sendimages-mail-dialog">
     <title>The Mail Dialog</title>
     <graphic srccredit="The Mail Dialog" fileref="sendimages_mail.png"/>
 </figure>
@@ -120,7 +120,7 @@ When all jobs are completed, this dialog will not closed automatically and user 
 if any errors occurs during this stage. The mail agent will be started automatically at end. Press  <guilabel>Close</guilabel> button to close dialog.
 </para>
 
-<figure>
+<figure id="sendimages-email-images-plugin">
     <title>The E-mail Images Plugin in Action</title>
     <graphic srccredit="The E-mail Images Plugin in Action" fileref="sendimages_progress.png"/>
 </figure>

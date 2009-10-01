@@ -30,7 +30,7 @@
  <!ENTITY doc-wallpaper SYSTEM "wallpaper.docbook">
 ]>
 
-<book lang="&language;">
+<book lang="&language;" id="kipi-handbook">
 <bookinfo>
 <title>The Kipi Plugins Handbook</title>
 
@@ -56,7 +56,7 @@
 <holder>The Kipi developers team</holder>
 </copyright>
 
-<legalnotice>&FDLNotice;</legalnotice>
+<legalnotice id="legalnotice">&FDLNotice;</legalnotice>
 
 <abstract>
 <para>

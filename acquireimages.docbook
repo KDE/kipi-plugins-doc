@@ -69,7 +69,7 @@ Make sure that the dialog is fully visible since some settings might be hidden i
 Press the scan button and wait until the scanning is finished and the <guilabel>Save Target Option</guilabel> dialog appears. Here you can alter the compression quality and the image file type (be aware that the BMP type is not compressed and creates large files). The second item in that dialog let you choose (or create) the folder the image will be saved to.
 </para>
 
-<figure>
+<figure id="acquireimages-save-target-dialog">
     <title>The Save Target Dialog in Action</title>
     <graphic srccredit="The Save Target Dialog in Action" fileref="acquire-savetargetpreview.png"/>
 </figure>
@@ -101,7 +101,7 @@ A dialog window comes up providing you with various snapshot modes:
 The delay control determines how long Screenshot will wait until the exposure is happening. If you need to navigate to some other screens set the delay high enough to give you the time for navigation.
 </para>
 
-<figure>
+<figure id="acquireimages-screenshot-dialog">
     <title>The Screenshot Dialog in Action</title>
     <graphic srccredit="The Screenshot Dialog in Action" fileref="acquire-screenshotpreview.png"/>
 </figure>

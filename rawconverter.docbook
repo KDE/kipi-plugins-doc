@@ -80,7 +80,7 @@ If you choose <guilabel>JPEG</guilabel> as <guilabel>Save Format</guilabel> then
 When you have finished click the <guilabel>Process</guilabel> button to start the conversion. If you want abort  image conversion, press <guilabel>Abort</guilabel> button.
 </para>
 
-<figure>
+<figure id="rawconverter-dialog-single">
     <title>The RAW Converter Dialog in Single Mode</title>
     <graphic srccredit="The RAW Converter Dialog in Single Mode" fileref="raw_converter_single.png"/>
 </figure>
@@ -98,7 +98,7 @@ The batch mode converter allows you to convert several images in one go. Use thi
 The available setting are mostly identical to the single mode dialog. Here you have the additional option to overwrite existing files (which you might have created in an earlier try). The preview option is not available here. A progress bar indicate the conversion status in live.
 </para>
 
-<figure>
+<figure id="rawconverter-batch-dialog">
     <title>The Batch RAW Converter Dialog</title>
     <graphic srccredit="The Batch RAW Converter Dialog" fileref="raw_converter_batch.png"/>
 </figure>

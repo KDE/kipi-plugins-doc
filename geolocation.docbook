@@ -55,7 +55,7 @@ The plugin has two methods to mark the pictures with coordinates:
           <guimenuitem>Correlator</guimenuitem></menuchoice>. 
              This interface can correlate a previously selected number of pictures with a registered GPS track.
         </para>
-            <example>
+            <example id="geolocation-geo-correlation-dialog">
                <title>The geo-correlation dialog based on EXIF date/time and track data (gpx format)</title>
                    <screenshot><mediaobject><imageobject><imagedata fileref="geolocationcorrelate.png" format="PNG" /> </imageobject></mediaobject></screenshot>
            </example>
@@ -74,7 +74,7 @@ The plugin has two methods to mark the pictures with coordinates:
            <para>
              The option <guilabel>Interpolate</guilabel> and <guilabel>Difference in min.</guilabel> can be used if there is no match of data. If you know that in reality there is a location match despite a larger time gap between camera and GPS, you can set this limit here and click on the <guilabel>Correlate</guilabel> button to interpolate.
            </para>
-            <example>
+            <example id="geolocation-correlation">
                <title>Correlation</title>
                    <screenshot><mediaobject><imageobject><imagedata fileref="geolocationcorrelate1.png" format="PNG" /> </imageobject></mediaobject></screenshot>
            </example>
@@ -85,7 +85,7 @@ The plugin has two methods to mark the pictures with coordinates:
 </sect2> 
 
 <sect2 id="geolocation-edit-coordinates">       <title>Edit Coordinates</title>
-            <example>
+            <example id="geolocation-semi-automatic-attributing">
                <title>Semi-automatic attributing of coordinates through map interaction</title>
                    <screenshot><mediaobject><imageobject><imagedata fileref="geolocationeditcoords.png" format="PNG" /> </imageobject></mediaobject></screenshot>
            </example>

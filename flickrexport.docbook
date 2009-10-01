@@ -45,7 +45,7 @@
   Following dialog will popup and a browser window will be launched where user will signup in to <ulink url="http://www.flickr.com">Flickr</ulink>.
   </para>
   
-  <figure>
+  <figure id="flickrexport-first-signup-dialog">
       <title>The First Sign Up Dialog Preview</title>
       <graphic srccredit="The First Sign Up Dialog Preview" fileref="flickrexportsignup.png"/>
   </figure>
@@ -55,7 +55,7 @@
   successful signup.
   </para>
   
-  <figure>
+  <figure id="flickrexport-successful-signup">
       <title>The Successful Signup Flickr page</title>
       <graphic srccredit="The Successful Signup Flickr page" fileref="flickrexportauthenticated.png"/>
   </figure>
@@ -73,7 +73,7 @@
   <para>
    When the flickrexport plugin is invoked for second time or later the user is greeted with the following dialog, which shows the current access permissions flickrexport plugin has. The uploading process requires "write" permissions. The plugin doesn't allow any other permission as of now. User is asked if he wants to proceed with his current permissions.
     </para>
-     <figure>
+     <figure id="flickrexport-current-permissions-dialog">
       <title>Current Permissions Dialog preview</title>
       <graphic srccredit="The " fileref="flickrexportcontinue.png"/>
   </figure>
@@ -90,7 +90,7 @@
   </para>
   
   	
-  <figure>
+  <figure id="flickrexport-main-uploading-dialog">
       <title>The Main Uploading Dialog Preview</title>
       <graphic srccredit="The Main Uploading Dialog Preview" fileref="flickrexportuploaddialog.png"/>
   </figure>
@@ -116,7 +116,7 @@
   The <guilabel>Maximum Dimension</guilabel> combobox can be used to adjust the maximum height to which the photos will be resized before uploading. The width calculation will be done so as to have the aspect ratio conserved.
   </para>
   
- <figure>
+ <figure id="flickrexport-uploading-progress-dialog">
       <title>The Uploading Progress Dialog Preview</title>
       <graphic srccredit="The Uploading Progress Dialog Preview" fileref="flickrexportuploading.png"/>
   </figure>

@@ -66,7 +66,7 @@ There are more than a dozen <guilabel>Transition Effects</guilabel> available wh
 The <emphasis>Random</emphasis> selection will change the transition effect with every image.
 </para>
 
-<figure>
+<figure id="slideshow-dialog">
     <title>The Slideshow Dialog</title>
     <graphic srccredit="The Slideshow Dialog" fileref="slideshow_dialog.png"/>
 </figure>
@@ -88,7 +88,7 @@ With this tool bar, user can drive the progress, for pausing/playing slideshow, 
 On the lower left screen corner you can see the current image file name, the current image id on the slideshow, and the total number of images include in.
 </para>
 
-<figure>
+<figure id="slideshow-advanced-plugin">
     <title>The Advanced Slideshow Plugin in Action</title>
     <graphic srccredit="The Slideshow Plugin in Action" fileref="slideshow.png"/>
 </figure>
