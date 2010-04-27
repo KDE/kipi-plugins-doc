@@ -73,7 +73,9 @@ If the plugin complains about encoders or tools missing you can set the path to 
 
 <figure id="mpegencoder-encoder-dialog">
     <title>The MPEG Encoder Dialog Preview</title>
-    <graphic srccredit="The MPEG Encoder Dialog Preview" fileref="mpeg_encode_dialog.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The MPEG Encoder Dialog Preview" fileref="mpeg_encode_dialog.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 <para>

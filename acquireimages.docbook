@@ -71,7 +71,9 @@ Press the scan button and wait until the scanning is finished and the <guilabel>
 
 <figure id="acquireimages-save-target-dialog">
     <title>The Save Target Dialog in Action</title>
-    <graphic srccredit="The Save Target Dialog in Action" fileref="acquire-savetargetpreview.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The Save Target Dialog in Action" fileref="acquire-savetargetpreview.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 </sect1>
@@ -103,7 +105,9 @@ The delay control determines how long Screenshot will wait until the exposure is
 
 <figure id="acquireimages-screenshot-dialog">
     <title>The Screenshot Dialog in Action</title>
-    <graphic srccredit="The Screenshot Dialog in Action" fileref="acquire-screenshotpreview.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The Screenshot Dialog in Action" fileref="acquire-screenshotpreview.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 <para>

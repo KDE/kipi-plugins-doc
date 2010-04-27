@@ -82,7 +82,9 @@ When you have finished click the <guilabel>Process</guilabel> button to start th
 
 <figure id="rawconverter-dialog-single">
     <title>The RAW Converter Dialog in Single Mode</title>
-    <graphic srccredit="The RAW Converter Dialog in Single Mode" fileref="raw_converter_single.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The RAW Converter Dialog in Single Mode" fileref="raw_converter_single.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 </sect1>
@@ -100,7 +102,9 @@ The available setting are mostly identical to the single mode dialog. Here you h
 
 <figure id="rawconverter-batch-dialog">
     <title>The Batch RAW Converter Dialog</title>
-    <graphic srccredit="The Batch RAW Converter Dialog" fileref="raw_converter_batch.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The Batch RAW Converter Dialog" fileref="raw_converter_batch.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 </sect1>

@@ -64,7 +64,9 @@ size to some megabytes of data. Use several e-mails if you want to send a lot of
 
 <figure id="sendimages-image-selection-dialog">
     <title>The Image Selection Dialog</title>
-    <graphic srccredit="The Image Selection Dialog" fileref="sendimages_imageselection.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The Image Selection Dialog" fileref="sendimages_imageselection.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 </sect1>
@@ -102,7 +104,9 @@ If you choose <guilabel>JPEG</guilabel> as <guilabel>New Images Format</guilabel
 
 <figure id="sendimages-mail-dialog">
     <title>The Mail Dialog</title>
-    <graphic srccredit="The Mail Dialog" fileref="sendimages_mail.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The Mail Dialog" fileref="sendimages_mail.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 </sect1>
@@ -122,7 +126,9 @@ if any errors occurs during this stage. The mail agent will be started automatic
 
 <figure id="sendimages-email-images-plugin">
     <title>The E-mail Images Plugin in Action</title>
-    <graphic srccredit="The E-mail Images Plugin in Action" fileref="sendimages_progress.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The E-mail Images Plugin in Action" fileref="sendimages_progress.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 </sect1>

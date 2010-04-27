@@ -47,7 +47,9 @@
   
   <figure id="flickrexport-first-signup-dialog">
       <title>The First Sign Up Dialog Preview</title>
-      <graphic srccredit="The First Sign Up Dialog Preview" fileref="flickrexportsignup.png"/>
+      <mediaobject><imageobject>
+        <imagedata srccredit="The First Sign Up Dialog Preview" fileref="flickrexportsignup.png"/>
+      </imageobject></mediaobject>
   </figure>
   
   <para>
@@ -57,7 +59,9 @@
   
   <figure id="flickrexport-successful-signup">
       <title>The Successful Signup Flickr page</title>
-      <graphic srccredit="The Successful Signup Flickr page" fileref="flickrexportauthenticated.png"/>
+      <mediaobject><imageobject>
+        <imagedata srccredit="The Successful Signup Flickr page" fileref="flickrexportauthenticated.png"/>
+      </imageobject></mediaobject>
   </figure>
   
   <para>
@@ -75,7 +79,9 @@
     </para>
      <figure id="flickrexport-current-permissions-dialog">
       <title>Current Permissions Dialog preview</title>
-      <graphic srccredit="The " fileref="flickrexportcontinue.png"/>
+      <mediaobject><imageobject>
+        <imagedata srccredit="The " fileref="flickrexportcontinue.png"/>
+      </imageobject></mediaobject>
   </figure>
 
       <para>
@@ -92,7 +98,9 @@
   	
   <figure id="flickrexport-main-uploading-dialog">
       <title>The Main Uploading Dialog Preview</title>
-      <graphic srccredit="The Main Uploading Dialog Preview" fileref="flickrexportuploaddialog.png"/>
+      <mediaobject><imageobject>
+        <imagedata srccredit="The Main Uploading Dialog Preview" fileref="flickrexportuploaddialog.png"/>
+      </imageobject></mediaobject>
   </figure>
   
   <para>
@@ -118,7 +126,9 @@
   
  <figure id="flickrexport-uploading-progress-dialog">
       <title>The Uploading Progress Dialog Preview</title>
-      <graphic srccredit="The Uploading Progress Dialog Preview" fileref="flickrexportuploading.png"/>
+      <mediaobject><imageobject>
+        <imagedata srccredit="The Uploading Progress Dialog Preview" fileref="flickrexportuploading.png"/>
+      </imageobject></mediaobject>
   </figure>
   <para>
  User can click <guilabel>Cancel</guilabel> button to abort the uploading of photos.

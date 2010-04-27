@@ -68,7 +68,9 @@ The <emphasis>Random</emphasis> selection will change the transition effect with
 
 <figure id="slideshow-dialog">
     <title>The Slideshow Dialog</title>
-    <graphic srccredit="The Slideshow Dialog" fileref="slideshow_dialog.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The Slideshow Dialog" fileref="slideshow_dialog.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 </sect1>
@@ -90,7 +92,9 @@ On the lower left screen corner you can see the current image file name, the cur
 
 <figure id="slideshow-advanced-plugin">
     <title>The Advanced Slideshow Plugin in Action</title>
-    <graphic srccredit="The Slideshow Plugin in Action" fileref="slideshow.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The Slideshow Plugin in Action" fileref="slideshow.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 </sect1>

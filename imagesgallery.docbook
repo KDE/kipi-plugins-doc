@@ -48,7 +48,9 @@ The <guilabel>Selection</guilabel> tab allows you to select all Albums you want 
 
 <figure id="imagesgallery-collections-selection-dialog">
     <title>The Collections Selection Dialog</title>
-    <graphic srccredit="The Collections Selection Dialog" fileref="imagegallery_collectionselection.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The Collections Selection Dialog" fileref="imagegallery_collectionselection.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 </sect1>
@@ -62,7 +64,9 @@ The <guilabel>Look</guilabel> tab defines the general look and layout of each pa
 
 <figure id="imagesgallery-look-settings-dialog">
     <title>The Look Settings Dialog</title>
-    <graphic srccredit="The Look Settings Dialog" fileref="imagegallery_looksettings.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The Look Settings Dialog" fileref="imagegallery_looksettings.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 </sect1>
@@ -89,7 +93,9 @@ With the <guilabel>Set different color depth</guilabel> check box you can change
 
 <figure id="imagesgallery-album-settings-dialog">
     <title>The Album Settings Dialog</title>
-    <graphic srccredit="The Album Settings Dialog" fileref="imagegallery_albumsettings.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The Album Settings Dialog" fileref="imagegallery_albumsettings.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 </sect1>
@@ -103,7 +109,9 @@ The <guilabel>Thumbnails</guilabel> tab allows to set some of the  <guilabel>Alb
 
 <figure id="imagesgallery-thumbnails-settings-dialog">
     <title>The Thumbnails Settings Dialog</title>
-    <graphic srccredit="The Thumbnails Settings Dialog" fileref="imagegallery_thumbsettings.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The Thumbnails Settings Dialog" fileref="imagegallery_thumbsettings.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 </sect1>
@@ -118,7 +126,9 @@ if you want abort the process.
 
 <figure id="imagesgallery-images-gallery-action">
     <title>The Images Gallery Plugin in Action</title>
-    <graphic srccredit="The Images Gallery Plugin in Action" fileref="imagegallery_progress.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The Images Gallery Plugin in Action" fileref="imagegallery_progress.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 <para>
@@ -128,7 +138,9 @@ if any errors occurs durring this stage. The web browser will be started automat
 
 <figure id="imagesgallery-images-gallery-preview">
     <title>The Images Gallery Preview in Konqueror</title>
-    <graphic srccredit="The Images Gallery Preview in Konqueror" fileref="imagegallery_preview.png"/>
+    <mediaobject><imageobject>
+      <imagedata srccredit="The Images Gallery Preview in Konqueror" fileref="imagegallery_preview.png"/>
+    </imageobject></mediaobject>
 </figure>
 
 </sect1>
