@@ -32,7 +32,7 @@ please contact Kipi team mailing list <email>kde-imaging@kde.org</email>.
 </para>
 
 	<para>
-            Using the metadata plugin <guilabel>Import</guilabel> function allows to copy data from one image to another. Select the image you want ot copy to in the main application. Then call the import function, which will open a file browser where you select the source image (the one you want to copy the metadata from). Click <guilabel>OK</guilabel> and the data will be copied over.
+            Using the metadata plugin <guilabel>Import</guilabel> function allows to copy data from one image to another. Select the image you want to copy to in the main application. Then call the import function, which will open a file browser where you select the source image (the one you want to copy the metadata from). Click <guilabel>OK</guilabel> and the data will be copied over.
         </para>
         <para>
             This feature does not work for all image formats. You can import from everything but not write to everything. JPEG is supported for writing. Please refer to the exiv2 capabilities to know which formats are supported.
