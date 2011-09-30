@@ -12,7 +12,8 @@
 
 <abstract>
 <para>
-The Kipi JPEG lossless plugin is a tool to transform the images without loss in quality due to compression.
+The Kipi JPEG lossless plugin is a tool to transform the images without loss in
+quality due to compression.
 </para>
 </abstract>
 
@@ -25,7 +26,10 @@ The Kipi JPEG lossless plugin is a tool to transform the images without loss in 
 <title>Introduction</title>
 
 <para>
-This plugin is available from within the host application. It allows (for the below listed transformations) to save images in JPEG format, which usually looses precision every time you save it (otherwise there would not be no size reduction) without losing any quality nor metadata information:
+This plugin is available from within the host application. It allows (for the
+below listed transformations) saving images in JPEG format, which usually loses
+precision every time you save it (otherwise there would be no size reduction),
+without losing any quality nor metadata information:
 </para>
 
 <itemizedlist>
@@ -35,7 +39,9 @@ This plugin is available from within the host application. It allows (for the be
 <listitem><para>Exif orientation tag based rotation or flip auto-adjustment.</para></listitem>
 <listitem><para>Do lossless recompression of JPEG images.</para></listitem>
 </itemizedlist>
-<para>As a consequence of the lossless storage the file size will be larger (similar to the lossless PNG format) since there's no compression of the color coding information.
+<para>As a consequence of the lossless storage the file size will be larger
+(similar to the lossless PNG format) since there's no compression of the color
+coding information.
 </para>
 
 </chapter>

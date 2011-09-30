@@ -25,30 +25,29 @@ The Kipi Filter Images plugin is a tool for to apply a digital filter to the ima
 <title>Introduction</title>
 
 <para>
-
 This plugin can be used for batch filter images in an Album.
- It use "convert" program from "ImageMagick" package. An image effect
+ It uses the <command>convert</command> program from the
+ <application>ImageMagick</application> package. An image effect
  preview (partial or full) is available.
- 9 filters types have been implemented:
+ Nine filter types have been implemented:
 </para>
 
 <itemizedlist>
-<listitem><para><emphasis>Add noise</emphasis> : add noise in an image.</para></listitem>
-<listitem><para><emphasis>Antialias</emphasis> : remove pixel aliasing.</para></listitem>
-<listitem><para><emphasis>Blur</emphasis> : blur the image with a Gaussian operator.</para></listitem>
-<listitem><para><emphasis>Despeckle</emphasis> : reduce the speckles within an image.</para></listitem>
-<listitem><para><emphasis>Enhance</emphasis> : apply a digital filter to enhance a noisy image.</para></listitem>
-<listitem><para><emphasis>Median</emphasis> : apply a median filter to an image.</para></listitem>
-<listitem><para><emphasis>Noise reduction</emphasis> : reduce noise in an image.</para></listitem>
-<listitem><para><emphasis>Sharpen</emphasis> : sharpen the image with a Gaussian operator.</para></listitem>
-<listitem><para><emphasis>Unsharp</emphasis> : sharpen the image with an unsharp mask operator.</para></listitem>
+<listitem><para><guilabel>Add noise</guilabel>: add noise in an image.</para></listitem>
+<listitem><para><guilabel>Antialias</guilabel>: remove pixel aliasing.</para></listitem>
+<listitem><para><guilabel>Blur</guilabel>: blur the image with a Gaussian operator.</para></listitem>
+<listitem><para><guilabel>Despeckle</guilabel>: reduce the speckles within an image.</para></listitem>
+<listitem><para><guilabel>Enhance</guilabel>: apply a digital filter to enhance a noisy image.</para></listitem>
+<listitem><para><guilabel>Median</guilabel>: apply a median filter to an image.</para></listitem>
+<listitem><para><guilabel>Noise reduction</guilabel>: reduce noise in an image.</para></listitem>
+<listitem><para><guilabel>Sharpen</guilabel>: sharpen the image with a Gaussian operator.</para></listitem>
+<listitem><para><guilabel>Unsharp</guilabel>: sharpen the image with an unsharp mask operator.</para></listitem>
 </itemizedlist>
 
 <para>
-You can see some samples building with this plugin at this
 <ulink url="http://digikamplugins.free.fr/ImagesGallerySamples/MultipleAlbums/FilterImages/index.html">
-<citetitle>url.</citetitle>
-</ulink></para>
+You can see some samples building with this plugin at this &URL;</ulink>
+</para>
 
 </chapter>
 

@@ -26,7 +26,8 @@ The Kipi Rename Images plugin is a tool for to rename the images files.
 
 <para>
 
-This plugin can be used for batch rename image files in an Album. You can set the prefix name to use, the start index value, and the timestamp. 
+This plugin can be used to batch rename image files in an Album. You can set the
+prefix name to use, the start index value, and the timestamp.
 
 </para>
 

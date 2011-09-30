@@ -19,7 +19,11 @@ The Kipi Metadata editor plugin is a tool for adding and editing GPS coordinates
 <keywordset>
 <keyword>KDE</keyword>
 <keyword>Kipi</keyword>
-<keyword>Metadata</keyword><keyword>IPTC</keyword><keyword>EXIF</keyword><keyword>Makernote</keyword><keyword>Comments</keyword>
+<keyword>Metadata</keyword>
+<keyword>IPTC</keyword>
+<keyword>EXIF</keyword>
+<keyword>Makernote</keyword>
+<keyword>Comments</keyword>
 </keywordset>
 </chapterinfo>
 
@@ -28,15 +32,22 @@ The Kipi Metadata editor plugin is a tool for adding and editing GPS coordinates
 <para>
 The Kipi plugin <quote>Metadata Editor</quote> currently has no
 documentation.  If you are interested in rectifying that situation,
-please contact Kipi team mailing list <email>kde-imaging@kde.org</email>.
+please contact the Kipi team mailing list at <email>kde-imaging@kde.org</email>.
 </para>
 
-	<para>
-            Using the metadata plugin <guilabel>Import</guilabel> function allows to copy data from one image to another. Select the image you want to copy to in the main application. Then call the import function, which will open a file browser where you select the source image (the one you want to copy the metadata from). Click <guilabel>OK</guilabel> and the data will be copied over.
-        </para>
-        <para>
-            This feature does not work for all image formats. You can import from everything but not write to everything. JPEG is supported for writing. Please refer to the exiv2 capabilities to know which formats are supported.
-        </para>
+<para>
+    Using the metadata plugin's <guilabel>Import</guilabel> function allows
+    copying data from one image to another. Select the image you want to copy to
+    in the main application. Then call the import function, which will open a
+    file browser where you select the source image (the one you want to copy the
+    metadata from). Click <guibutton>OK</guibutton> and the data will be copied over.
+</para>
+<para>
+    This feature does not work for all image formats. You can import from
+    all formats but not write to them all. JPEG is supported for writing.
+    Please refer to the <command>exiv2</command> capabilities to learn which
+    formats are supported.
+</para>
 
 </chapter>
 

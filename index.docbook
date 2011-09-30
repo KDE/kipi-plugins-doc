@@ -4,7 +4,6 @@
  <!ENTITY % English "INCLUDE" > <!-- change language only here -->
  <!ENTITY doc-acquireimages SYSTEM "acquireimages.docbook">
  <!ENTITY doc-calendar SYSTEM "calendar.docbook">
- <!ENTITY doc-cdarchiving SYSTEM "cdarchiving.docbook">
  <!ENTITY doc-colorimages SYSTEM "colorimages.docbook">
  <!ENTITY doc-convertimages SYSTEM "convertimages.docbook">
  <!ENTITY doc-effectimages SYSTEM "effectimages.docbook">
@@ -18,7 +17,6 @@
  <!ENTITY doc-jpeglossless SYSTEM "jpeglossless.docbook">
  <!ENTITY doc-kameraklient SYSTEM "kameraklient.docbook">
  <!ENTITY doc-metadataeditor SYSTEM "metadataeditor.docbook">
- <!ENTITY doc-mpegencoder SYSTEM "mpegencoder.docbook">
  <!ENTITY doc-printwizard SYSTEM "printwizard.docbook">
  <!ENTITY doc-rawconverter SYSTEM "rawconverter.docbook">
  <!ENTITY doc-recompressimages SYSTEM "recompressimages.docbook">
@@ -61,7 +59,7 @@
 
 <abstract>
 <para>
-This is the handbook for the plugins of Kipi, the &kde;'s Images Plugins Interface.
+This is the handbook for the plugins of Kipi, the &kde; Image Plugins Interface.
 </para>
 </abstract>
 
@@ -77,19 +75,29 @@ This is the handbook for the plugins of Kipi, the &kde;'s Images Plugins Interfa
 <title>Introduction to Kipi Plugins</title>
 
 <para>
-One of the nicest things about KDE photo management programs like "digiKam", "KPhotoAlbum", "GWenView" and "ShowImg" is how easily their functionality can be extended, by using plugins. The Kde Image Plugins Interface (KIPI) project can manipulate image files in almost any way that users can. Their advantage is that it is much easier to add a capability to the host application by writing a small plugin than by modifying the host application core. Many valuable plugins have C++ source code that only comes to 100-200 lines or so.
+One of the nicest things about &kde; photo management programs like &digikam;,
+<application>KPhotoAlbum</application>, <application>Gwenview</application> and
+<application>ShowImg</application> is how easily their functionality can be
+extended, by using plugins. The Kde Image Plugins Interface (KIPI) project can
+manipulate image files in almost any way that users can. Their advantage is that
+it is much easier to add capabiltiies to the host application by writing a small
+plugin rather than by modifying the host application's core. Many valuable plugins
+have C++ source code that only amounts to 100-200 lines or so.
 </para>
 
 <para>
-Kipi plugins are additional functions for the &kde; Images Managment Host Programs. They can add extra menus and shortcuts, and extend the host programs features. You can install as many or as few as you like, from within host programs.
+Kipi plugins are additional functions for the &kde; Image Managment Host Programs.
+They can add extra menus and shortcuts, and extend the host program's features.
+You can install as many or as few as you like, from within host programs.
 </para>
 
 <para>
-More information on using and enabling the plugins you want is available in the host program handbook.
+More information on using and enabling the plugins you want is available in the
+host program's handbook.
 </para>
 
 <para>
-The plugins installed in this handbook are:
+The plugins available in this handbook are:
 </para>
 
 <itemizedlist>
@@ -98,9 +106,6 @@ The plugins installed in this handbook are:
 </listitem>
 <listitem>
 <para><link linkend="calendar">Calendar plugin</link></para>
-</listitem>
-<listitem>
-<para><link linkend="cdarchiving">&CD; Archiving plugin</link></para>
 </listitem>
 <listitem>
 <para><link linkend="colorimages">Color Images plugin</link></para>
@@ -139,9 +144,6 @@ The plugins installed in this handbook are:
 <para><link linkend="kameraklient">Digital camera client plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="mpegencoder">MPEG Encoder plugin</link></para>
-</listitem>
-<listitem>
 <para><link linkend="metadataeditor">Metadata Editor plugin</link></para>
 </listitem>
 <listitem>
@@ -168,15 +170,14 @@ The plugins installed in this handbook are:
 <listitem>
 <para><link linkend="timeadjust">Time Adjust plugin</link></para>
 </listitem>
-<listitem>
+<!--<listitem>
 <para><link linkend="wallpaper">Wall Paper plugin</link></para>
-</listitem>
+</listitem>-->
 </itemizedlist>
 </chapter>
 
 &doc-acquireimages;
 &doc-calendar;
-&doc-cdarchiving;
 &doc-colorimages;
 &doc-convertimages;
 &doc-effectimages;
@@ -189,7 +190,6 @@ The plugins installed in this handbook are:
 &doc-imageviewer;
 &doc-jpeglossless;
 &doc-kameraklient;
-&doc-mpegencoder;
 &doc-metadataeditor;
 &doc-printwizard;
 &doc-rawconverter;
@@ -199,17 +199,21 @@ The plugins installed in this handbook are:
 &doc-sendimages;
 &doc-slideshow;
 &doc-timeadjust;
-&doc-wallpaper;
+<!--disabled due to lack of dbus command
+        http://lists.kde.org/?l=kde-imaging&m=131279555904019&w=2
+&doc-wallpaper;-->
 
 <chapter id="credits">
 <title>Credits and License</title>
 
 <para>
-Copyrights for each plugin is listed in the applicable chapter.
+Copyrights for each plugin are listed in the applicable chapter.
 </para>
 
 <para>
-All Pictures copyrighted 2004-2007 by Gilles Caulier <email>caulier dot gilles at gmail dot com</email> and Gerhard Kulzer <email>gerhard_at_kulzer.net</email>.
+All Pictures copyrighted 2004-2007 by Gilles Caulier
+<email>caulier dot gilles at gmail dot com</email> and Gerhard Kulzer
+<email>gerhard_at_kulzer.net</email>.
 </para>
 
 <!-- TRANS:CREDIT_FOR_TRANSLATORS -->

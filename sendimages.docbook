@@ -30,36 +30,43 @@ The Kipi <quote>Send Images</quote> plugin is a tool for sending images directly
 <title>Introduction</title>
 
 <para>
-With this Kipi-plugin you can e-mail the selected images with your favorite e-mail agent. A resizing items operation is possible. You can use drag and drop to add more images in the list to send.
+With this Kipi-plugin you can e-mail the selected images with your favorite e-mail
+agent. Resizing images is possible. You can use drag and drop to add more images
+to the list of images to send.
 </para>
 
 <sect1 id="using-plugin-mailselectiondialog">
 <title>Image Selection Dialog</title>
 
 <para>
-Upon opening of the plugin from the host application the <emphasis>Images</emphasis>  window will appear with your 
-pre-selected images already in the list to be sent. With the <guilabel>Add Images</guilabel> button a file browser 
-opens to add more files as needed in the usual file selection manner. The image under the cursor in the list is displayed on the right side. 
+When opening the plugin from the host application, the <emphasis>Images</emphasis>
+window will appear with your pre-selected images already in the list of images to
+be sent. The <guibutton>Add Images</guibutton> button opens a file browser to add
+more files as needed in the usual file selection manner. The image under the
+cursor in the list is displayed on the right side.
 </para>
 
 <tip><para>
-You can use drag and drop capability between the host application window and the image file list for add new 
-items to e-mail.
+You can drag and drop images between the host application window and the image
+file list to add new items to e-mail.
 </para></tip>
 
 <para>
-When clicking on the second button <guilabel>Remove Images</guilabel> the selected images (highlighted in the list) 
-will be removed from the send list.
+When clicking on the second button <guibutton>Remove Images</guibutton> the
+selected images (highlighted in the list) will be removed from the send list.
 </para>
 
 <para>
-When you have finished selecting your files, click <guilabel>OK</guilabel> to open the 'new e-mail' dialog window 
-of your favorite e-mail client. You just need to add the addressee and the subject. The selected images will be already there as attachments. 
+When you have finished selecting your files, click <guibutton>OK</guibutton> to
+open the <guilabel>New E-mail</guilabel> dialog window of your favorite e-mail client.
+You just need to add the addressee and the subject. The selected images will be
+already be listed as attachments.
 </para>
 
 <warning><para>
-Be sure not to overload your own or your addresses e-mail transmission limit, most providers limit the e-mail 
-size to some megabytes of data. Use several e-mails if you want to send a lot of data.
+Be sure not to overload your own or your addressees e-mail transmission limit; most
+providers limit the e-mail size to some megabytes of data. Use several e-mails
+if you want to send a lot of data.
 </para></warning>
 
 <figure id="sendimages-image-selection-dialog">
@@ -75,31 +82,50 @@ size to some megabytes of data. Use several e-mails if you want to send a lot of
 <title>Mail Dialog</title>
 
 <para>
-The mail dialog is used to change the settings of the images to be sent. These settings will be remembered when you close the plugin until you change them.
+The mail dialog is used to change the settings of the images to be sent. These
+settings will be remembered when you close the plugin until you change them.
 </para>
 
 <para>
-Select your favorite e-mail client from the drop-down menu. (If you use <application>Thunderbird</application>, the field below will be available to select the correct path according to your installation).
+Select your favorite e-mail client from the drop-down menu. (If you use
+<application>Thunderbird</application>, the field below will be available to
+select the correct path according to your installation).
 </para>
 
 <note><para>
-If you want to use GMail service, you need to install <application>GMailAgent</application> in your computer, available at <ulink url="http://gmailagent.sourceforge.net">this url</ulink>.
+If you want to use the GMail service, you need to install
+<application>GMailAgent</application> in your computer, available at
+<ulink url="http://gmailagent.sourceforge.net">this &URL;</ulink>.
 </para></note>
 
 <para>
-If you select <guilabel>Add Comments in the Attached File</guilabel> the comments included with the images will be merged to a text file and attached in the mail.
+If you select <guilabel>Add Comments in the Attached File</guilabel> the comments
+included with the images will be merged to a text file and attached in the mail.
 </para>
 
 <para>
-The next 3 items allow you to set-up the image quality to be sent. Select one of those. The <guilabel>New Images Compression</guilabel> ratio can be chosen with the slider or the value box. 75% is a standard compression ratio for <guilabel>JPEG</guilabel> files. Setting compression to 100% will result in a lossless compression at the cost of the largest file size. The difference in file size between 90% and 100% can be quite dramatic, whereas the gain in quality is minor. Very good quality is already obtained with 85% compression.
+The next three items allow you to set-up the image quality to be sent. Select
+one of those. The <guilabel>New Images Compression</guilabel> ratio can be chosen
+with the slider or the value box. 75% is the standard compression ratio for
+<guilabel>JPEG</guilabel> files. Setting compression to 100% will result in
+lossless compression at the cost of the largest file size. The difference in file
+size between 90% and 100% can be quite dramatic, whereas the gain in quality is
+minor. Very good quality is already obtained with 85% compression.
 </para>
 
 <para>
-The <guilabel>PNG</guilabel> format on <guilabel>New Images Format</guilabel> drop-down menu is not well adapted to reduce photographic images file size, but it is best suited for compressing lossless items like TIFF file format. <guilabel>PNG</guilabel> must be used if you use a speed internet dialup and if you want preserved the photo quality. Else, <guilabel>JPEG</guilabel> is the recommended format.
+The <guilabel>PNG</guilabel> format in the <guilabel>New Images Format</guilabel>
+drop-down menu is not well adapted to reduce photographic images file size, but
+is best suited for compressing lossless items like the TIFF file format.
+<guilabel>PNG</guilabel> must be used if you use dialup speed Internet and you want
+to preserve the photo quality. Otherwise, <guilabel>JPEG</guilabel> is the
+recommended format.
 </para>
 
 <note><para>
-If you choose <guilabel>JPEG</guilabel> as <guilabel>New Images Format</guilabel> and if the original files were in <guilabel>JPEG</guilabel> format, then the original Exif data included is preserved in e-mailed images.
+If you choose <guilabel>JPEG</guilabel> as the <guilabel>New Images Format</guilabel>
+and the original files were in <guilabel>JPEG</guilabel> format, the original Exif
+data included is preserved in e-mailed images.
 </para></note>
 
 <figure id="sendimages-mail-dialog">
@@ -115,13 +141,16 @@ If you choose <guilabel>JPEG</guilabel> as <guilabel>New Images Format</guilabel
 <title>E-mail Images in Action</title>
 
 <para>
-A progress dialog giving a feedback indicate to user. Press <guilabel>Cancel</guilabel> button during this stage 
-if you want abort the process.
+A progress dialog gives you feedback on the progress of your operation. Press the
+<guibutton>Cancel</guibutton> button during this stage if you want to abort the
+process.
 </para>
 
 <para>
-When all jobs are completed, this dialog will not closed automatically and user can consult the progress messages 
-if any errors occurs during this stage. The mail agent will be started automatically at end. Press  <guilabel>Close</guilabel> button to close dialog.
+When all jobs are completed, this dialog will not close automatically and you can
+consult the progress messages if any errors occured during this stage. The mail
+agent will be started automatically at the end. Press the <guibutton>Close</guibutton>
+button to close this dialog.
 </para>
 
 <figure id="sendimages-email-images-plugin">
