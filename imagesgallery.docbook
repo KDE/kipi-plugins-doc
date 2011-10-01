@@ -30,7 +30,7 @@ The Kipi images gallery plugin is a tool for exporting a set of Albums to an HTM
 <title>Introduction</title>
 
 <para>
-This powerful plugin can export your Albums into a HTML 4.01 complaint web image gallery.
+This powerful plugin can export your Albums into a HTML 4.01 compliant web image gallery.
 You can easily select the Albums to export in an HTML page and set many parameters
 for the HTML rendering. UTF-8 encoding is used for the best internationalization.
 </para>
@@ -156,7 +156,7 @@ button during this stage if you want abort the process.
 
 <para>
 When all jobs are completed, this dialog will not closed automatically and you
-can consult the progress messages if any errors occurs durring this stage. The web
+can consult the progress messages if any errors occurs during this stage. The web
 browser will be started automatically at end to display a gallery preview. Press the
 <guibutton>Close</guibutton> button to close the dialog.
 </para>
