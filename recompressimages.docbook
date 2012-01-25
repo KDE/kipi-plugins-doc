@@ -1,8 +1,6 @@
 <chapter id="recompressimages">
 <chapterinfo>
 
-<title>Recompress Images</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -22,7 +20,7 @@ The Kipi recompress images plugin is a tool for recompressing the image files.
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Recompress Images</title>
 
 <para>
 

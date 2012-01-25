@@ -1,8 +1,6 @@
 <chapter id="colorimages">
 <chapterinfo>
 
-<title>Color Images</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -22,7 +20,7 @@ The Kipi Color Images plugin is a tool to change or improve the images' color re
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Color Images</title>
 
 <para>
 

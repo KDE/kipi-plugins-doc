@@ -1,8 +1,6 @@
 <chapter id="resizeimages">
 <chapterinfo>
 
-<title>Resize Images</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -22,7 +20,8 @@ The Kipi Resize Images plugin is a tool that resizes or adapts images' dimension
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Resize Images</title>
+
 <para>
 This plugin can be used to batch resize images in an image collection. It uses the
 <command>convert</command> program from the <application>ImageMagick</application>

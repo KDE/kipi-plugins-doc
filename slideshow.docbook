@@ -1,8 +1,5 @@
 <chapter id="slideshow">
 <chapterinfo>
-
-<title>The Advanced Slide Show</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -27,7 +24,7 @@ The Kipi <quote>Advanced Slide Show</quote> plugin creates a configurable full s
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>The Advanced Slide Show</title>
 
 <para>
 With this Kipi-plugin you create a perfect slide show with just three mouse clicks.

@@ -1,8 +1,6 @@
 <chapter id="geolocation">
 <chapterinfo>
 
-<title>Geolocation Editor</title>
-
 <authorgroup>
     <author>
         <firstname>Gerhard</firstname><surname>Kulzer</surname>
@@ -22,7 +20,7 @@ The Kipi Geolocation plugin allows for adding and editing GPS coordinates of pic
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Geolocation Editor</title>
 
 <para>
   The Kipi plugin <quote>Geolocation</quote> provides the tools to localize pictures

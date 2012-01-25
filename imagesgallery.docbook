@@ -1,8 +1,6 @@
 <chapter id="imagesgallery">
 <chapterinfo>
 
-<title>Images Gallery</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -27,7 +25,7 @@ The Kipi images gallery plugin is a tool for exporting a set of Albums to an HTM
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Images Gallery</title>
 
 <para>
 This powerful plugin can export your Albums into a HTML 4.01 compliant web image gallery.

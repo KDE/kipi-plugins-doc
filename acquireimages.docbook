@@ -1,8 +1,6 @@
 <chapter id="acquireimages">
 <chapterinfo>
 
-<title>Acquire Images</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -28,7 +26,7 @@ to the collections.
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Acquire Images</title>
 
 <para>
 This plugin can be used to capture and add new images to the host application from external sources.

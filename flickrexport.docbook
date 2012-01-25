@@ -1,8 +1,6 @@
 <chapter id="flickrexport">
 <chapterinfo>
 
-<title>Flickr Export</title>
-
 <authorgroup>
     <author>
         <firstname>Vardhman</firstname><surname>Jain</surname>
@@ -27,7 +25,7 @@
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Flickr Export</title>
 
   <para>
   Flickr is an online photo management application. Flickr is a way

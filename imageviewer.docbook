@@ -1,8 +1,6 @@
 <chapter id="imageviewer">
 <chapterinfo>
 
-<title>OpenGL Imageviewer</title>
-
 <authorgroup>
     <author>
         <firstname>Markus</firstname><surname>Leuthold</surname>
@@ -22,7 +20,7 @@ The Kipi imageviewer is a very fast and flexible tool for viewing images, based 
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>OpenGL Imageviewer</title>
 
 <para>
 The KIPI imageviewer allows to display a selection of images and to do basic

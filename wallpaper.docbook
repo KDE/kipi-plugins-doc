@@ -1,8 +1,6 @@
 <chapter id="wallpaper">
 <chapterinfo>
 
-<title>Wall Paper</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -22,7 +20,7 @@ The Kipi wall paper plugin is a tool for push an image in the desktop background
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Wall Paper</title>
 
 <para>
 This plugin places the current selected image on the &KDE; &Plasma; desktop

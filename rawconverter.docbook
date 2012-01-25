@@ -1,8 +1,6 @@
 <chapter id="rawconverter">
 <chapterinfo>
 
-<title>Raw Image Converter</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -27,7 +25,7 @@ The Kipi <quote>Raw Image Converter</quote> plugin is a conversion tool for raw 
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Raw Image Converter</title>
 
 <para>
 With this Kipi-plugin you can import/convert your images stored in

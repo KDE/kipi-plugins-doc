@@ -1,8 +1,6 @@
 <chapter id="metadataeditor">
 <chapterinfo>
 
-<title>Metadata Editor</title>
-
 <authorgroup>
     <author>
         <firstname>Gerhard</firstname><surname>Kulzer</surname>
@@ -27,7 +25,7 @@ The Kipi Metadata editor plugin is a tool for adding and editing GPS coordinates
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Metadata Editor</title>
 
 <para>
 The Kipi plugin <quote>Metadata Editor</quote> currently has no

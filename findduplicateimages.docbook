@@ -1,8 +1,6 @@
 <chapter id="findduplicateimages">
 <chapterinfo>
 
-<title>Find Duplicate Images</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -22,7 +20,7 @@ The Kipi Find Duplicate Images plugin is a tool for find duplicate photograph on
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Find Duplicate Images</title>
 
 <para>
 The Kipi plugin <quote>Find Duplicate Images</quote> currently has no

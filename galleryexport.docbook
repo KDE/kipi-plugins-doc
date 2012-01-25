@@ -1,8 +1,6 @@
 <chapter id="galleryexport">
 <chapterinfo>
 
-<title>Gallery Export</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -22,7 +20,7 @@ The Kipi Gallery Export plugin is a tool for export image collections to a remot
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Gallery Export</title>
 
 <para>
 The Kipi plugin <quote>Gallery Export</quote> currently has no

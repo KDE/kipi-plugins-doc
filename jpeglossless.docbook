@@ -1,8 +1,6 @@
 <chapter id="jpeglossless">
 <chapterinfo>
 
-<title>JPEG Loss Less</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -23,7 +21,7 @@ quality due to compression.
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>JPEG Loss Less</title>
 
 <para>
 This plugin is available from within the host application. It allows (for the

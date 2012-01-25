@@ -1,8 +1,6 @@
 <chapter id="printwizard">
 <chapterinfo>
 
-<title>Print Wizard</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -22,7 +20,7 @@ The Kipi print wizard plugin is a tool for to print images at the same time.
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Print Wizard</title>
 
 <para>
 The print wizard allows multiple images to be combined into single

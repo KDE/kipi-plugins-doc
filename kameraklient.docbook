@@ -1,8 +1,6 @@
 <chapter id="kameraklient">
 <chapterinfo>
 
-<title>Digital Camera Client</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -23,7 +21,7 @@ The Kipi Camera Client plugin is a tool to connect your computer to a digital ca
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Digital Camera Client</title>
 
 <para>
 The Kipi plugin <quote>KameraKlient</quote> currently has no

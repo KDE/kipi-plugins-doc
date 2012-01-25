@@ -1,8 +1,6 @@
 <chapter id="sendimages">
 <chapterinfo>
 
-<title>Send Images</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -27,7 +25,7 @@ The Kipi <quote>Send Images</quote> plugin is a tool for sending images directly
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Send Images</title>
 
 <para>
 With this Kipi-plugin you can e-mail the selected images with your favorite e-mail

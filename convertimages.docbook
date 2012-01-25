@@ -1,8 +1,6 @@
 <chapter id="convertimages">
 <chapterinfo>
 
-<title>Convert Images</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -22,7 +20,7 @@ The Kipi Convert Images plugin is a tool to convert an image file format to anot
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Convert Images</title>
 
 <para>
 

@@ -1,8 +1,6 @@
 <chapter id="filterimages">
 <chapterinfo>
 
-<title>Filter Images</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -22,7 +20,7 @@ The Kipi Filter Images plugin is a tool for to apply a digital filter to the ima
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Filter Images</title>
 
 <para>
 This plugin can be used for batch filter images in an Album.

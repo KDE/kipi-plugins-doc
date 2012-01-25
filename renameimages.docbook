@@ -1,8 +1,6 @@
 <chapter id="renameimages">
 <chapterinfo>
 
-<title>Rename Images</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -22,7 +20,7 @@ The Kipi Rename Images plugin is a tool for to rename the images files.
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Rename Images</title>
 
 <para>
 

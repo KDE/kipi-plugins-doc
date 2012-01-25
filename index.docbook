@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
  <!ENTITY kappname "&kipi;">
+ <!ENTITY package "extragear-graphics">
+ <!ENTITY % addindex "IGNORE">
  <!ENTITY % English "INCLUDE" > <!-- change language only here -->
  <!ENTITY doc-acquireimages SYSTEM "acquireimages.docbook">
  <!ENTITY doc-calendar SYSTEM "calendar.docbook">
@@ -29,6 +31,7 @@
 ]>
 
 <book lang="&language;" id="kipi-handbook">
+<title>The Kipi Plugins Handbook</title>
 <bookinfo>
 <title>The Kipi Plugins Handbook</title>
 
@@ -232,9 +235,3 @@ All Pictures copyrighted 2004-2007 by Gilles Caulier
 -->
 
 </book>
-
-<!--
-Local Variables:
-mode: sgml
-End:
--->

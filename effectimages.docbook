@@ -1,8 +1,6 @@
 <chapter id="effectimages">
 <chapterinfo>
 
-<title>Effect Images</title>
-
 <authorgroup>
     <author>
         <firstname>Gilles</firstname><surname>Caulier</surname>
@@ -22,7 +20,7 @@ The Kipi Effect Images plugin is a tool for to add a special effect to the image
 </keywordset>
 </chapterinfo>
 
-<title>Introduction</title>
+<title>Effect Images</title>
 
 <para>
 
