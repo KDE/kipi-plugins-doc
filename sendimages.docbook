@@ -27,21 +27,28 @@ The Kipi <quote>Send Images</quote> plugin is a tool for sending images directly
 
 <title>Send Images</title>
 
+<sect1 id="using-plugin-maildialog">
+<title>Using the Module</title>
 <para>
 With this Kipi-plugin you can e-mail the selected images with your favorite e-mail
 agent. Resizing images is possible. You can use drag and drop to add more images
 to the list of images to send.
 </para>
 
-<sect1 id="using-plugin-mailselectiondialog">
-<title>Image Selection Dialog</title>
+<sect2 id="using-plugin-mail-image-selection">
+<title>Image Selection</title>
 
 <para>
-When opening the plugin from the host application, the <emphasis>Images</emphasis>
-window will appear with your pre-selected images already in the list of images to
-be sent. The <guibutton>Add Images</guibutton> button opens a file browser to add
-more files as needed in the usual file selection manner. The image under the
-cursor in the list is displayed on the right side.
+When opening the plugin from the host application, the <guilabel>Email images</guilabel>
+dialog will appear with your pre-selected images already in the list at the left part
+of the dialog.</para> 
+<para>
+Below the image list there are five buttons. The two left buttons are used to move a selected 
+image in the list up or down. The middle button opens a file browser to add more files as needed 
+in the usual file selection manner.</para>
+<para>
+When clicking on the other buttons the selected images will be removed from the list or the list 
+will be cleared.
 </para>
 
 <tip><para>
@@ -49,70 +56,41 @@ You can drag and drop images between the host application window and the image
 file list to add new items to e-mail.
 </para></tip>
 
-<para>
-When clicking on the second button <guibutton>Remove Images</guibutton> the
-selected images (highlighted in the list) will be removed from the send list.
-</para>
-
-<para>
-When you have finished selecting your files, click <guibutton>OK</guibutton> to
-open the <guilabel>New E-mail</guilabel> dialog window of your favorite e-mail client.
-You just need to add the addressee and the subject. The selected images will be
-already be listed as attachments.
-</para>
-
 <warning><para>
 Be sure not to overload your own or your addressees e-mail transmission limit; most
 providers limit the e-mail size to some megabytes of data. Use several e-mails
 if you want to send a lot of data.
 </para></warning>
 
-<figure id="sendimages-image-selection-dialog">
-    <title>The Image Selection Dialog</title>
-    <mediaobject><imageobject>
-      <imagedata srccredit="The Image Selection Dialog" fileref="sendimages_imageselection.png"/>
-    </imageobject></mediaobject>
-</figure>
+</sect2>
 
-</sect1>
-
-<sect1 id="using-plugin-mailsettingsdialog">
-<title>Mail Dialog</title>
+<sect2 id="using-plugin-mail-settings">
+<title>Mail Settings</title>
 
 <para>
-The mail dialog is used to change the settings of the images to be sent. These
+The right part of the dialog is used to change the settings of the images to be sent. These
 settings will be remembered when you close the plugin until you change them.
 </para>
 
 <para>
-Select your favorite e-mail client from the drop-down menu. (If you use
-<application>Thunderbird</application>, the field below will be available to
-select the correct path according to your installation).
+Select your favorite e-mail client from the drop-down menu. <guilabel>Default</guilabel> 
+is the current email program set in &kde; &systemsettings;.
 </para>
 
-<note><para>
-If you want to use the GMail service, you need to install
-<application>GMailAgent</application> in your computer, available at
-<ulink url="http://gmailagent.sourceforge.net">this &URL;</ulink>.
-</para></note>
-
 <para>
-If you select <guilabel>Add Comments in the Attached File</guilabel> the comments
+If you select <guilabel>Attach a file with image properties from 
+<replaceable>Application</replaceable></guilabel> the comments, rating or tags 
 included with the images will be merged to a text file and attached in the mail.
 </para>
 
 <para>
-The next three items allow you to set-up the image quality to be sent. Select
-one of those. The <guilabel>New Images Compression</guilabel> ratio can be chosen
-with the slider or the value box. 75% is the standard compression ratio for
-<guilabel>JPEG</guilabel> files. Setting compression to 100% will result in
-lossless compression at the cost of the largest file size. The difference in file
-size between 90% and 100% can be quite dramatic, whereas the gain in quality is
-minor. Very good quality is already obtained with 85% compression.
+The next three items allow you to set-up the image properties to be sent. 
+To enable these option check <guilabel>Adjust image properties</guilabel>. 
+First select an <guilabel>Image size</guilabel> suitable for your Internet
+connection speed and the target mailbox size.
 </para>
-
 <para>
-The <guilabel>PNG</guilabel> format in the <guilabel>New Images Format</guilabel>
+The <guilabel>PNG</guilabel> format in the <guilabel>Image file format</guilabel>
 drop-down menu is not well adapted to reduce photographic images file size, but
 is best suited for compressing lossless items like the TIFF file format.
 <guilabel>PNG</guilabel> must be used if you use dialup speed Internet and you want
@@ -120,23 +98,39 @@ to preserve the photo quality. Otherwise, <guilabel>JPEG</guilabel> is the
 recommended format.
 </para>
 
+<para>
+The <guilabel>Image quality</guilabel> can be chosen
+with the input box. 75% is the standard compression ratio for
+<guilabel>JPEG</guilabel> files. Setting compression to 100% will result in
+lossless compression at the cost of the largest file size. The difference in file
+size between 90% and 100% can be quite dramatic, whereas the gain in quality is
+minor. Very good quality is already obtained with 85% compression.
+</para>
+
 <note><para>
-If you choose <guilabel>JPEG</guilabel> as the <guilabel>New Images Format</guilabel>
+If you choose <guilabel>JPEG</guilabel> as the <guilabel>Image file format</guilabel>
 and the original files were in <guilabel>JPEG</guilabel> format, the original Exif
 data included is preserved in e-mailed images.
 </para></note>
 
 <figure id="sendimages-mail-dialog">
-    <title>The Mail Dialog</title>
+    <title>The Email Images Dialog</title>
     <mediaobject><imageobject>
       <imagedata srccredit="The Mail Dialog" fileref="sendimages_mail.png"/>
     </imageobject></mediaobject>
 </figure>
 
-</sect1>
+</sect2>
 
-<sect1 id="using-plugin-emailimagesinaction">
-<title>E-mail Images in Action</title>
+<sect2 id="using-plugin-emailimagesinaction">
+<title>Email Images in Action</title>
+
+<para>
+When you have finished selecting your files, click <guibutton>OK</guibutton> to
+open the composer window of your favorite e-mail client.
+You just need to add the addressee and the subject. The selected images will be
+already be listed as attachments.
+</para>
 
 <para>
 A progress dialog gives you feedback on the progress of your operation. Press the
@@ -157,6 +151,7 @@ button to close this dialog.
       <imagedata srccredit="The E-mail Images Plugin in Action" fileref="sendimages_progress.png"/>
     </imageobject></mediaobject>
 </figure>
+</sect2>
 
 </sect1>
 
