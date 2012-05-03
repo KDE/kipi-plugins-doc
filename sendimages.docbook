@@ -85,7 +85,7 @@ included with the images will be merged to a text file and attached in the mail.
 
 <para>
 The next three items allow you to set-up the image properties to be sent. 
-To enable these option check <guilabel>Adjust image properties</guilabel>. 
+To enable these options check <guilabel>Adjust image properties</guilabel>. 
 First select an <guilabel>Image size</guilabel> suitable for your Internet
 connection speed and the target mailbox size.
 </para>
