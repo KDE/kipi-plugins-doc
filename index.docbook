@@ -23,7 +23,7 @@
  <!ENTITY doc-sendimages SYSTEM "sendimages.docbook">
  <!ENTITY doc-slideshow SYSTEM "slideshow.docbook">
 ]>
-
+  <!-- FIXME link to http://digikam.org -->
 <book lang="&language;" id="kipi-handbook">
 <title>The Kipi Plugins Handbook</title>
 <bookinfo>
@@ -102,7 +102,7 @@ The plugins available in this handbook are:
 <para><link linkend="acquireimages">Acquire Images plugin</link></para>
 </listitem>
 <listitem>
-<para>The Calendar pluginis a tool to create calendar from image collections</para>
+<para>The Calendar plugin is a tool to create calendar from image collections</para>
 </listitem>
 <listitem>
 <para><link linkend="colorimages">Color Images plugin</link></para>
@@ -168,7 +168,7 @@ photograph on your image collections</para>
 </itemizedlist>
 
 <para id="missing-plugin-docs">
-A lot Kipi plugins currently have no
+A lot of Kipi plugins currently have no
 documentation.  If you are interested in rectifying that situation,
 please contact the Kipi team mailing list at <email>kde-imaging@kde.org</email>.
 </para>
