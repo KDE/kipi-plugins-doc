@@ -2,21 +2,25 @@
 <chapterinfo>
 
 <authorgroup>
-    <author>
-        <firstname>Gilles</firstname><surname>Caulier</surname>
-        <affiliation><address><email>caulier dot gilles at gmail dot com</email></address></affiliation>
-    </author>
-    
-    <author>
-        <firstname>Gerhard</firstname><surname>Kulzer</surname>
-        <affiliation><address><email>gerhard at kulzer.net</email></address></affiliation>
-    </author>    
+<author>
+<firstname>Kåre</firstname>
+<surname>Särs</surname>
+<affiliation>
+<address><email>kare dot sars at iki dot fi</email></address>
+</affiliation>
+</author>
+<author>
+<firstname>Anne-Marie</firstname>
+<surname>Mahfouf</surname>
+<affiliation>
+<address>&Anne-Marie.Mahfouf.mail;</address>
+</affiliation>
+</author>
 </authorgroup>
 
 <abstract>
 <para>
-The Kipi acquire images plugin provides tools to capture new images and save them
-to the collections.
+The Kipi acquire images plugin is a tool to scan images using a flat scanner.
 </para>
 </abstract>
 
@@ -26,115 +30,221 @@ to the collections.
 </keywordset>
 </chapterinfo>
 
+<!-- This is a sligtly modified copy of skanlite documenatation without the settings section
+Please keep both in sync - lueck 2012-07-24
+ -->
 <title>Acquire Images</title>
 
+<para>This plugin can be used to scan images using a flat scanner. 
+The plugin uses libksane, a &kde; interface for SANE library to control flat scanners.</para>
 <para>
-This plugin can be used to capture and add new images to the host application from external sources.
-Actually, two actions can be used:
-</para>
-
+It can save images in all the formats supported by &kde;. For example the following formats:
 <itemizedlist>
-
-<listitem>
-    <para>
-    <guilabel>Scan images</guilabel>: use the Kooka interface for scanning images
-    from either a flat scanner supported by the Sane project or a another capture
-    source like video streams (for this to work you must have installed Kooka and Sane).
-    </para>
-</listitem>
-
-<listitem>
-    <para>
-    <guilabel>Screenshots</guilabel>: take screenshots.
-    </para>
-</listitem>
-
+<listitem><para>
+png (8 and 16 bits per color)
+</para></listitem>
+<listitem><para>
+jpeg, jpg, jpeg 2000
+</para></listitem>
+<listitem><para>
+bmp
+</para></listitem>
 </itemizedlist>
-
-<sect1 id="using-plugin-acquirescan">
-<title>Scan Image Dialog</title>
-
-<para>
-When you open the <guilabel>Scan images</guilabel> menu a dialog comes up that lets
-you choose between the available acquisition sources on your computer. Choose the
-one you want to capture from. You can also set the default source for the next time.
 </para>
 
+<note><para>You can check the status of your scanner support from the SANE project website by entering the information on this search page: <ulink url="http://www.sane-project.org/cgi-bin/driver.pl">http://www.sane-project.org/cgi-bin/driver.pl</ulink>.</para></note>
+
+<sect1 id="scanner-selection">
+<title>Scanner Selection</title>
+<para>If the selected scanner cannot be opened or if no default scanner is provided, a scanner selection dialog is opened.
+</para>
 <para>
-When the Kooka dialog window comes up, make your choices of acquisition settings
-by altering the default values. Look at the preview and crop it before making the
-final decision. The estimated file size is indicated in the lower right corner.
-See the dedicated <ulink url="help:/kooka/index.html">Kooka manual</ulink> for
-more information.
+The user can choose the scanner to be used and press <guibutton>OK</guibutton> to open the scanner. Pressing <guibutton>Cancel</guibutton> will cause the plugin to exit.
 </para>
 
-<note><para>
-Make sure that the dialog is fully visible since some settings might be hidden
-if the window is too narrow.
-</para></note>
+<screenshot>
+     <screeninfo>No scanner found</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="acquire-no-scanner-found.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase>No scanner found</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
 
 <para>
-Press the scan button and wait until the scanning is finished and the
-<guilabel>Save Target Option</guilabel> dialog appears. Here you can alter the
-compression quality and the image file type (be aware that the BMP type is not
-compressed and creates large files). The second item in that dialog let you choose
-(or create) the folder the image will be saved to.
-</para>
-
-<figure id="acquireimages-save-target-dialog">
-    <title>The Save Target Dialog in Action</title>
-    <mediaobject><imageobject>
-      <imagedata srccredit="The Save Target Dialog in Action" fileref="acquire-savetargetpreview.png"/>
-    </imageobject></mediaobject>
-</figure>
+In case no devices were found, maybe because the scanner is not plugged in or 
+switched off, correct that. Then the <guibutton>Reload device list</guibutton> 
+can be used to reload the list of scanners.</para> 
+<note><para>Not all drivers/backends support this feature. In that case quit the plugin, 
+connect your scanner and restart the application.</para>
+</note>
 
 </sect1>
+</chapter>
 
-<sect1 id="using-plugin-acquirescreenshot">
-<title>Screenshot Dialog</title>
-
-<para>
-You can choose the <guilabel>Screenshot</guilabel> acquisition mode from
-<menuchoice><guimenu>Import</guimenu><guimenuitem>Screenshot</guimenuitem></menuchoice>
-A dialog window comes up providing you with various snapshot modes:
-</para>
-
-<itemizedlist>
-<listitem>
-   <para>
-   Deselect the <guilabel>Grab the entire desktop</guilabel> item to shoot a
-   single window under the mouse cursor.
-   </para>
-</listitem>
-<listitem>
-   <para>
-   When the <guilabel>Hide all host application windows</guilabel> item is selected
-   the calling host application will disappear to give way to the other screens/windows.
-   Otherwise you'll - after the delay - shoot the screen/window actually visible
-   (if you've deselected <guilabel>Grab the entire desktop</guilabel> the window
-   under the mouse pointer will be shot).
-   </para>
-</listitem>
-</itemizedlist>
+<chapter id="main-window">
+<title>Main Window</title>
+<screenshot>
+     <screeninfo>Main window</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="acquire-main-window.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase>Main window</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
 
 <para>
-The delay control determines how long Screenshot will wait until the exposure is
-happening. If you need to navigate to some other screens set the delay high enough
-to give you the time for navigation.
+In the main window, the user has two sets of scan options: <guilabel>Basic Options</guilabel> and <guilabel>Scanner Specific Options</guilabel>. The <guilabel>Basic Options</guilabel> tab contains the most common parameters that the SANE scanner backends provide, while the <guilabel>Scanner Specific Options</guilabel> tab contains all the options of the backend. The options listed here depend on SANE support for your driver: libksane (which the plugin uses) should be able to display most of the types of parameters that SANE provides (analog gamma tables are not supported at this time).
 </para>
 
-<figure id="acquireimages-screenshot-dialog">
-    <title>The Screenshot Dialog in Action</title>
-    <mediaobject><imageobject>
-      <imagedata srccredit="The Screenshot Dialog in Action" fileref="acquire-screenshotpreview.png"/>
-    </imageobject></mediaobject>
-</figure>
+<screenshot>
+     <screeninfo>Scanner Specific Options tab</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="acquire-other-options.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase>Scanner Specific Options tab</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
 
 <para>
-Once the screenshot has been taken the <guilabel>Save Target Option</guilabel>
-dialog appears with the same options as described above.
+The scanner specific options contains more detailed options of the backends. The plugin does not have any special handling for these options.
 </para>
 
+<para>If you are satisfied with your settings, you can use the little arrow on the top of the options splitter. 
+When clicked it collapses or expands the options. The collapser can overlap the preview area, but fades
+away when the mouse cursor moves out of the collapser.</para>  
+
+<sect1 id="scanning">
+<title>Scanning</title>
+<para>
+To scan an image, the user can start with a preview scan and then select the part of the scan area to do the final scan on. The preview scan is started by pressing the preview button. 
+</para>
+
+<screenshot>
+     <screeninfo>The Preview Button</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="acquire-preview-button.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase>The Preview Button</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+<para>
+When the preview is scanned the area for the final image can be selected.
+</para>
+<screenshot>
+     <screeninfo>Selection and zoom</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="acquire-zoom-in.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase>Selection and zoom</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+<para>
+To better select the image the user can zoom in, out, to the current selection or zoom to fit the whole preview to the window.
+</para>
+<screenshot>
+     <screeninfo>The "zoom to fit" button</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="acquire-zoom-to-fit.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase>The "zoom to fit" button</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+<para>
+When the image is selected the  final image can be acquired by pressing the final scan button.
+</para>
+
+<screenshot>
+     <screeninfo>The final scan button</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="acquire-final-button.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase>The final scan button</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+<para>
+You will see the progress of the scan.
+</para>
+<screenshot>
+     <screeninfo>Scanning in progress</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="acquire-scanning.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase>Scanning in progress</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+</sect1>
+
+<sect1 id="scanning-multiple-selections">
+<title>Scanning Multiple Selections</title>
+<para>
+Sometimes you need only certain parts of an image.
+Instead of scanning the whole picture and then using a graphics
+application (&eg; &kolourpaint;) to save the different image parts into separate
+files, use the plugins multiple selection feature.
+</para>
+<screenshot>
+     <screeninfo>Multiple Selections</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="acquire-multiple-selections.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase>Multiple Selections</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+<para>Scan a preview and then use the &LMB; to select the first part of the image in the preview.
+Hover the selected area with mouse cursor and click on the green <guiicon>+</guiicon> icon
+to select the area.  Selected areas are indicated by a red border.
+Now select the next parts of the image in the same way.</para>
+<para>To remove a single selection hover the area with the mouse cursor and click on the red
+<guiicon>-</guiicon> icon. With <guilabel>Clear Selections</guilabel> from the context menu launched with the
+&RMB; all selections in a preview can be removed.
+</para>
+<para>If you placed two separate images or photos on you scanner and started a preview 
+the plugin automatically preselect the different areas.
+</para>
+<para>If you are satisfied with your choice starting the final batch scan of all selections. 
+The selected parts of the image are scanned and saved separately into different files.
+</para>
+</sect1>
+
+<sect1 id="help">
+<title>Help and Close</title>
+<para>
+At the bottom of the main window you find the <guibutton>Help</guibutton> and <guibutton>Close</guibutton> buttons.</para>
+
+<para>The <guibutton>Help</guibutton> button brings up the menu described in the section 
+<ulink url="help:/fundamentals/ui.html#menus-help">Help Menu</ulink> of the &kde; Fundamentals. 
+The <guibutton>Close</guibutton> button is used to exit the plugin.</para>
 </sect1>
 
 </chapter>
@@ -146,4 +256,3 @@ sgml-omittag: nil
 sgml-shorttag: t
 End:
 -->
-
