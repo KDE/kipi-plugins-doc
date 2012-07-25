@@ -83,9 +83,8 @@ connect your scanner and restart the application.</para>
 </note>
 
 </sect1>
-</chapter>
 
-<chapter id="main-window">
+<sect1 id="main-window">
 <title>Main Window</title>
 <screenshot>
      <screeninfo>Main window</screeninfo>
@@ -122,6 +121,7 @@ The scanner specific options contains more detailed options of the backends. The
 <para>If you are satisfied with your settings, you can use the little arrow on the top of the options splitter. 
 When clicked it collapses or expands the options. The collapser can overlap the preview area, but fades
 away when the mouse cursor moves out of the collapser.</para>  
+</sect1>
 
 <sect1 id="scanning">
 <title>Scanning</title>
