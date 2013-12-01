@@ -59,7 +59,7 @@ previous search results in &digikam;.
 
 <para>Using this plugin &eg; in <application>Gwenview</application> shows another selection dialog
 with two choices for the content of the gallery, either all pictures in the folder or 
-the pictures you selected bevor starting this module:
+the pictures you selected before starting this module:
 </para>
 
 <figure id="gwenview-html-collectionselection-dialog">
@@ -79,7 +79,7 @@ the pictures you selected bevor starting this module:
     </imageobject></mediaobject>
 </figure>
 
-<para>Depending on the choosen theme you may have additional options to fine-tune the appearance of the gallery.
+<para>Depending on the chosen theme you may have additional options to fine-tune the appearance of the gallery.
 </para>
 <para>The next screenshot shows the theme parameter setting for the <guilabel>Classic</guilabel> theme:
 </para>
@@ -102,8 +102,8 @@ For all selected themes you can adjust the settings for the images and thumbnail
 </figure>
 
 <para>
-In the <guilabel>Full Image</guilabel> section you can either save modified images or 
-<guilabel>Use original images</guilabel>.
+In the <guilabel>Full Image</guilabel> section you can either save modified images or
+<guilabel>Use original image</guilabel>.
 </para>
 <para>For modified images you can select as output format JPEG (smallest filesize, but lossy) and PNG 
 (lossless and free license) and set specific image compression features.
