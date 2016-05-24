@@ -8,7 +8,7 @@ project(kipiplugins-doc)
 
 set(CMAKE_MIN_VERSION   "3.0.0")
 set(ECM_MIN_VERSION     "1.5.0")
-set(KF5_VERSION         "5.1.0")
+set(KF5_MIN_VERSION     "5.1.0")
 
 cmake_minimum_required(VERSION ${CMAKE_MIN_VERSION})
 
@@ -24,6 +24,9 @@ include(FeatureSummary)
 
 ############## Find Packages ###################
 
-find_package(KF5DocTools ${KF5_VERSION} REQUIRED)
+find_package(KF5 ${KF5_MIN_VERSION}
+             REQUIRED COMPONENTS
+             DocTools
+)
 
 KDOCTOOLS_CREATE_HANDBOOK(index.docbook INSTALL_DESTINATION ${HTML_INSTALL_DIR}/en SUBDIR kipi-plugins)
