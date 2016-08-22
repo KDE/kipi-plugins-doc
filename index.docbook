@@ -19,7 +19,6 @@
  <!ENTITY doc-renameimages SYSTEM "renameimages.docbook">
  <!ENTITY doc-resizeimages SYSTEM "resizeimages.docbook">
  <!ENTITY doc-sendimages SYSTEM "sendimages.docbook">
- <!ENTITY doc-slideshow SYSTEM "slideshow.docbook">
 ]>
   <!-- FIXME link to http://digikam.org -->
 <book lang="&language;" id="kipi-handbook">
@@ -124,9 +123,6 @@ The plugins available in this handbook are:
 <listitem>
 <para><link linkend="sendimages">Send Images plugin</link></para>
 </listitem>
-<listitem>
-<para><link linkend="slideshow">Slide Show plugin</link></para>
-</listitem>
 </itemizedlist>
 
 <para id="missing-plugin-docs">
@@ -152,7 +148,6 @@ please contact the Kipi team mailing list at <email>kde-imaging@kde.org</email>.
 &doc-renameimages;
 &doc-resizeimages;
 &doc-sendimages;
-&doc-slideshow;
 
 <chapter id="credits">
 <title>Credits and License</title>
