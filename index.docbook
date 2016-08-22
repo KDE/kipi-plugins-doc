@@ -4,7 +4,6 @@
  <!ENTITY package "extragear-graphics">
  <!ENTITY % addindex "IGNORE">
  <!ENTITY % English "INCLUDE" > <!-- change language only here -->
- <!ENTITY doc-acquireimages SYSTEM "acquireimages.docbook">
  <!ENTITY doc-colorimages SYSTEM "colorimages.docbook">
  <!ENTITY doc-convertimages SYSTEM "convertimages.docbook">
  <!ENTITY doc-effectimages SYSTEM "effectimages.docbook">
@@ -29,39 +28,23 @@
 <bookinfo>
 <title>The Kipi Plugins Handbook</title>
 
-<authorgroup>
-    <author>
-        <firstname>Gilles</firstname><surname>Caulier</surname>
-        <affiliation><address><email>caulier dot gilles at gmail dot com</email></address></affiliation>
-    </author>
-
-    <author>
-        <firstname>Gerhard</firstname><surname>Kulzer</surname>
-        <affiliation><address><email>gerhard_at_kulzer.net</email></address></affiliation>
-    </author>
-
-<!-- TRANS:ROLES_OF_TRANSLATORS -->
-
-</authorgroup>
-
-<date>2008-02-13</date>
-<releaseinfo>0.1.3</releaseinfo> <!-- Used Kicker version here -->
+<date>2016-08-21</date>
+<releaseinfo>5.0</releaseinfo> <!-- Used Kicker version here -->
 
 <copyright>
-<year>2004-2008</year>
-<holder>The Kipi developers team</holder>
+<year>2001-2016</year>
+<holder>The digiKam developers team</holder>
 </copyright>
 
 <legalnotice id="legalnotice">&FDLNotice;</legalnotice>
 
 <abstract>
 <para>
-This is the handbook for the plugins of Kipi, the &kde; Image Plugins Interface.
+This is the handbook for the plugins of Kipi project.
 </para>
 </abstract>
 
 <keywordset>
-<keyword>KDE</keyword>
 <keyword>Kipi</keyword>
 <keyword>Plugins</keyword>
 </keywordset>
@@ -72,10 +55,9 @@ This is the handbook for the plugins of Kipi, the &kde; Image Plugins Interface.
 <title>Introduction to Kipi Plugins</title>
 
 <para>
-One of the nicest things about &kde; photo management programs like &digikam;,
-<application>KPhotoAlbum</application>, <application>Gwenview</application> and
-<application>ShowImg</application> is how easily their functionality can be
-extended, by using plugins. The Kde Image Plugins Interface (KIPI) project can
+One of the nicest things about &digikam; photo management programs,
+is how easily their functionality can be
+extended, by using plugins. The KIPI project can
 manipulate image files in almost any way that users can. Their advantage is that
 it is much easier to add capabiltiies to the host application by writing a small
 plugin rather than by modifying the host application's core. Many valuable plugins
@@ -83,7 +65,7 @@ have C++ source code that only amounts to 100-200 lines or so.
 </para>
 
 <para>
-Kipi plugins are additional functions for the &kde; Image Managment Host Programs.
+Kipi plugins are additional functions for &digikam; Host Programs.
 They can add extra menus and shortcuts, and extend the host program's features.
 You can install as many or as few as you like, from within host programs.
 </para>
@@ -99,12 +81,6 @@ The plugins available in this handbook are:
 
 <itemizedlist>
 <listitem>
-<para><link linkend="acquireimages">Acquire Images plugin</link></para>
-</listitem>
-<listitem>
-<para>The Calendar plugin is a tool to create calendar from image collections</para>
-</listitem>
-<listitem>
 <para><link linkend="colorimages">Color Images plugin</link></para>
 </listitem>
 <listitem>
@@ -117,14 +93,7 @@ The plugins available in this handbook are:
 <para><link linkend="filterimages">Filter Images plugin</link></para>
 </listitem>
 <listitem>
-<para>The Find Duplicate Images plugin is a tool for find duplicate 
-photograph on your image collections</para>
-</listitem>
-<listitem>
 <para><link linkend="flickrexport">Remote Flickr Export plugin</link></para>
-</listitem>
-<listitem>
-<para>The Gallery Export plugin is a tool for export image collections to a remote Gallery server</para>
 </listitem>
 <listitem>
 <para><link linkend="geolocation">Geolocation plugin</link></para>
@@ -162,9 +131,6 @@ photograph on your image collections</para>
 <listitem>
 <para><link linkend="slideshow">Slide Show plugin</link></para>
 </listitem>
-<listitem>
-<para>The Time Adjust plugin is a tool for adjusting image files timestamp</para>
-</listitem>
 </itemizedlist>
 
 <para id="missing-plugin-docs">
@@ -175,7 +141,6 @@ please contact the Kipi team mailing list at <email>kde-imaging@kde.org</email>.
 
 </chapter>
 
-&doc-acquireimages;
 &doc-colorimages;
 &doc-convertimages;
 &doc-effectimages;
@@ -193,9 +158,6 @@ please contact the Kipi team mailing list at <email>kde-imaging@kde.org</email>.
 &doc-resizeimages;
 &doc-sendimages;
 &doc-slideshow;
-<!--disabled due to lack of dbus command
-        http://lists.kde.org/?l=kde-imaging&m=131279555904019&w=2
-&doc-wallpaper;-->
 
 <chapter id="credits">
 <title>Credits and License</title>
