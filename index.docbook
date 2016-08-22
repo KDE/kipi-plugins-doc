@@ -12,21 +12,20 @@
  <!ENTITY doc-imagesgallery SYSTEM "imagesgallery.docbook">
  <!ENTITY doc-imageviewer SYSTEM "imageviewer.docbook">
  <!ENTITY doc-jpeglossless SYSTEM "jpeglossless.docbook">
- <!ENTITY doc-metadataeditor SYSTEM "metadataeditor.docbook">
  <!ENTITY doc-printwizard SYSTEM "printwizard.docbook">
  <!ENTITY doc-rawconverter SYSTEM "rawconverter.docbook">
  <!ENTITY doc-recompressimages SYSTEM "recompressimages.docbook">
  <!ENTITY doc-resizeimages SYSTEM "resizeimages.docbook">
  <!ENTITY doc-sendimages SYSTEM "sendimages.docbook">
 ]>
-  <!-- FIXME link to http://digikam.org -->
+  <!-- FIXME link to http://www.digikam.org -->
 <book lang="&language;" id="kipi-handbook">
 <title>The Kipi Plugins Handbook</title>
 <bookinfo>
 <title>The Kipi Plugins Handbook</title>
 
 <date>2016-08-21</date>
-<releaseinfo>5.0</releaseinfo> <!-- Used Kicker version here -->
+<releaseinfo>5.0</releaseinfo>
 
 <copyright>
 <year>2001-2016</year>
@@ -102,9 +101,6 @@ The plugins available in this handbook are:
 <para><link linkend="jpeglossless">JPEG Loss Less plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="metadataeditor">Metadata Editor plugin</link></para>
-</listitem>
-<listitem>
 <para><link linkend="printwizard">Print Wizard plugin</link></para>
 </listitem>
 <listitem>
@@ -137,7 +133,6 @@ please contact the Kipi team mailing list at <email>kde-imaging@kde.org</email>.
 &doc-imagesgallery;
 &doc-imageviewer;
 &doc-jpeglossless;
-&doc-metadataeditor;
 &doc-printwizard;
 &doc-rawconverter;
 &doc-recompressimages;
