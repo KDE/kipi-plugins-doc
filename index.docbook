@@ -16,7 +16,6 @@
  <!ENTITY doc-printwizard SYSTEM "printwizard.docbook">
  <!ENTITY doc-rawconverter SYSTEM "rawconverter.docbook">
  <!ENTITY doc-recompressimages SYSTEM "recompressimages.docbook">
- <!ENTITY doc-renameimages SYSTEM "renameimages.docbook">
  <!ENTITY doc-resizeimages SYSTEM "resizeimages.docbook">
  <!ENTITY doc-sendimages SYSTEM "sendimages.docbook">
 ]>
@@ -115,9 +114,6 @@ The plugins available in this handbook are:
 <para><link linkend="recompressimages">Recompress Images plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="renameimages">Rename Images plugin</link></para>
-</listitem>
-<listitem>
 <para><link linkend="resizeimages">Resize Images plugin</link></para>
 </listitem>
 <listitem>
@@ -145,7 +141,6 @@ please contact the Kipi team mailing list at <email>kde-imaging@kde.org</email>.
 &doc-printwizard;
 &doc-rawconverter;
 &doc-recompressimages;
-&doc-renameimages;
 &doc-resizeimages;
 &doc-sendimages;
 
@@ -154,12 +149,6 @@ please contact the Kipi team mailing list at <email>kde-imaging@kde.org</email>.
 
 <para>
 Copyrights for each plugin are listed in the applicable chapter.
-</para>
-
-<para>
-All Pictures copyrighted 2004-2007 by Gilles Caulier
-<email>caulier dot gilles at gmail dot com</email> and Gerhard Kulzer
-<email>gerhard_at_kulzer.net</email>.
 </para>
 
 <!-- TRANS:CREDIT_FOR_TRANSLATORS -->
