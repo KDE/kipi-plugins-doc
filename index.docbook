@@ -5,7 +5,6 @@
  <!ENTITY % addindex "IGNORE">
  <!ENTITY % English "INCLUDE" > <!-- change language only here -->
  <!ENTITY doc-flickrexport SYSTEM "flickrexport.docbook">
- <!ENTITY doc-sendimages SYSTEM "sendimages.docbook">
 ]>
   <!-- FIXME link to http://www.digikam.org -->
 <book lang="&language;" id="kipi-handbook">
@@ -67,9 +66,6 @@ The plugins available in this handbook are:
 <itemizedlist>
 <listitem>
 <para><link linkend="flickrexport">Remote Flickr Export plugin</link></para>
-</listitem>
-<listitem>
-<para><link linkend="sendimages">Send Images plugin</link></para>
 </listitem>
 </itemizedlist>
 
