@@ -4,7 +4,6 @@
  <!ENTITY package "extragear-graphics">
  <!ENTITY % addindex "IGNORE">
  <!ENTITY % English "INCLUDE" > <!-- change language only here -->
- <!ENTITY doc-flickrexport SYSTEM "flickrexport.docbook">
 ]>
   <!-- FIXME link to http://www.digikam.org -->
 <book lang="&language;" id="kipi-handbook">
@@ -63,12 +62,6 @@ host program's handbook.
 The plugins available in this handbook are:
 </para>
 
-<itemizedlist>
-<listitem>
-<para><link linkend="flickrexport">Remote Flickr Export plugin</link></para>
-</listitem>
-</itemizedlist>
-
 <para id="missing-plugin-docs">
 A lot of Kipi plugins currently have no
 documentation.  If you are interested in rectifying that situation,
@@ -76,9 +69,6 @@ please contact the Kipi team mailing list at <email>kde-imaging@kde.org</email>.
 </para>
 
 </chapter>
-
-&doc-flickrexport;
-&doc-sendimages;
 
 <chapter id="credits">
 <title>Credits and License</title>
