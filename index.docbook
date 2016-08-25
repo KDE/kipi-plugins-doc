@@ -5,7 +5,6 @@
  <!ENTITY % addindex "IGNORE">
  <!ENTITY % English "INCLUDE" > <!-- change language only here -->
  <!ENTITY doc-flickrexport SYSTEM "flickrexport.docbook">
- <!ENTITY doc-imagesgallery SYSTEM "imagesgallery.docbook">
  <!ENTITY doc-printwizard SYSTEM "printwizard.docbook">
  <!ENTITY doc-sendimages SYSTEM "sendimages.docbook">
 ]>
@@ -71,9 +70,6 @@ The plugins available in this handbook are:
 <para><link linkend="flickrexport">Remote Flickr Export plugin</link></para>
 </listitem>
 <listitem>
-<para><link linkend="imagesgallery">Images Gallery plugin</link></para>
-</listitem>
-<listitem>
 <para><link linkend="printwizard">Print Wizard plugin</link></para>
 </listitem>
 <listitem>
@@ -90,7 +86,6 @@ please contact the Kipi team mailing list at <email>kde-imaging@kde.org</email>.
 </chapter>
 
 &doc-flickrexport;
-&doc-imagesgallery;
 &doc-printwizard;
 &doc-sendimages;
 
